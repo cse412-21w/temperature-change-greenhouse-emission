@@ -69,7 +69,6 @@ function drawBarD3() {
 
   // append y axis to svg
   bar_svg.append("g")
-            //.attr("transform", "translate(0,+62)")
             .attr("class","myYaxis")
             .call(yAxis)
             .append('text')
@@ -81,9 +80,8 @@ function drawBarD3() {
               .text('Temperature Change (degree celcius)');
 
   g.append('rect')
-    .data(worldArray)
     .attr('class', 'bar')
-    .attr('y', d => 520 - y(d.Temperature_Change))
+    .attr('y', d => y(d.Temperature_Change))
     .attr('x', d => x(d.Years))
     .attr('width', x.bandwidth())
     .attr('height', d => y(d.Temperature_Change))
