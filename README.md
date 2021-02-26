@@ -1,15 +1,15 @@
 # Final Project Demo
 ## Team Members
-Place your team member names here.
+Angela Zhao, Kathy Wang, Lauren Liao, Sunny Li
 ### Contribution Statements
 Add individual contribution statements here.
 ## Project Proposal Abstract
-This is the space for you to add a description for your project.
+One of the most important issues the world and all world citizens face is the climate change in this technological era. The record of historical temperature change provides us the chance to show how it progresses over times at various time periods in different countries and also overall world temperature change. Carbon emission is one of the main causes of climate change that is worth more attention, so we want to show people the current situation to raise awareness and call for actions for possible reduction in carbon footage so that we can contribute as much as we can to save the world. We plan to use global maps to present an overall distribution of both greenhouse gas emissions and temperatures. By choosing two years with a long-time span, we can see which countries have the most greenhouse gas emissions. We intend to use an interactive histogram and line to present the greenhouse emission and temperatures of countries around the world. From this, we may be able to display the relationship between greenhouse emission and temperature changes. Also, we would like to do deep research on the reasons behind some noticeable changes and present the reasons to the audience.
 
 ## Getting Started
 
 This repo is set up to use the [Parcel](https://parceljs.org/) bundler. If you don't
-like the way we've set things up, feel free to change it however you like! You are welcome to add, delete, rename, and replace any files contained here. You may also style and organize your final webpage however you would like. 
+like the way we've set things up, feel free to change it however you like! You are welcome to add, delete, rename, and replace any files contained here. You may also style and organize your final webpage however you would like.
 
 The only restriction is that __your final HTML/CSS/JS output must be stored in the "docs" folder__ so that
 GitHub knows how to serve it as a static site.
@@ -44,12 +44,12 @@ To run the project locally, run `npm start` and it will be available at http://l
 ### Building the final output
 
 Run `npm run build` and all of your assets will be compiled and placed into the `docs/` folder. Note
-that this command will overwrite the existing docs folder. You do not have to manually create the `docs/` folder because everything will be handled in the build script. Parcel will bundle all assets in the `src/` folder and place then in a folder called `dist/`. GitHub Pages requires the folder name to be called `docs/`, so we move all assets from the `dist/` folder to the `docs/` folder for you. 
+that this command will overwrite the existing docs folder. You do not have to manually create the `docs/` folder because everything will be handled in the build script. Parcel will bundle all assets in the `src/` folder and place then in a folder called `dist/`. GitHub Pages requires the folder name to be called `docs/`, so we move all assets from the `dist/` folder to the `docs/` folder for you.
 
 If you are developing on a Windows machine, replace the `build` script in the `package.json` file with this:
 `parcel build src/index.html --no-minify --public-url https://cse412-21w.github.io/project-demo & RD /S /Q .\\docs & ren .\\dist docs`
 
-Once pushed to GitHub, the output should be available at cse412-21w.github.io/your-repo-name/. 
+Once pushed to GitHub, the output should be available at cse412-21w.github.io/your-repo-name/.
 For example, you can view the sample embedded Tableau, vega-lite, and d3 charts at https://cse412-21w.github.io/project-demo/.
 
 
