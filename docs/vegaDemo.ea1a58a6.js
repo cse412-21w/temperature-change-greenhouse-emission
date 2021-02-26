@@ -117,12 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../static/sunshine.csv":[function(require,module,exports) {
-module.exports = "/sunshine.5e299277.csv";
+})({"../static/fpData.csv":[function(require,module,exports) {
+module.exports = "/fpData.896996af.csv";
 },{}],"vegaDemo.js":[function(require,module,exports) {
 "use strict";
 
-var _sunshine = _interopRequireDefault(require("../static/sunshine.csv"));
+var _fpData = _interopRequireDefault(require("../static/fpData.csv"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -131,9 +131,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // With strict mode, you can not, for example, use undeclared variables
 
 
-var sunshineArray = []; // used to store data later
+var ds = []; // used to store data later
 
-var citySet = [];
 var options = {
   config: {// Vega-Lite default configuration
   },
@@ -152,13 +151,9 @@ var options = {
 };
 vl.register(vega, vegaLite, options); // Again, We use d3.csv() to process data
 
-d3.csv(_sunshine.default).then(function (data) {
+d3.csv(ds).then(function (data) {
   data.forEach(function (d) {
-    sunshineArray.push(d);
-
-    if (!citySet.includes(d.city)) {
-      citySet.push(d.city);
-    }
+    ds.push(d);
   });
   drawBarVegaLite();
 });
@@ -166,16 +161,24 @@ d3.csv(_sunshine.default).then(function (data) {
 function drawBarVegaLite() {
   // var sunshine = add_data(vl, sunshine.csv, format_type = NULL);
   // your visualization goes here
-  vl.markBar({
-    filled: true,
-    color: 'teal'
-  }).data(sunshineArray).encode(vl.x().fieldN('month').sort('none'), vl.y().fieldQ('sunshine'), vl.tooltip(['sunshine'])).width(450).height(450).render().then(function (viewElement) {
+  var countries = uniqueValid(ds, function (d) {
+    return d.Country;
+  });
+  var selectGenre = vl.selectSingle('Select') // name the selection 'Select'
+  .fields('Country') // limit selection to the Major_Genre field
+  .init({
+    Country: countries[0]
+  }) // use first genre entry as initial value
+  .bind(vl.menu(countries));
+  var temp = vl.markLine().data(ds).select(selectGenre).transform(vl.groupby(['Country', 'Year']).aggregate(vl.average('temperature').as('avg_temp'))).encode(vl.y().fieldQ('avg_temp').title('avg_temp'), vl.x().fieldQ('Year'), vl.opacity().if(selectGenre, vl.value(0.75)).value(0.05));
+  var ghg = vl.markBar().data(ds).transform(vl.groupby(['Country', 'Year']).aggregate(vl.average('GHG').as('avg_ghg'))).encode(vl.x().fieldQ('Year'), vl.y().fieldQ('avg_ghg').title('avg_ghg'), vl.opacity().if(selectGenre, vl.value(0.75)).value(0.05));
+  vl.vconcat(ghg, temp).render().then(function (viewElement) {
     // render returns a promise to a DOM element containing the chart
     // viewElement.value contains the Vega View object instance
     document.getElementById('view').appendChild(viewElement);
   });
 }
-},{"../static/sunshine.csv":"../static/sunshine.csv"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../static/fpData.csv":"../static/fpData.csv"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -203,7 +206,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61131" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63102" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

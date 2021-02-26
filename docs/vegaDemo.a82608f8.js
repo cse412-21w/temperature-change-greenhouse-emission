@@ -117,12 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"aBSJ":[function(require,module,exports) {
-module.exports = "https://cse412-21w.github.io/temperature-change-greenhouse-emission/data_world.02bb0c7e.csv";
-},{}],"jsJr":[function(require,module,exports) {
+})({"P7RG":[function(require,module,exports) {
+module.exports = "https://cse412-21w.github.io/temperature-change-greenhouse-emission/fpData.81c3616c.csv";
+},{}],"CsaW":[function(require,module,exports) {
 "use strict";
 
-var _data_world = _interopRequireDefault(require("../static/data_world.csv"));
+var _fpData = _interopRequireDefault(require("../static/fpData.csv"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -131,72 +131,52 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // With strict mode, you can not, for example, use undeclared variables
 
 
-var bar_svg; // used for svg later
+var ds = []; // used to store data later
 
-var g; // used for color scheme later
+var options = {
+  config: {// Vega-Lite default configuration
+  },
+  init: function init(view) {
+    // initialize tooltip handler
+    view.tooltip(new vegaTooltip.Handler().call);
+  },
+  view: {
+    // view constructor options
+    // remove the loader if you don't want to default to vega-datasets!
+    //   loader: vega.loader({
+    //     baseURL: "",
+    //   }),
+    renderer: "canvas"
+  }
+};
+vl.register(vega, vegaLite, options); // Again, We use d3.csv() to process data
 
-var worldArray = []; // used to store data later
-// preparation for our svg
-
-var margin = {
-  top: 20,
-  right: 20,
-  bottom: 50,
-  left: 35
-},
-    w = 1600 - (margin.left + margin.right),
-    h = 520 - (margin.top + margin.bottom);
-console.log(margin); // preparation for our x/y axis
-
-var y = d3.scaleLinear().range([h, 0]);
-var x = d3.scaleBand().range([0, w]).padding(0.15);
-var yAxis = d3.axisLeft(y);
-var xAxis = d3.axisBottom(x);
-var yearSet = []; // once finish processing data, make a graph!
-
-d3.csv(_data_world.default).then(function (data) {
+d3.csv(ds).then(function (data) {
   data.forEach(function (d) {
-    worldArray.push(d);
-
-    if (!yearSet.includes(d.Years)) {
-      yearSet.push(d.Years);
-    }
+    ds.push(d);
   });
-  drawBarD3();
+  drawBarVegaLite();
 });
 
-function drawBarD3() {
-  x.domain(worldArray.map(function (d) {
-    return d.Years;
-  }));
-  y.domain(d3.extent(worldArray, function (d) {
-    return parseFloat(d.Temperature_Change);
-  })); // create our svg
-
-  bar_svg = d3.select('#d3-demo').append('svg').attr("id", "bar-chart").attr("width", w + margin.left + margin.right).attr("height", h + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-  g = bar_svg.selectAll('g').data(worldArray).enter().append('g').attr('transform', function (d) {
-    return 'translate(0' + ',' + x(d.Years) + ')';
-  }); // append x axis to svg
-
-  bar_svg.append("g").attr("transform", "translate(0," + h + ")").attr("class", "myXaxis").call(xAxis).append('text').attr('text-anchor', 'end').attr('fill', 'black').attr('font-size', '15px').attr('font-weight', 'bold').attr('x', w - margin.right).attr('y', -10).text('Years'); // append y axis to svg
-
-  bar_svg.append("g") //.attr("transform", "translate(0,+62)")
-  .attr("class", "myYaxis").call(yAxis).append('text').attr('transform', "translate(20, ".concat(margin.top, ") rotate(-90)")).attr('text-anchor', 'end').attr('fill', 'black').attr('font-size', '15px').attr('font-weight', 'bold').text('Temperature Change (degree celcius)');
-  g.append('rect').data(worldArray).attr('class', 'bar').attr('y', function (d) {
-    return 520 - y(d.Temperature_Change);
-  }).attr('x', function (d) {
-    return x(d.Years);
-  }).attr('width', x.bandwidth()).attr('height', function (d) {
-    return y(d.Temperature_Change);
-  }).style('fill', 'skyblue').style('stroke', 'teal');
-  g.append('title').text(function (d) {
-    return d.Temperature_Change;
+function drawBarVegaLite() {
+  // var sunshine = add_data(vl, sunshine.csv, format_type = NULL);
+  // your visualization goes here
+  var countries = uniqueValid(ds, function (d) {
+    return d.Country;
   });
-  g.on('mouseover', function () {
-    d3.select(this).attr('stroke', '#333').attr('stroke-width', 2);
-  }).on('mouseout', function () {
-    d3.select(this).attr('stroke', null);
+  var selectGenre = vl.selectSingle('Select') // name the selection 'Select'
+  .fields('Country') // limit selection to the Major_Genre field
+  .init({
+    Country: countries[0]
+  }) // use first genre entry as initial value
+  .bind(vl.menu(countries));
+  var temp = vl.markLine().data(ds).select(selectGenre).transform(vl.groupby(['Country', 'Year']).aggregate(vl.average('temperature').as('avg_temp'))).encode(vl.y().fieldQ('avg_temp').title('avg_temp'), vl.x().fieldQ('Year'), vl.opacity().if(selectGenre, vl.value(0.75)).value(0.05));
+  var ghg = vl.markBar().data(ds).transform(vl.groupby(['Country', 'Year']).aggregate(vl.average('GHG').as('avg_ghg'))).encode(vl.x().fieldQ('Year'), vl.y().fieldQ('avg_ghg').title('avg_ghg'), vl.opacity().if(selectGenre, vl.value(0.75)).value(0.05));
+  vl.vconcat(ghg, temp).render().then(function (viewElement) {
+    // render returns a promise to a DOM element containing the chart
+    // viewElement.value contains the Vega View object instance
+    document.getElementById('view').appendChild(viewElement);
   });
 }
-},{"../static/data_world.csv":"aBSJ"}]},{},["jsJr"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.a36953b0.js.map
+},{"../static/fpData.csv":"P7RG"}]},{},["CsaW"], null)
+//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/vegaDemo.a82608f8.js.map
