@@ -39,7 +39,7 @@ function drawBarD3() {
   y.domain(d3.extent(worldArray, d => parseFloat(d.Temperature_Change)));
 
   // create our svg
-  bar_svg = d3.select('#d3-demo')
+  bar_svg = d3.select('#d3')
                 .append('svg')
                 .attr("id", "bar-chart")
                 .attr("width", w + margin.left + margin.right)
@@ -81,10 +81,10 @@ function drawBarD3() {
 
   g.append('rect')
     .attr('class', 'bar')
-    .attr('y', d => y(d.Temperature_Change))
+    .attr('y', d => 520 - y(d.Temperature_Change))
     .attr('x', d => x(d.Years))
     .attr('width', x.bandwidth())
-    .attr('height', d => y(d.Temperature_Change))
+    .attr('height', d => y(0) - y(d.Temperature_Change))
     .style('fill', 'skyblue')
     .style('stroke', 'teal')
 
