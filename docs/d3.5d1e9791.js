@@ -118,7 +118,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"aBSJ":[function(require,module,exports) {
-module.exports = "https://cse412-21w.github.io/temperature-change-greenhouse-emission/data_world.02bb0c7e.csv";
+module.exports = "https://cse412-21w.github.io/temperature-change-greenhouse-emission/data_world.db4ceede.csv";
 },{}],"jsJr":[function(require,module,exports) {
 "use strict";
 
@@ -174,20 +174,33 @@ function drawBarD3() {
   })); // create our svg
 
   bar_svg = d3.select('#d3').append('svg').attr("id", "bar-chart").attr("width", w + margin.left + margin.right).attr("height", h + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
-  g = bar_svg.selectAll('g').data(worldArray).enter().append('g').attr('transform', function (d) {
-    return 'translate(0' + ',' + x(d.Years) + ')';
-  }); // append x axis to svg
+  g = bar_svg.selectAll('g').data(worldArray).enter().append('g'); //.attr('transform', d => 'translate(0' + ',' + x(d.Years) + ')');
+  // append x axis to svg
 
   bar_svg.append("g").attr("transform", "translate(0," + h + ")").attr("class", "myXaxis").call(xAxis).append('text').attr('text-anchor', 'end').attr('fill', 'black').attr('font-size', '15px').attr('font-weight', 'bold').attr('x', w - margin.right).attr('y', -10).text('Years'); // append y axis to svg
 
   bar_svg.append("g").attr("class", "myYaxis").call(yAxis).append('text').attr('transform', "translate(20, ".concat(margin.top, ") rotate(-90)")).attr('text-anchor', 'end').attr('fill', 'black').attr('font-size', '15px').attr('font-weight', 'bold').text('Temperature Change (degree celcius)');
   g.append('rect').attr('class', 'bar').attr('y', function (d) {
-    return 520 - y(d.Temperature_Change);
+    if (d.Temperature_Change >= 0) {
+      return y(d.Temperature_Change);
+    } else {
+      return y(0);
+    }
   }).attr('x', function (d) {
     return x(d.Years);
   }).attr('width', x.bandwidth()).attr('height', function (d) {
-    return y(0) - y(d.Temperature_Change);
-  }).style('fill', 'skyblue').style('stroke', 'teal');
+    if (d.Temperature_Change >= 0) {
+      return y(0) - y(d.Temperature_Change);
+    } else {
+      return y(d.Temperature_Change) - y(0);
+    }
+  }).style('fill', function (d) {
+    if (d.Temperature_Change >= 0) {
+      return 'pink';
+    } else {
+      return 'skyblue';
+    }
+  }).style('stroke', 'teal');
   g.append('title').text(function (d) {
     return d.Temperature_Change;
   });
@@ -195,7 +208,19 @@ function drawBarD3() {
     d3.select(this).attr('stroke', '#333').attr('stroke-width', 2);
   }).on('mouseout', function () {
     d3.select(this).attr('stroke', null);
+  }); // add legend
+
+  var legend = bar_svg.append('g').attr("id", "legend-group");
+  legend.selectAll("rect").data(citySet).join("rect").attr("class", "legends").attr("x", 600).attr("y", function (d) {
+    return 25 + 30 * citySet.indexOf(d);
+  }).attr("width", 10).attr("height", 10).style("fill", function (d) {
+    return colorSet(d);
   });
+  legend.selectAll("text").data(citySet).join("text").attr("class", "legends").attr("x", 620).attr("y", function (d) {
+    return 30 + 30 * citySet.indexOf(d);
+  }).text(function (d) {
+    return d;
+  }).style("font-size", "15px").attr("alignment-baseline", "middle");
 }
 },{"../static/data_world.csv":"aBSJ"}]},{},["jsJr"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.496c0fbd.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.5d1e9791.js.map
