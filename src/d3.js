@@ -39,7 +39,7 @@ function drawBarD3() {
   y.domain(d3.extent(worldArray, d => parseFloat(d.Temperature_Change)));
 
   // create our svg
-  bar_svg = d3.select('#d3-demo')
+  bar_svg = d3.select('#d3')
                 .append('svg')
                 .attr("id", "bar-chart")
                 .attr("width", w + margin.left + margin.right)
@@ -51,7 +51,7 @@ function drawBarD3() {
               .data(worldArray)
               .enter()
                 .append('g')
-                .attr('transform', d => 'translate(0' + ',' + x(d.Years) + ')');
+                //.attr('transform', d => 'translate(0' + ',' + x(d.Years) + ')');
 
   // append x axis to svg
   bar_svg.append("g")
@@ -69,7 +69,6 @@ function drawBarD3() {
 
   // append y axis to svg
   bar_svg.append("g")
-            //.attr("transform", "translate(0,+62)")
             .attr("class","myYaxis")
             .call(yAxis)
             .append('text')
@@ -81,14 +80,31 @@ function drawBarD3() {
               .text('Temperature Change (degree celcius)');
 
   g.append('rect')
-    .data(worldArray)
     .attr('class', 'bar')
-    .attr('y', d => 520 - y(d.Temperature_Change))
+    .attr('y', function(d) {
+      if (d.Temperature_Change >= 0) {
+        return y(d.Temperature_Change);
+      } else {
+        return y(0);
+      }
+    })
     .attr('x', d => x(d.Years))
     .attr('width', x.bandwidth())
-    .attr('height', d => y(d.Temperature_Change))
-    .style('fill', 'skyblue')
-    .style('stroke', 'teal')
+    .attr('height', function(d) {
+      if (d.Temperature_Change >= 0) {
+        return y(0) - y(d.Temperature_Change);
+      } else {
+        return y(d.Temperature_Change) - y(0);
+      }
+    })
+    .style('fill', function(d) {
+      if (d.Temperature_Change >= 0) {
+        return 'pink';
+      } else {
+        return 'skyblue';
+      }
+    })
+    .style('stroke', 'teal');
 
   g.append('title')
     .text(d => d.Temperature_Change);
@@ -100,6 +116,28 @@ function drawBarD3() {
     .on('mouseout', function() {
       d3.select(this).attr('stroke', null);
     });
+
+  // add legend
+  var legend = bar_svg.append('g')
+                        .attr("id","legend-group");
+
+  legend.selectAll("rect").data(citySet)
+      .join("rect")
+        .attr("class","legends")
+        .attr("x",600)
+        .attr("y", d => 25+30*(citySet.indexOf(d)))
+        .attr("width", 10)
+        .attr("height", 10)
+        .style("fill", d => colorSet(d));
+
+  legend.selectAll("text").data(citySet)
+      .join("text")
+        .attr("class","legends")
+        .attr("x", 620)
+        .attr("y", d => 30+30*(citySet.indexOf(d)))
+        .text(d => d)
+        .style("font-size", "15px")
+        .attr("alignment-baseline","middle");
 }
 
 

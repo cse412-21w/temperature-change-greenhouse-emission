@@ -67,6 +67,17 @@
       </section>
 
       <section id = "vegaDemo">
+        <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
+        <div id="overall-bar"></div>
+        <p>
+          <b>Idea</b>: When changing the year as dragging the slider, we would see the bar chart corresponding to that year.
+              For each country, the bar is shown with pollutant proportion with different colors. (The slider is not
+              working now, and I will revise it later...) <br>
+          <b>Interpretation</b>: United States has the highest total greenhouse gas emission. An generic observation for each
+              country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
+              is at the second. So for the rest of analysis, we have filtered the pollutant type into these
+              two kinds of gases.
+        </p>
         <h3>Embed a Vega-Lite Visualization:</h3>
         <p>The following interactive graph shows the average emission of carbon dioxide
           from year 1990 to 2018, and the changes of temperature for each year. By using the
@@ -78,20 +89,61 @@
         </div>
       </section>
 
-      <section id = "d3Demo">
-        <h3>Embed a D3 Visualization:</h3>
-        <div id="d3-demo"></div>
+      <section id = "d3">
+        <h3>How much does the world temperature change from year to year</h3>
+        <div id="d3"></div>
+        <p>
+          The overall Trend is that the temperature steadily increases from year to year.
+          Starting from 1997, there is no longer a flunctuation on temperature changes,
+          and temperature is higher by about 2 degree celcius compared to the baseline temperature.
+        </p>
+      </section>
+
+      <section>
+        <p>I wasn't able to complete the bar chart with the interactive and legend I want with d3 yet, so here is the desire outcome produced by Tableau</p>
+        <div class='tableauPlaceholder' id='viz1614382626900' style='position: relative'>
+          <noscript>
+            <a href='#'>
+              <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears&#47;1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' />
+          </object>
+        </div>
+        <script type='text/javascript'>
+        var divElement = document.getElementById('viz1614382626900');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
       </section>
 
       <div class="footer">
         <a href="https://courses.cs.washington.edu/courses/cse412/21wi/">CSE 412 Data Visualization</a>
         <a href="http://www.washington.edu">University of Washington</a>
+        <p>Ran Liao, Angela Zhao, Sunny Li, Kathy Wang</p>
       </div>
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
       <script src="d3.js"></script>
-      <script src="vegaDemo.js"></script>
+      <script src="vega-overall-bar.js"></script>
     </body>
 
 </html>
