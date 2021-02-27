@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>CSE 412 Project Prototype</title>
-        <link rel="stylesheet" href="https://cse412-21w.github.io/temperature-change-greenhouse-emission/style.aa351f8a.css">
+        <link rel="stylesheet" href="https://cse412-21w.github.io/temperature-change-greenhouse-emission/style.ba16fa23.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- For using d3 -->
         <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -72,8 +72,17 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
       </section>
 
       <section id="vegaDemo">
-        <h3>Embed a Vega-Lite Visualization:</h3>
-        <div id="view"></div>
+        <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
+        <div id="overall-bar"></div>
+        <p>
+          <b>Idea</b>: When changing the year as dragging the slider, we would see the bar chart corresponding to that year.
+              For each country, the bar is shown with pollutant proportion with different colors. (The slider is not
+              working now, and I will revise it later...) <br>
+          <b>Interpretation</b>: United States has the highest total greenhouse gas emission. An generic observation for each
+              country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
+              is at the second. So for the rest of analysis, we have filtered the pollutant type into these
+              two kinds of gases.
+        </p>
       </section>
 
       <section id="d3">
@@ -128,8 +137,8 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
-      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.4356a68d.js"></script>
-      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/vegaDemo.a82608f8.js"></script>
+      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.496c0fbd.js"></script>
+      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/vega-overall-bar.991bcc39.js"></script>
     </body>
 
 </html>

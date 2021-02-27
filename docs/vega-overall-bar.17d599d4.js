@@ -117,79 +117,52 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
+})({"../static/ghg_cleanup.csv":[function(require,module,exports) {
+module.exports = "/ghg_cleanup.a75ee86c.csv";
+},{}],"vega-overall-bar.js":[function(require,module,exports) {
+"use strict";
 
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
+var _ghg_cleanup = _interopRequireDefault(require("../static/ghg_cleanup.csv"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+"use strict";
+
+var ghg = [];
+var year = [];
+var options = {
+  config: {},
+  init: function init(view) {
+    view.tooltip(new vegaTooltip.Handler().call);
+  },
+  view: {
+    renderer: "canvas"
   }
-
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"../node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
+};
+vl.register(vega, vegaLite, options);
+d3.csv(_ghg_cleanup.default).then(function (data) {
+  data.forEach(function (d) {
+    ghg.push(d);
+  });
+  d3.csv(_ghg_cleanup.default).then(function (data) {
+    data.forEach(function (d) {
+      if (!year.includes(d.Year)) {
+        year.push(d.Year);
       }
-    }
+    });
+  });
+  drawBarVegaLite();
+});
 
-    cssTimeout = null;
-  }, 50);
+function drawBarVegaLite() {
+  var selection = vl.selectSingle('Select').fields('Year').init({
+    Year: year[5]
+  }).bind(vl.slider(1990, 2018, 1));
+  vl.markBar().data(ghg).select(selection).transform(vl.groupby(['Country', 'Year', 'Pollutant'])).encode(vl.x().average('Value').title('Amount of Gas Emission'), vl.y().fieldN('Country'), vl.color().fieldN('Pollutant').scale('tableau20'), vl.tooltip(['Country', 'Pollutant', 'Value'])).render().then(function (viewElement) {
+    document.getElementById('overall-bar').appendChild(viewElement);
+  });
 }
-
-module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../static/ghg_cleanup.csv":"../static/ghg_cleanup.csv"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -393,5 +366,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/style.e308ff8e.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","vega-overall-bar.js"], null)
+//# sourceMappingURL=/vega-overall-bar.17d599d4.js.map
