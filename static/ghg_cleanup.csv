@@ -1,0 +1,1450 @@
+,Country,Year,Pollutant,Variable,Value
+87,Australia,1990,Carbon dioxide,Total  emissions excluding LULUCF,278424.66
+88,Australia,1991,Carbon dioxide,Total  emissions excluding LULUCF,279872.66
+89,Australia,1992,Carbon dioxide,Total  emissions excluding LULUCF,284912.438
+90,Australia,1993,Carbon dioxide,Total  emissions excluding LULUCF,289235.186
+91,Australia,1994,Carbon dioxide,Total  emissions excluding LULUCF,294014.961
+92,Australia,1995,Carbon dioxide,Total  emissions excluding LULUCF,305410.167
+93,Australia,1996,Carbon dioxide,Total  emissions excluding LULUCF,312361.586
+94,Australia,1997,Carbon dioxide,Total  emissions excluding LULUCF,320795.086
+95,Australia,1998,Carbon dioxide,Total  emissions excluding LULUCF,334684.518
+96,Australia,1999,Carbon dioxide,Total  emissions excluding LULUCF,344063.766
+97,Australia,2000,Carbon dioxide,Total  emissions excluding LULUCF,350195.024
+98,Australia,2001,Carbon dioxide,Total  emissions excluding LULUCF,357669.18299999996
+99,Australia,2002,Carbon dioxide,Total  emissions excluding LULUCF,362209.54600000003
+100,Australia,2003,Carbon dioxide,Total  emissions excluding LULUCF,369726.018
+101,Australia,2004,Carbon dioxide,Total  emissions excluding LULUCF,383205.12200000003
+102,Australia,2005,Carbon dioxide,Total  emissions excluding LULUCF,386513.45399999997
+103,Australia,2006,Carbon dioxide,Total  emissions excluding LULUCF,392680.646
+104,Australia,2007,Carbon dioxide,Total  emissions excluding LULUCF,399842.461
+105,Australia,2008,Carbon dioxide,Total  emissions excluding LULUCF,404417.407
+106,Australia,2009,Carbon dioxide,Total  emissions excluding LULUCF,407463.328
+107,Australia,2010,Carbon dioxide,Total  emissions excluding LULUCF,405502.799
+108,Australia,2011,Carbon dioxide,Total  emissions excluding LULUCF,404172.75700000004
+109,Australia,2012,Carbon dioxide,Total  emissions excluding LULUCF,406506.242
+110,Australia,2013,Carbon dioxide,Total  emissions excluding LULUCF,397943.179
+111,Australia,2014,Carbon dioxide,Total  emissions excluding LULUCF,394116.89200000005
+112,Australia,2015,Carbon dioxide,Total  emissions excluding LULUCF,401554.75700000004
+113,Australia,2016,Carbon dioxide,Total  emissions excluding LULUCF,411031.531
+114,Australia,2017,Carbon dioxide,Total  emissions excluding LULUCF,415097.42799999996
+115,Australia,2018,Carbon dioxide,Total  emissions excluding LULUCF,415953.94700000004
+116,Australia,1990,Methane,Total  emissions excluding LULUCF,124383.179
+117,Australia,1991,Methane,Total  emissions excluding LULUCF,124308.869
+118,Australia,1992,Methane,Total  emissions excluding LULUCF,123741.40800000001
+119,Australia,1993,Methane,Total  emissions excluding LULUCF,120117.915
+120,Australia,1994,Methane,Total  emissions excluding LULUCF,116834.942
+121,Australia,1995,Methane,Total  emissions excluding LULUCF,115158.28199999999
+122,Australia,1996,Methane,Total  emissions excluding LULUCF,115355.759
+123,Australia,1997,Methane,Total  emissions excluding LULUCF,118199.041
+124,Australia,1998,Methane,Total  emissions excluding LULUCF,117153.71800000001
+125,Australia,1999,Methane,Total  emissions excluding LULUCF,113023.535
+126,Australia,2000,Methane,Total  emissions excluding LULUCF,116699.185
+127,Australia,2001,Methane,Total  emissions excluding LULUCF,115299.175
+128,Australia,2002,Methane,Total  emissions excluding LULUCF,113507.386
+129,Australia,2003,Methane,Total  emissions excluding LULUCF,108063.873
+130,Australia,2004,Methane,Total  emissions excluding LULUCF,110200.455
+131,Australia,2005,Methane,Total  emissions excluding LULUCF,111908.87599999999
+132,Australia,2006,Methane,Total  emissions excluding LULUCF,111344.131
+133,Australia,2007,Methane,Total  emissions excluding LULUCF,111065.15699999999
+134,Australia,2008,Methane,Total  emissions excluding LULUCF,109353.59300000001
+135,Australia,2009,Methane,Total  emissions excluding LULUCF,108388.536
+136,Australia,2010,Methane,Total  emissions excluding LULUCF,106258.98599999999
+137,Australia,2011,Methane,Total  emissions excluding LULUCF,108278.92599999999
+138,Australia,2012,Methane,Total  emissions excluding LULUCF,107907.073
+139,Australia,2013,Methane,Total  emissions excluding LULUCF,107218.469
+140,Australia,2014,Methane,Total  emissions excluding LULUCF,105070.906
+141,Australia,2015,Methane,Total  emissions excluding LULUCF,105368.80099999999
+142,Australia,2016,Methane,Total  emissions excluding LULUCF,105873.93
+143,Australia,2017,Methane,Total  emissions excluding LULUCF,108170.696
+144,Australia,2018,Methane,Total  emissions excluding LULUCF,109532.21
+145,Australia,1990,Nitrous oxide,Total  emissions excluding LULUCF,15938.285
+146,Australia,1991,Nitrous oxide,Total  emissions excluding LULUCF,15558.912
+147,Australia,1992,Nitrous oxide,Total  emissions excluding LULUCF,15367.956
+148,Australia,1993,Nitrous oxide,Total  emissions excluding LULUCF,15837.186000000002
+149,Australia,1994,Nitrous oxide,Total  emissions excluding LULUCF,16316.051000000001
+150,Australia,1995,Nitrous oxide,Total  emissions excluding LULUCF,15585.368999999999
+151,Australia,1996,Nitrous oxide,Total  emissions excluding LULUCF,16850.841
+152,Australia,1997,Nitrous oxide,Total  emissions excluding LULUCF,17647.323
+153,Australia,1998,Nitrous oxide,Total  emissions excluding LULUCF,17892.418
+154,Australia,1999,Nitrous oxide,Total  emissions excluding LULUCF,18387.652
+155,Australia,2000,Nitrous oxide,Total  emissions excluding LULUCF,19366.191000000003
+156,Australia,2001,Nitrous oxide,Total  emissions excluding LULUCF,19686.166
+157,Australia,2002,Nitrous oxide,Total  emissions excluding LULUCF,20212.34
+158,Australia,2003,Nitrous oxide,Total  emissions excluding LULUCF,19019.889
+159,Australia,2004,Nitrous oxide,Total  emissions excluding LULUCF,20697.955
+160,Australia,2005,Nitrous oxide,Total  emissions excluding LULUCF,20793.963
+161,Australia,2006,Nitrous oxide,Total  emissions excluding LULUCF,20723.376
+162,Australia,2007,Nitrous oxide,Total  emissions excluding LULUCF,19156.994
+163,Australia,2008,Nitrous oxide,Total  emissions excluding LULUCF,19431.196
+164,Australia,2009,Nitrous oxide,Total  emissions excluding LULUCF,19818.98
+165,Australia,2010,Nitrous oxide,Total  emissions excluding LULUCF,19711.354
+166,Australia,2011,Nitrous oxide,Total  emissions excluding LULUCF,20478.323
+167,Australia,2012,Nitrous oxide,Total  emissions excluding LULUCF,20821.194
+168,Australia,2013,Nitrous oxide,Total  emissions excluding LULUCF,19651.621
+169,Australia,2014,Nitrous oxide,Total  emissions excluding LULUCF,20096.664
+170,Australia,2015,Nitrous oxide,Total  emissions excluding LULUCF,19557.631
+171,Australia,2016,Nitrous oxide,Total  emissions excluding LULUCF,19566.392
+172,Australia,2017,Nitrous oxide,Total  emissions excluding LULUCF,21265.585
+173,Australia,2018,Nitrous oxide,Total  emissions excluding LULUCF,20114.445
+174,Australia,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,1424.684
+175,Australia,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,1424.684
+176,Australia,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,1333.184
+177,Australia,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,1829.872
+178,Australia,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,1027.344
+179,Australia,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,1004.0319999999999
+180,Australia,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,414.171
+181,Australia,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,705.2280000000001
+182,Australia,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,998.29
+183,Australia,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,1374.54
+184,Australia,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,1613.953
+185,Australia,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,2307.1079999999997
+186,Australia,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,2925.8979999999997
+187,Australia,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,3578.897
+188,Australia,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,4267.137
+189,Australia,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,5002.762
+190,Australia,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,5166.706
+191,Australia,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,6066.186
+192,Australia,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,6858.964
+193,Australia,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,8109.073
+194,Australia,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,8672.212
+195,Australia,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,9139.821
+196,Australia,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,9055.869
+197,Australia,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,9859.713
+198,Australia,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,10778.851999999999
+199,Australia,2015,Hydrofluorocarbons,Total  emissions excluding LULUCF,11795.325
+200,Australia,2016,Hydrofluorocarbons,Total  emissions excluding LULUCF,11979.462
+201,Australia,2017,Hydrofluorocarbons,Total  emissions excluding LULUCF,11685.936000000002
+202,Australia,2018,Hydrofluorocarbons,Total  emissions excluding LULUCF,11982.082
+203,Australia,1990,Perfluorocarbons,Total  emissions excluding LULUCF,4607.013
+204,Australia,1991,Perfluorocarbons,Total  emissions excluding LULUCF,4610.7429999999995
+205,Australia,1992,Perfluorocarbons,Total  emissions excluding LULUCF,4603.282999999999
+206,Australia,1993,Perfluorocarbons,Total  emissions excluding LULUCF,3315.528
+207,Australia,1994,Perfluorocarbons,Total  emissions excluding LULUCF,2164.429
+208,Australia,1995,Perfluorocarbons,Total  emissions excluding LULUCF,1530.836
+209,Australia,1996,Perfluorocarbons,Total  emissions excluding LULUCF,1410.395
+210,Australia,1997,Perfluorocarbons,Total  emissions excluding LULUCF,1228.151
+211,Australia,1998,Perfluorocarbons,Total  emissions excluding LULUCF,1660.519
+212,Australia,1999,Perfluorocarbons,Total  emissions excluding LULUCF,1139.059
+213,Australia,2000,Perfluorocarbons,Total  emissions excluding LULUCF,1287.062
+214,Australia,2001,Perfluorocarbons,Total  emissions excluding LULUCF,1801.882
+215,Australia,2002,Perfluorocarbons,Total  emissions excluding LULUCF,1727.6229999999998
+216,Australia,2003,Perfluorocarbons,Total  emissions excluding LULUCF,1683.985
+217,Australia,2004,Perfluorocarbons,Total  emissions excluding LULUCF,1713.849
+218,Australia,2005,Perfluorocarbons,Total  emissions excluding LULUCF,1791.701
+219,Australia,2006,Perfluorocarbons,Total  emissions excluding LULUCF,687.06
+220,Australia,2007,Perfluorocarbons,Total  emissions excluding LULUCF,582.677
+221,Australia,2008,Perfluorocarbons,Total  emissions excluding LULUCF,444.517
+222,Australia,2009,Perfluorocarbons,Total  emissions excluding LULUCF,358.55199999999996
+223,Australia,2010,Perfluorocarbons,Total  emissions excluding LULUCF,283.315
+224,Australia,2011,Perfluorocarbons,Total  emissions excluding LULUCF,301.305
+225,Australia,2012,Perfluorocarbons,Total  emissions excluding LULUCF,294.883
+226,Australia,2013,Perfluorocarbons,Total  emissions excluding LULUCF,192.00099999999998
+227,Australia,2014,Perfluorocarbons,Total  emissions excluding LULUCF,192.53599999999997
+228,Australia,2015,Perfluorocarbons,Total  emissions excluding LULUCF,171.324
+229,Australia,2016,Perfluorocarbons,Total  emissions excluding LULUCF,224.924
+230,Australia,2017,Perfluorocarbons,Total  emissions excluding LULUCF,202.62599999999998
+231,Australia,2018,Perfluorocarbons,Total  emissions excluding LULUCF,236.003
+232,Australia,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,220.56
+233,Australia,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,239.342
+234,Australia,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,258.112
+235,Australia,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,276.869
+236,Australia,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,295.606
+237,Australia,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,316.215
+238,Australia,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,289.098
+239,Australia,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,266.77299999999997
+240,Australia,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,240.207
+241,Australia,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,211.28900000000002
+242,Australia,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,212.42700000000002
+243,Australia,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,218.796
+244,Australia,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,225.095
+245,Australia,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,229.114
+246,Australia,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,230.665
+247,Australia,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,196.21599999999998
+248,Australia,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,186.06900000000002
+249,Australia,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,175.128
+250,Australia,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,163.325
+251,Australia,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,146.993
+252,Australia,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,142.744
+253,Australia,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,140.786
+254,Australia,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,147.496
+255,Australia,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,141.832
+256,Australia,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,155.168
+257,Australia,2015,Sulphur hexafluoride,Total  emissions excluding LULUCF,170.938
+258,Australia,2016,Sulphur hexafluoride,Total  emissions excluding LULUCF,186.30700000000002
+259,Australia,2017,Sulphur hexafluoride,Total  emissions excluding LULUCF,189.99400000000003
+260,Australia,2018,Sulphur hexafluoride,Total  emissions excluding LULUCF,228.533
+868,Canada,1990,Carbon dioxide,Total  emissions excluding LULUCF,462117.351
+869,Canada,1991,Carbon dioxide,Total  emissions excluding LULUCF,452494.723
+870,Canada,1992,Carbon dioxide,Total  emissions excluding LULUCF,467037.42
+871,Canada,1993,Carbon dioxide,Total  emissions excluding LULUCF,467406.411
+872,Canada,1994,Carbon dioxide,Total  emissions excluding LULUCF,482436.57899999997
+873,Canada,1995,Carbon dioxide,Total  emissions excluding LULUCF,494920.255
+874,Canada,1996,Carbon dioxide,Total  emissions excluding LULUCF,510736.656
+875,Canada,1997,Carbon dioxide,Total  emissions excluding LULUCF,524789.167
+876,Canada,1998,Carbon dioxide,Total  emissions excluding LULUCF,533639.793
+877,Canada,1999,Carbon dioxide,Total  emissions excluding LULUCF,549553.212
+878,Canada,2000,Carbon dioxide,Total  emissions excluding LULUCF,572162.103
+879,Canada,2001,Carbon dioxide,Total  emissions excluding LULUCF,564946.3979999999
+880,Canada,2002,Carbon dioxide,Total  emissions excluding LULUCF,570844.7779999999
+881,Canada,2003,Carbon dioxide,Total  emissions excluding LULUCF,587178.149
+882,Canada,2004,Carbon dioxide,Total  emissions excluding LULUCF,585703.098
+883,Canada,2005,Carbon dioxide,Total  emissions excluding LULUCF,576434.464
+884,Canada,2006,Carbon dioxide,Total  emissions excluding LULUCF,570950.381
+885,Canada,2007,Carbon dioxide,Total  emissions excluding LULUCF,594220.571
+886,Canada,2008,Carbon dioxide,Total  emissions excluding LULUCF,575586.9079999999
+887,Canada,2009,Carbon dioxide,Total  emissions excluding LULUCF,542549.6
+888,Canada,2010,Carbon dioxide,Total  emissions excluding LULUCF,555549.8489999999
+889,Canada,2011,Carbon dioxide,Total  emissions excluding LULUCF,566740.991
+890,Canada,2012,Carbon dioxide,Total  emissions excluding LULUCF,569737.0129999999
+891,Canada,2013,Carbon dioxide,Total  emissions excluding LULUCF,576327.006
+892,Canada,2014,Carbon dioxide,Total  emissions excluding LULUCF,575942.179
+893,Canada,2015,Carbon dioxide,Total  emissions excluding LULUCF,575906.939
+894,Canada,2016,Carbon dioxide,Total  emissions excluding LULUCF,564032.53
+895,Canada,2017,Carbon dioxide,Total  emissions excluding LULUCF,572834.389
+896,Canada,2018,Carbon dioxide,Total  emissions excluding LULUCF,586504.635
+897,Canada,1990,Methane,Total  emissions excluding LULUCF,90484.948
+898,Canada,1991,Methane,Total  emissions excluding LULUCF,92223.156
+899,Canada,1992,Methane,Total  emissions excluding LULUCF,96534.414
+900,Canada,1993,Methane,Total  emissions excluding LULUCF,99891.591
+901,Canada,1994,Methane,Total  emissions excluding LULUCF,103723.725
+902,Canada,1995,Methane,Total  emissions excluding LULUCF,107642.18199999999
+903,Canada,1996,Methane,Total  emissions excluding LULUCF,111229.571
+904,Canada,1997,Methane,Total  emissions excluding LULUCF,109737.314
+905,Canada,1998,Methane,Total  emissions excluding LULUCF,110472.377
+906,Canada,1999,Methane,Total  emissions excluding LULUCF,111548.90199999999
+907,Canada,2000,Methane,Total  emissions excluding LULUCF,112024.258
+908,Canada,2001,Methane,Total  emissions excluding LULUCF,110153.735
+909,Canada,2002,Methane,Total  emissions excluding LULUCF,108324.713
+910,Canada,2003,Methane,Total  emissions excluding LULUCF,106786.29800000001
+911,Canada,2004,Methane,Total  emissions excluding LULUCF,107090.891
+912,Canada,2005,Methane,Total  emissions excluding LULUCF,105737.332
+913,Canada,2006,Methane,Total  emissions excluding LULUCF,104730.63
+914,Canada,2007,Methane,Total  emissions excluding LULUCF,103092.87400000001
+915,Canada,2008,Methane,Total  emissions excluding LULUCF,100190.832
+916,Canada,2009,Methane,Total  emissions excluding LULUCF,93922.01400000001
+917,Canada,2010,Methane,Total  emissions excluding LULUCF,91559.35800000001
+918,Canada,2011,Methane,Total  emissions excluding LULUCF,91386.64199999999
+919,Canada,2012,Methane,Total  emissions excluding LULUCF,94060.47300000001
+920,Canada,2013,Methane,Total  emissions excluding LULUCF,95502.214
+921,Canada,2014,Methane,Total  emissions excluding LULUCF,97277.55300000001
+922,Canada,2015,Methane,Total  emissions excluding LULUCF,95542.416
+923,Canada,2016,Methane,Total  emissions excluding LULUCF,92507.159
+924,Canada,2017,Methane,Total  emissions excluding LULUCF,91893.04199999999
+925,Canada,2018,Methane,Total  emissions excluding LULUCF,91424.11099999999
+926,Canada,1990,Nitrous oxide,Total  emissions excluding LULUCF,38864.879
+927,Canada,1991,Nitrous oxide,Total  emissions excluding LULUCF,37379.774
+928,Canada,1992,Nitrous oxide,Total  emissions excluding LULUCF,37932.796
+929,Canada,1993,Nitrous oxide,Total  emissions excluding LULUCF,37921.08
+930,Canada,1994,Nitrous oxide,Total  emissions excluding LULUCF,40876.986000000004
+931,Canada,1995,Nitrous oxide,Total  emissions excluding LULUCF,41412.66
+932,Canada,1996,Nitrous oxide,Total  emissions excluding LULUCF,43528.073
+933,Canada,1997,Nitrous oxide,Total  emissions excluding LULUCF,42263.78
+934,Canada,1998,Nitrous oxide,Total  emissions excluding LULUCF,38492.864
+935,Canada,1999,Nitrous oxide,Total  emissions excluding LULUCF,36320.465
+936,Canada,2000,Nitrous oxide,Total  emissions excluding LULUCF,35852.669
+937,Canada,2001,Nitrous oxide,Total  emissions excluding LULUCF,34832.893
+938,Canada,2002,Nitrous oxide,Total  emissions excluding LULUCF,34692.806000000004
+939,Canada,2003,Nitrous oxide,Total  emissions excluding LULUCF,36159.954
+940,Canada,2004,Nitrous oxide,Total  emissions excluding LULUCF,38343.735
+941,Canada,2005,Nitrous oxide,Total  emissions excluding LULUCF,37212.331
+942,Canada,2006,Nitrous oxide,Total  emissions excluding LULUCF,34931.968
+943,Canada,2007,Nitrous oxide,Total  emissions excluding LULUCF,35662.647000000004
+944,Canada,2008,Nitrous oxide,Total  emissions excluding LULUCF,37409.182
+945,Canada,2009,Nitrous oxide,Total  emissions excluding LULUCF,34228.174
+946,Canada,2010,Nitrous oxide,Total  emissions excluding LULUCF,33391.609
+947,Canada,2011,Nitrous oxide,Total  emissions excluding LULUCF,33610.405
+948,Canada,2012,Nitrous oxide,Total  emissions excluding LULUCF,34988.373999999996
+949,Canada,2013,Nitrous oxide,Total  emissions excluding LULUCF,36918.906
+950,Canada,2014,Nitrous oxide,Total  emissions excluding LULUCF,35711.458
+951,Canada,2015,Nitrous oxide,Total  emissions excluding LULUCF,36490.29
+952,Canada,2016,Nitrous oxide,Total  emissions excluding LULUCF,37239.845
+953,Canada,2017,Nitrous oxide,Total  emissions excluding LULUCF,36556.527
+954,Canada,2018,Nitrous oxide,Total  emissions excluding LULUCF,37944.542
+955,Canada,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,970.54
+956,Canada,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,1056.661
+957,Canada,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,829.7769999999999
+958,Canada,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,460.505
+959,Canada,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,810.625
+960,Canada,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,1122.303
+961,Canada,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,1620.112
+962,Canada,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,2160.365
+963,Canada,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,2754.842
+964,Canada,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,3159.296
+965,Canada,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,3607.0679999999998
+966,Canada,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,3979.8579999999997
+967,Canada,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,4584.774
+968,Canada,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,5107.032999999999
+969,Canada,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,5391.076
+970,Canada,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,6077.573
+971,Canada,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,6135.670999999999
+972,Canada,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,6909.971
+973,Canada,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,7729.054
+974,Canada,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,8592.449
+975,Canada,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,9083.742
+976,Canada,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,10075.665
+977,Canada,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,10951.028999999999
+978,Canada,2015,Hydrofluorocarbons,Total  emissions excluding LULUCF,11042.448
+979,Canada,2016,Hydrofluorocarbons,Total  emissions excluding LULUCF,11317.791000000001
+980,Canada,2017,Hydrofluorocarbons,Total  emissions excluding LULUCF,11528.086000000001
+981,Canada,2018,Hydrofluorocarbons,Total  emissions excluding LULUCF,12545.434
+982,Canada,1990,Perfluorocarbons,Total  emissions excluding LULUCF,7557.901999999999
+983,Canada,1991,Perfluorocarbons,Total  emissions excluding LULUCF,8033.113
+984,Canada,1992,Perfluorocarbons,Total  emissions excluding LULUCF,7578.683000000001
+985,Canada,1993,Perfluorocarbons,Total  emissions excluding LULUCF,7455.5830000000005
+986,Canada,1994,Perfluorocarbons,Total  emissions excluding LULUCF,6895.015
+987,Canada,1995,Perfluorocarbons,Total  emissions excluding LULUCF,6346.937
+988,Canada,1996,Perfluorocarbons,Total  emissions excluding LULUCF,6501.371
+989,Canada,1997,Perfluorocarbons,Total  emissions excluding LULUCF,6374.168000000001
+990,Canada,1998,Perfluorocarbons,Total  emissions excluding LULUCF,6476.193
+991,Canada,1999,Perfluorocarbons,Total  emissions excluding LULUCF,5370.476
+992,Canada,2000,Perfluorocarbons,Total  emissions excluding LULUCF,4984.525
+993,Canada,2001,Perfluorocarbons,Total  emissions excluding LULUCF,4047.5159999999996
+994,Canada,2002,Perfluorocarbons,Total  emissions excluding LULUCF,3462.9629999999997
+995,Canada,2003,Perfluorocarbons,Total  emissions excluding LULUCF,3489.9040000000005
+996,Canada,2004,Perfluorocarbons,Total  emissions excluding LULUCF,3521.8790000000004
+997,Canada,2005,Perfluorocarbons,Total  emissions excluding LULUCF,3838.449
+998,Canada,2006,Perfluorocarbons,Total  emissions excluding LULUCF,2985.1279999999997
+999,Canada,2007,Perfluorocarbons,Total  emissions excluding LULUCF,2533.629
+1000,Canada,2008,Perfluorocarbons,Total  emissions excluding LULUCF,2600.876
+1001,Canada,2009,Perfluorocarbons,Total  emissions excluding LULUCF,2509.783
+1002,Canada,2010,Perfluorocarbons,Total  emissions excluding LULUCF,1858.5020000000002
+1003,Canada,2011,Perfluorocarbons,Total  emissions excluding LULUCF,1686.6470000000002
+1004,Canada,2012,Perfluorocarbons,Total  emissions excluding LULUCF,1798.501
+1005,Canada,2013,Perfluorocarbons,Total  emissions excluding LULUCF,1616.989
+1006,Canada,2014,Perfluorocarbons,Total  emissions excluding LULUCF,1088.024
+1007,Canada,2015,Perfluorocarbons,Total  emissions excluding LULUCF,968.003
+1008,Canada,2016,Perfluorocarbons,Total  emissions excluding LULUCF,764.677
+1009,Canada,2017,Perfluorocarbons,Total  emissions excluding LULUCF,744.096
+1010,Canada,2018,Perfluorocarbons,Total  emissions excluding LULUCF,621.033
+1011,Canada,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,3225.922
+1012,Canada,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,3685.239
+1013,Canada,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,2557.113
+1014,Canada,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,2373.544
+1015,Canada,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,2441.74
+1016,Canada,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,2275.156
+1017,Canada,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,1768.646
+1018,Canada,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,1827.631
+1019,Canada,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,2357.482
+1020,Canada,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,2410.099
+1021,Canada,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,2902.96
+1022,Canada,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,2557.101
+1023,Canada,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,3015.8109999999997
+1024,Canada,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,2651.4309999999996
+1025,Canada,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,2339.901
+1026,Canada,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,1417.362
+1027,Canada,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,1526.74
+1028,Canada,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,726.193
+1029,Canada,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,644.3330000000001
+1030,Canada,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,373.87
+1031,Canada,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,442.094
+1032,Canada,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,395.694
+1033,Canada,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,440.042
+1034,Canada,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,436.522
+1035,Canada,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,383.38199999999995
+1036,Canada,2015,Sulphur hexafluoride,Total  emissions excluding LULUCF,429.963
+1037,Canada,2016,Sulphur hexafluoride,Total  emissions excluding LULUCF,334.292
+1038,Canada,2017,Sulphur hexafluoride,Total  emissions excluding LULUCF,281.947
+1039,Canada,2018,Sulphur hexafluoride,Total  emissions excluding LULUCF,309.39599999999996
+2155,Germany,1990,Carbon dioxide,Total  emissions excluding LULUCF,1052348.544
+2156,Germany,1991,Carbon dioxide,Total  emissions excluding LULUCF,1014199.715
+2157,Germany,1992,Carbon dioxide,Total  emissions excluding LULUCF,965889.813
+2158,Germany,1993,Carbon dioxide,Total  emissions excluding LULUCF,956233.108
+2159,Germany,1994,Carbon dioxide,Total  emissions excluding LULUCF,939630.2790000001
+2160,Germany,1995,Carbon dioxide,Total  emissions excluding LULUCF,939176.704
+2161,Germany,1996,Carbon dioxide,Total  emissions excluding LULUCF,959124.13
+2162,Germany,1997,Carbon dioxide,Total  emissions excluding LULUCF,931230.07
+2163,Germany,1998,Carbon dioxide,Total  emissions excluding LULUCF,923275.9090000001
+2164,Germany,1999,Carbon dioxide,Total  emissions excluding LULUCF,895642.931
+2165,Germany,2000,Carbon dioxide,Total  emissions excluding LULUCF,899780.198
+2166,Germany,2001,Carbon dioxide,Total  emissions excluding LULUCF,916366.135
+2167,Germany,2002,Carbon dioxide,Total  emissions excluding LULUCF,899821.053
+2168,Germany,2003,Carbon dioxide,Total  emissions excluding LULUCF,900866.405
+2169,Germany,2004,Carbon dioxide,Total  emissions excluding LULUCF,886965.974
+2170,Germany,2005,Carbon dioxide,Total  emissions excluding LULUCF,866388.5490000001
+2171,Germany,2006,Carbon dioxide,Total  emissions excluding LULUCF,877997.391
+2172,Germany,2007,Carbon dioxide,Total  emissions excluding LULUCF,851383.305
+2173,Germany,2008,Carbon dioxide,Total  emissions excluding LULUCF,854706.334
+2174,Germany,2009,Carbon dioxide,Total  emissions excluding LULUCF,790195.7170000001
+2175,Germany,2010,Carbon dioxide,Total  emissions excluding LULUCF,832669.735
+2176,Germany,2011,Carbon dioxide,Total  emissions excluding LULUCF,809426.95
+2177,Germany,2012,Carbon dioxide,Total  emissions excluding LULUCF,813893.1209999999
+2178,Germany,2013,Carbon dioxide,Total  emissions excluding LULUCF,831316.2790000001
+2179,Germany,2014,Carbon dioxide,Total  emissions excluding LULUCF,792684.8740000001
+2180,Germany,2015,Carbon dioxide,Total  emissions excluding LULUCF,795816.359
+2181,Germany,2016,Carbon dioxide,Total  emissions excluding LULUCF,800510.288
+2182,Germany,2017,Carbon dioxide,Total  emissions excluding LULUCF,786654.551
+2183,Germany,2018,Carbon dioxide,Total  emissions excluding LULUCF,755362.3420000001
+2184,Germany,1990,Methane,Total  emissions excluding LULUCF,121192.505
+2185,Germany,1991,Methane,Total  emissions excluding LULUCF,115019.177
+2186,Germany,1992,Methane,Total  emissions excluding LULUCF,111435.381
+2187,Germany,1993,Methane,Total  emissions excluding LULUCF,112044.54699999999
+2188,Germany,1994,Methane,Total  emissions excluding LULUCF,108086.087
+2189,Germany,1995,Methane,Total  emissions excluding LULUCF,105613.34599999999
+2190,Germany,1996,Methane,Total  emissions excluding LULUCF,103245.92199999999
+2191,Germany,1997,Methane,Total  emissions excluding LULUCF,98735.20599999999
+2192,Germany,1998,Methane,Total  emissions excluding LULUCF,93625.79800000001
+2193,Germany,1999,Methane,Total  emissions excluding LULUCF,92729.808
+2194,Germany,2000,Methane,Total  emissions excluding LULUCF,88605.55099999999
+2195,Germany,2001,Methane,Total  emissions excluding LULUCF,85044.772
+2196,Germany,2002,Methane,Total  emissions excluding LULUCF,80969.34700000001
+2197,Germany,2003,Methane,Total  emissions excluding LULUCF,77513.785
+2198,Germany,2004,Methane,Total  emissions excluding LULUCF,72528.79
+2199,Germany,2005,Methane,Total  emissions excluding LULUCF,69368.137
+2200,Germany,2006,Methane,Total  emissions excluding LULUCF,65595.352
+2201,Germany,2007,Methane,Total  emissions excluding LULUCF,63569.232
+2202,Germany,2008,Methane,Total  emissions excluding LULUCF,62652.957
+2203,Germany,2009,Methane,Total  emissions excluding LULUCF,60184.94
+2204,Germany,2010,Methane,Total  emissions excluding LULUCF,59181.2
+2205,Germany,2011,Methane,Total  emissions excluding LULUCF,58067.168
+2206,Germany,2012,Methane,Total  emissions excluding LULUCF,58804.785
+2207,Germany,2013,Methane,Total  emissions excluding LULUCF,58219.386
+2208,Germany,2014,Methane,Total  emissions excluding LULUCF,56991.084
+2209,Germany,2015,Methane,Total  emissions excluding LULUCF,56767.559
+2210,Germany,2016,Methane,Total  emissions excluding LULUCF,55506.917
+2211,Germany,2017,Methane,Total  emissions excluding LULUCF,54738.293
+2212,Germany,2018,Methane,Total  emissions excluding LULUCF,52641.892
+2213,Germany,1990,Nitrous oxide,Total  emissions excluding LULUCF,62522.845
+2214,Germany,1991,Nitrous oxide,Total  emissions excluding LULUCF,60357.532999999996
+2215,Germany,1992,Nitrous oxide,Total  emissions excluding LULUCF,61607.755999999994
+2216,Germany,1993,Nitrous oxide,Total  emissions excluding LULUCF,58959.567
+2217,Germany,1994,Nitrous oxide,Total  emissions excluding LULUCF,60066.057
+2218,Germany,1995,Nitrous oxide,Total  emissions excluding LULUCF,59500.65900000001
+2219,Germany,1996,Nitrous oxide,Total  emissions excluding LULUCF,60865.335999999996
+2220,Germany,1997,Nitrous oxide,Total  emissions excluding LULUCF,57964.736
+2221,Germany,1998,Nitrous oxide,Total  emissions excluding LULUCF,45219.72
+2222,Germany,1999,Nitrous oxide,Total  emissions excluding LULUCF,41707.079
+2223,Germany,2000,Nitrous oxide,Total  emissions excluding LULUCF,41763.059
+2224,Germany,2001,Nitrous oxide,Total  emissions excluding LULUCF,43207.457
+2225,Germany,2002,Nitrous oxide,Total  emissions excluding LULUCF,42368.968
+2226,Germany,2003,Nitrous oxide,Total  emissions excluding LULUCF,43033.125
+2227,Germany,2004,Nitrous oxide,Total  emissions excluding LULUCF,45209.793
+2228,Germany,2005,Nitrous oxide,Total  emissions excluding LULUCF,43278.882000000005
+2229,Germany,2006,Nitrous oxide,Total  emissions excluding LULUCF,42827.005999999994
+2230,Germany,2007,Nitrous oxide,Total  emissions excluding LULUCF,44707.957
+2231,Germany,2008,Nitrous oxide,Total  emissions excluding LULUCF,45106.705
+2232,Germany,2009,Nitrous oxide,Total  emissions excluding LULUCF,44221.498
+2233,Germany,2010,Nitrous oxide,Total  emissions excluding LULUCF,36235.584
+2234,Germany,2011,Nitrous oxide,Total  emissions excluding LULUCF,37539.206
+2235,Germany,2012,Nitrous oxide,Total  emissions excluding LULUCF,36863.342000000004
+2236,Germany,2013,Nitrous oxide,Total  emissions excluding LULUCF,37406.737
+2237,Germany,2014,Nitrous oxide,Total  emissions excluding LULUCF,38050.342000000004
+2238,Germany,2015,Nitrous oxide,Total  emissions excluding LULUCF,38667.068999999996
+2239,Germany,2016,Nitrous oxide,Total  emissions excluding LULUCF,37834.299
+2240,Germany,2017,Nitrous oxide,Total  emissions excluding LULUCF,37540.906
+2241,Germany,2018,Nitrous oxide,Total  emissions excluding LULUCF,35518.286
+2242,Germany,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,50.32
+2243,Germany,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,45.922
+2244,Germany,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,287.564
+2245,Germany,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,2495.7670000000003
+2246,Germany,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,2687.863
+2247,Germany,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,2614.411
+2248,Germany,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,3407.908
+2249,Germany,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,4157.799
+2250,Germany,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,4868.694
+2251,Germany,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,5198.889
+2252,Germany,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,6030.2080000000005
+2253,Germany,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,7453.031999999999
+2254,Germany,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,8090.590999999999
+2255,Germany,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,8301.741
+2256,Germany,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,8751.976999999999
+2257,Germany,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,9007.624
+2258,Germany,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,9377.484
+2259,Germany,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,9803.711
+2260,Germany,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,9753.213
+2261,Germany,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,10007.028
+2262,Germany,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,10343.933
+2263,Germany,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,10760.511
+2264,Germany,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,10943.412
+2265,Germany,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,10944.628999999999
+2266,Germany,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,11118.146999999999
+2267,Germany,2015,Hydrofluorocarbons,Total  emissions excluding LULUCF,11321.153
+2268,Germany,2016,Hydrofluorocarbons,Total  emissions excluding LULUCF,11297.458
+2269,Germany,2017,Hydrofluorocarbons,Total  emissions excluding LULUCF,11121.452
+2270,Germany,2018,Hydrofluorocarbons,Total  emissions excluding LULUCF,10487.116000000002
+2271,Germany,1990,Perfluorocarbons,Total  emissions excluding LULUCF,3068.788
+2272,Germany,1991,Perfluorocarbons,Total  emissions excluding LULUCF,2664.11
+2273,Germany,1992,Perfluorocarbons,Total  emissions excluding LULUCF,2417.535
+2274,Germany,1993,Perfluorocarbons,Total  emissions excluding LULUCF,2267.736
+2275,Germany,1994,Perfluorocarbons,Total  emissions excluding LULUCF,1931.0520000000001
+2276,Germany,1995,Perfluorocarbons,Total  emissions excluding LULUCF,2098.927
+2277,Germany,1996,Perfluorocarbons,Total  emissions excluding LULUCF,2055.323
+2278,Germany,1997,Perfluorocarbons,Total  emissions excluding LULUCF,1670.487
+2279,Germany,1998,Perfluorocarbons,Total  emissions excluding LULUCF,1799.724
+2280,Germany,1999,Perfluorocarbons,Total  emissions excluding LULUCF,1504.376
+2281,Germany,2000,Perfluorocarbons,Total  emissions excluding LULUCF,975.002
+2282,Germany,2001,Perfluorocarbons,Total  emissions excluding LULUCF,887.3489999999999
+2283,Germany,2002,Perfluorocarbons,Total  emissions excluding LULUCF,963.5039999999999
+2284,Germany,2003,Perfluorocarbons,Total  emissions excluding LULUCF,1032.4560000000001
+2285,Germany,2004,Perfluorocarbons,Total  emissions excluding LULUCF,993.3960000000001
+2286,Germany,2005,Perfluorocarbons,Total  emissions excluding LULUCF,851.835
+2287,Germany,2006,Perfluorocarbons,Total  emissions excluding LULUCF,682.6039999999999
+2288,Germany,2007,Perfluorocarbons,Total  emissions excluding LULUCF,600.543
+2289,Germany,2008,Perfluorocarbons,Total  emissions excluding LULUCF,578.276
+2290,Germany,2009,Perfluorocarbons,Total  emissions excluding LULUCF,417.244
+2291,Germany,2010,Perfluorocarbons,Total  emissions excluding LULUCF,355.791
+2292,Germany,2011,Perfluorocarbons,Total  emissions excluding LULUCF,285.02299999999997
+2293,Germany,2012,Perfluorocarbons,Total  emissions excluding LULUCF,247.775
+2294,Germany,2013,Perfluorocarbons,Total  emissions excluding LULUCF,261.594
+2295,Germany,2014,Perfluorocarbons,Total  emissions excluding LULUCF,238.055
+2296,Germany,2015,Perfluorocarbons,Total  emissions excluding LULUCF,246.97299999999998
+2297,Germany,2016,Perfluorocarbons,Total  emissions excluding LULUCF,252.127
+2298,Germany,2017,Perfluorocarbons,Total  emissions excluding LULUCF,257.157
+2299,Germany,2018,Perfluorocarbons,Total  emissions excluding LULUCF,289.757
+2300,Germany,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,4427.998
+2301,Germany,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,4745.879
+2302,Germany,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,5237.807
+2303,Germany,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,5973.590999999999
+2304,Germany,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,6249.228
+2305,Germany,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,6467.15
+2306,Germany,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,6162.493
+2307,Germany,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,6108.844
+2308,Germany,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,5888.915
+2309,Germany,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,4289.752
+2310,Germany,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,4072.498
+2311,Germany,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,3751.7790000000005
+2312,Germany,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,3082.252
+2313,Germany,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,3013.41
+2314,Germany,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,3241.0429999999997
+2315,Germany,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,3252.0370000000003
+2316,Germany,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,3200.643
+2317,Germany,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,3089.6209999999996
+2318,Germany,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,2942.667
+2319,Germany,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,2942.522
+2320,Germany,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,3002.4790000000003
+2321,Germany,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,3035.3309999999997
+2322,Germany,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,3082.5879999999997
+2323,Germany,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,3122.3459999999995
+2324,Germany,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,3066.1479999999997
+2325,Germany,2015,Sulphur hexafluoride,Total  emissions excluding LULUCF,3246.743
+2326,Germany,2016,Sulphur hexafluoride,Total  emissions excluding LULUCF,3457.2059999999997
+2327,Germany,2017,Sulphur hexafluoride,Total  emissions excluding LULUCF,3759.573
+2328,Germany,2018,Sulphur hexafluoride,Total  emissions excluding LULUCF,3870.66
+3720,Japan,1990,Carbon dioxide,Total  emissions excluding LULUCF,1158391.311
+3721,Japan,1991,Carbon dioxide,Total  emissions excluding LULUCF,1170065.729
+3722,Japan,1992,Carbon dioxide,Total  emissions excluding LULUCF,1179740.098
+3723,Japan,1993,Carbon dioxide,Total  emissions excluding LULUCF,1172647.3090000001
+3724,Japan,1994,Carbon dioxide,Total  emissions excluding LULUCF,1227566.84
+3725,Japan,1995,Carbon dioxide,Total  emissions excluding LULUCF,1239928.158
+3726,Japan,1996,Carbon dioxide,Total  emissions excluding LULUCF,1251867.5690000001
+3727,Japan,1997,Carbon dioxide,Total  emissions excluding LULUCF,1245112.034
+3728,Japan,1998,Carbon dioxide,Total  emissions excluding LULUCF,1205416.3190000001
+3729,Japan,1999,Carbon dioxide,Total  emissions excluding LULUCF,1242015.307
+3730,Japan,2000,Carbon dioxide,Total  emissions excluding LULUCF,1264844.261
+3731,Japan,2001,Carbon dioxide,Total  emissions excluding LULUCF,1250211.0459999999
+3732,Japan,2002,Carbon dioxide,Total  emissions excluding LULUCF,1279452.965
+3733,Japan,2003,Carbon dioxide,Total  emissions excluding LULUCF,1287642.182
+3734,Japan,2004,Carbon dioxide,Total  emissions excluding LULUCF,1282872.0829999999
+3735,Japan,2005,Carbon dioxide,Total  emissions excluding LULUCF,1290056.277
+3736,Japan,2006,Carbon dioxide,Total  emissions excluding LULUCF,1266828.606
+3737,Japan,2007,Carbon dioxide,Total  emissions excluding LULUCF,1302524.285
+3738,Japan,2008,Carbon dioxide,Total  emissions excluding LULUCF,1231909.525
+3739,Japan,2009,Carbon dioxide,Total  emissions excluding LULUCF,1162647.866
+3740,Japan,2010,Carbon dioxide,Total  emissions excluding LULUCF,1214068.5559999999
+3741,Japan,2011,Carbon dioxide,Total  emissions excluding LULUCF,1264155.127
+3742,Japan,2012,Carbon dioxide,Total  emissions excluding LULUCF,1305432.85
+3743,Japan,2013,Carbon dioxide,Total  emissions excluding LULUCF,1314702.999
+3744,Japan,2014,Carbon dioxide,Total  emissions excluding LULUCF,1263049.942
+3745,Japan,2015,Carbon dioxide,Total  emissions excluding LULUCF,1222781.315
+3746,Japan,2016,Carbon dioxide,Total  emissions excluding LULUCF,1203167.018
+3747,Japan,2017,Carbon dioxide,Total  emissions excluding LULUCF,1187661.4540000001
+3748,Japan,2018,Carbon dioxide,Total  emissions excluding LULUCF,1135688.0
+3749,Japan,1990,Methane,Total  emissions excluding LULUCF,44418.487
+3750,Japan,1991,Methane,Total  emissions excluding LULUCF,43259.723
+3751,Japan,1992,Methane,Total  emissions excluding LULUCF,44118.705
+3752,Japan,1993,Methane,Total  emissions excluding LULUCF,40025.521
+3753,Japan,1994,Methane,Total  emissions excluding LULUCF,43411.572
+3754,Japan,1995,Methane,Total  emissions excluding LULUCF,41926.42
+3755,Japan,1996,Methane,Total  emissions excluding LULUCF,40721.693999999996
+3756,Japan,1997,Methane,Total  emissions excluding LULUCF,39970.455
+3757,Japan,1998,Methane,Total  emissions excluding LULUCF,38107.778
+3758,Japan,1999,Methane,Total  emissions excluding LULUCF,37989.87
+3759,Japan,2000,Methane,Total  emissions excluding LULUCF,37981.977999999996
+3760,Japan,2001,Methane,Total  emissions excluding LULUCF,37132.109
+3761,Japan,2002,Methane,Total  emissions excluding LULUCF,36436.126000000004
+3762,Japan,2003,Methane,Total  emissions excluding LULUCF,34991.468
+3763,Japan,2004,Methane,Total  emissions excluding LULUCF,36025.05
+3764,Japan,2005,Methane,Total  emissions excluding LULUCF,35845.439
+3765,Japan,2006,Methane,Total  emissions excluding LULUCF,35263.723
+3766,Japan,2007,Methane,Total  emissions excluding LULUCF,35539.525
+3767,Japan,2008,Methane,Total  emissions excluding LULUCF,35239.646
+3768,Japan,2009,Methane,Total  emissions excluding LULUCF,34276.54
+3769,Japan,2010,Methane,Total  emissions excluding LULUCF,34783.599
+3770,Japan,2011,Methane,Total  emissions excluding LULUCF,33776.169
+3771,Japan,2012,Methane,Total  emissions excluding LULUCF,32903.964
+3772,Japan,2013,Methane,Total  emissions excluding LULUCF,32533.424
+3773,Japan,2014,Methane,Total  emissions excluding LULUCF,31886.892999999996
+3774,Japan,2015,Methane,Total  emissions excluding LULUCF,31064.694
+3775,Japan,2016,Methane,Total  emissions excluding LULUCF,30736.222
+3776,Japan,2017,Methane,Total  emissions excluding LULUCF,30237.192000000003
+3777,Japan,2018,Methane,Total  emissions excluding LULUCF,29854.897
+3778,Japan,1990,Nitrous oxide,Total  emissions excluding LULUCF,31875.879
+3779,Japan,1991,Nitrous oxide,Total  emissions excluding LULUCF,31580.537
+3780,Japan,1992,Nitrous oxide,Total  emissions excluding LULUCF,31752.764
+3781,Japan,1993,Nitrous oxide,Total  emissions excluding LULUCF,31615.368
+3782,Japan,1994,Nitrous oxide,Total  emissions excluding LULUCF,32871.018
+3783,Japan,1995,Nitrous oxide,Total  emissions excluding LULUCF,33178.794
+3784,Japan,1996,Nitrous oxide,Total  emissions excluding LULUCF,34309.232
+3785,Japan,1997,Nitrous oxide,Total  emissions excluding LULUCF,35116.489
+3786,Japan,1998,Nitrous oxide,Total  emissions excluding LULUCF,33533.047999999995
+3787,Japan,1999,Nitrous oxide,Total  emissions excluding LULUCF,27386.599
+3788,Japan,2000,Nitrous oxide,Total  emissions excluding LULUCF,29905.553
+3789,Japan,2001,Nitrous oxide,Total  emissions excluding LULUCF,26288.301
+3790,Japan,2002,Nitrous oxide,Total  emissions excluding LULUCF,25735.577999999998
+3791,Japan,2003,Nitrous oxide,Total  emissions excluding LULUCF,25577.403
+3792,Japan,2004,Nitrous oxide,Total  emissions excluding LULUCF,25407.784
+3793,Japan,2005,Nitrous oxide,Total  emissions excluding LULUCF,24962.612999999998
+3794,Japan,2006,Nitrous oxide,Total  emissions excluding LULUCF,24837.317000000003
+3795,Japan,2007,Nitrous oxide,Total  emissions excluding LULUCF,24202.342999999997
+3796,Japan,2008,Nitrous oxide,Total  emissions excluding LULUCF,23386.657000000003
+3797,Japan,2009,Nitrous oxide,Total  emissions excluding LULUCF,22743.002
+3798,Japan,2010,Nitrous oxide,Total  emissions excluding LULUCF,22195.351000000002
+3799,Japan,2011,Nitrous oxide,Total  emissions excluding LULUCF,21789.835
+3800,Japan,2012,Nitrous oxide,Total  emissions excluding LULUCF,21470.793999999998
+3801,Japan,2013,Nitrous oxide,Total  emissions excluding LULUCF,21496.232000000004
+3802,Japan,2014,Nitrous oxide,Total  emissions excluding LULUCF,21101.086
+3803,Japan,2015,Nitrous oxide,Total  emissions excluding LULUCF,20737.144
+3804,Japan,2016,Nitrous oxide,Total  emissions excluding LULUCF,20195.8
+3805,Japan,2017,Nitrous oxide,Total  emissions excluding LULUCF,20417.798
+3806,Japan,2018,Nitrous oxide,Total  emissions excluding LULUCF,19999.977
+3807,Japan,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,15932.31
+3808,Japan,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,17349.613
+3809,Japan,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,17767.224
+3810,Japan,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,18129.158
+3811,Japan,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,21051.895
+3812,Japan,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,25213.191000000003
+3813,Japan,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,24598.107000000004
+3814,Japan,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,24436.792
+3815,Japan,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,23742.103
+3816,Japan,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,24368.276
+3817,Japan,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,22851.998
+3818,Japan,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,19462.521
+3819,Japan,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,16236.392
+3820,Japan,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,16229.258999999998
+3821,Japan,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,12422.563999999998
+3822,Japan,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,12784.021999999999
+3823,Japan,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,14630.089
+3824,Japan,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,16712.625
+3825,Japan,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,19293.113999999998
+3826,Japan,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,20934.099
+3827,Japan,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,23315.041
+3828,Japan,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,26104.826
+3829,Japan,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,29360.711
+3830,Japan,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,32103.862999999998
+3831,Japan,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,35783.474
+3832,Japan,2015,Hydrofluorocarbons,Total  emissions excluding LULUCF,39262.797
+3833,Japan,2016,Hydrofluorocarbons,Total  emissions excluding LULUCF,42574.74
+3834,Japan,2017,Hydrofluorocarbons,Total  emissions excluding LULUCF,44891.097
+3835,Japan,2018,Hydrofluorocarbons,Total  emissions excluding LULUCF,46987.668
+3836,Japan,1990,Perfluorocarbons,Total  emissions excluding LULUCF,6539.299
+3837,Japan,1991,Perfluorocarbons,Total  emissions excluding LULUCF,7506.922
+3838,Japan,1992,Perfluorocarbons,Total  emissions excluding LULUCF,7617.293000000001
+3839,Japan,1993,Perfluorocarbons,Total  emissions excluding LULUCF,10942.796999999999
+3840,Japan,1994,Perfluorocarbons,Total  emissions excluding LULUCF,13443.462
+3841,Japan,1995,Perfluorocarbons,Total  emissions excluding LULUCF,17609.918999999998
+3842,Japan,1996,Perfluorocarbons,Total  emissions excluding LULUCF,18258.177
+3843,Japan,1997,Perfluorocarbons,Total  emissions excluding LULUCF,19984.283
+3844,Japan,1998,Perfluorocarbons,Total  emissions excluding LULUCF,16568.476000000002
+3845,Japan,1999,Perfluorocarbons,Total  emissions excluding LULUCF,13118.065
+3846,Japan,2000,Perfluorocarbons,Total  emissions excluding LULUCF,11873.11
+3847,Japan,2001,Perfluorocarbons,Total  emissions excluding LULUCF,9878.468
+3848,Japan,2002,Perfluorocarbons,Total  emissions excluding LULUCF,9199.44
+3849,Japan,2003,Perfluorocarbons,Total  emissions excluding LULUCF,8854.206
+3850,Japan,2004,Perfluorocarbons,Total  emissions excluding LULUCF,9216.64
+3851,Japan,2005,Perfluorocarbons,Total  emissions excluding LULUCF,8623.351999999999
+3852,Japan,2006,Perfluorocarbons,Total  emissions excluding LULUCF,8998.776
+3853,Japan,2007,Perfluorocarbons,Total  emissions excluding LULUCF,7916.85
+3854,Japan,2008,Perfluorocarbons,Total  emissions excluding LULUCF,5743.405
+3855,Japan,2009,Perfluorocarbons,Total  emissions excluding LULUCF,4046.8720000000003
+3856,Japan,2010,Perfluorocarbons,Total  emissions excluding LULUCF,4249.544
+3857,Japan,2011,Perfluorocarbons,Total  emissions excluding LULUCF,3755.446
+3858,Japan,2012,Perfluorocarbons,Total  emissions excluding LULUCF,3436.328
+3859,Japan,2013,Perfluorocarbons,Total  emissions excluding LULUCF,3280.059
+3860,Japan,2014,Perfluorocarbons,Total  emissions excluding LULUCF,3361.425
+3861,Japan,2015,Perfluorocarbons,Total  emissions excluding LULUCF,3308.105
+3862,Japan,2016,Perfluorocarbons,Total  emissions excluding LULUCF,3375.329
+3863,Japan,2017,Perfluorocarbons,Total  emissions excluding LULUCF,3512.147
+3864,Japan,2018,Perfluorocarbons,Total  emissions excluding LULUCF,3486.788
+3865,Japan,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,12850.07
+3866,Japan,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,14206.042
+3867,Japan,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,15635.825
+3868,Japan,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,15701.971000000001
+3869,Japan,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,15019.956
+3870,Japan,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,16447.525
+3871,Japan,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,17022.188000000002
+3872,Japan,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,14510.54
+3873,Japan,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,13224.101
+3874,Japan,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,9176.617
+3875,Japan,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,7031.359
+3876,Japan,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,6066.017
+3877,Japan,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,5735.481
+3878,Japan,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,5406.311
+3879,Japan,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,5258.701999999999
+3880,Japan,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,5027.351
+3881,Japan,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,5202.388
+3882,Japan,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,4708.042
+3883,Japan,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,4150.9
+3884,Japan,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,2419.751
+3885,Japan,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,2398.136
+3886,Japan,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,2222.143
+3887,Japan,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,2207.2729999999997
+3888,Japan,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,2075.251
+3889,Japan,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,2038.859
+3890,Japan,2015,Sulphur hexafluoride,Total  emissions excluding LULUCF,2075.105
+3891,Japan,2016,Sulphur hexafluoride,Total  emissions excluding LULUCF,2158.5389999999998
+3892,Japan,2017,Sulphur hexafluoride,Total  emissions excluding LULUCF,2070.07
+3893,Japan,2018,Sulphur hexafluoride,Total  emissions excluding LULUCF,2042.882
+3975,Korea,1990,Carbon dioxide,Total  emissions excluding LULUCF,251992.0
+3976,Korea,1991,Carbon dioxide,Total  emissions excluding LULUCF,274851.0
+3977,Korea,1992,Carbon dioxide,Total  emissions excluding LULUCF,299735.0
+3978,Korea,1993,Carbon dioxide,Total  emissions excluding LULUCF,334693.0
+3979,Korea,1994,Carbon dioxide,Total  emissions excluding LULUCF,356973.0
+3980,Korea,1995,Carbon dioxide,Total  emissions excluding LULUCF,384222.0
+3981,Korea,1996,Carbon dioxide,Total  emissions excluding LULUCF,418641.0
+3982,Korea,1997,Carbon dioxide,Total  emissions excluding LULUCF,446183.0
+3983,Korea,1998,Carbon dioxide,Total  emissions excluding LULUCF,379352.0
+3984,Korea,1999,Carbon dioxide,Total  emissions excluding LULUCF,411460.0
+3985,Korea,2000,Carbon dioxide,Total  emissions excluding LULUCF,443674.0
+3986,Korea,2001,Carbon dioxide,Total  emissions excluding LULUCF,459377.0
+3987,Korea,2002,Carbon dioxide,Total  emissions excluding LULUCF,478860.0
+3988,Korea,2003,Carbon dioxide,Total  emissions excluding LULUCF,487339.0
+3989,Korea,2004,Carbon dioxide,Total  emissions excluding LULUCF,492761.0
+3990,Korea,2005,Carbon dioxide,Total  emissions excluding LULUCF,497462.0
+3991,Korea,2006,Carbon dioxide,Total  emissions excluding LULUCF,504047.0
+3992,Korea,2007,Carbon dioxide,Total  emissions excluding LULUCF,524350.0
+3993,Korea,2008,Carbon dioxide,Total  emissions excluding LULUCF,536302.0
+3994,Korea,2009,Carbon dioxide,Total  emissions excluding LULUCF,542202.0
+3995,Korea,2010,Carbon dioxide,Total  emissions excluding LULUCF,595325.0
+3996,Korea,2011,Carbon dioxide,Total  emissions excluding LULUCF,625954.0
+3997,Korea,2012,Carbon dioxide,Total  emissions excluding LULUCF,627797.0
+3998,Korea,2013,Carbon dioxide,Total  emissions excluding LULUCF,636656.0
+3999,Korea,2014,Carbon dioxide,Total  emissions excluding LULUCF,629869.0
+4000,Korea,2015,Carbon dioxide,Total  emissions excluding LULUCF,634344.0
+4001,Korea,2016,Carbon dioxide,Total  emissions excluding LULUCF,637262.0
+4002,Korea,2017,Carbon dioxide,Total  emissions excluding LULUCF,650018.0
+4003,Korea,1990,Methane,Total  emissions excluding LULUCF,30173.0
+4004,Korea,1991,Methane,Total  emissions excluding LULUCF,30117.0
+4005,Korea,1992,Methane,Total  emissions excluding LULUCF,29546.0
+4006,Korea,1993,Methane,Total  emissions excluding LULUCF,28979.0
+4007,Korea,1994,Methane,Total  emissions excluding LULUCF,28965.0
+4008,Korea,1995,Methane,Total  emissions excluding LULUCF,28588.0
+4009,Korea,1996,Methane,Total  emissions excluding LULUCF,28861.0
+4010,Korea,1997,Methane,Total  emissions excluding LULUCF,29085.0
+4011,Korea,1998,Methane,Total  emissions excluding LULUCF,27868.0
+4012,Korea,1999,Methane,Total  emissions excluding LULUCF,27532.0
+4013,Korea,2000,Methane,Total  emissions excluding LULUCF,27492.0
+4014,Korea,2001,Methane,Total  emissions excluding LULUCF,27795.0
+4015,Korea,2002,Methane,Total  emissions excluding LULUCF,27930.0
+4016,Korea,2003,Methane,Total  emissions excluding LULUCF,27901.0
+4017,Korea,2004,Methane,Total  emissions excluding LULUCF,26983.0
+4018,Korea,2005,Methane,Total  emissions excluding LULUCF,26909.0
+4019,Korea,2006,Methane,Total  emissions excluding LULUCF,26853.0
+4020,Korea,2007,Methane,Total  emissions excluding LULUCF,26537.0
+4021,Korea,2008,Methane,Total  emissions excluding LULUCF,26481.0
+4022,Korea,2009,Methane,Total  emissions excluding LULUCF,26482.0
+4023,Korea,2010,Methane,Total  emissions excluding LULUCF,26903.0
+4024,Korea,2011,Methane,Total  emissions excluding LULUCF,26607.0
+4025,Korea,2012,Methane,Total  emissions excluding LULUCF,26590.0
+4026,Korea,2013,Methane,Total  emissions excluding LULUCF,26575.0
+4027,Korea,2014,Methane,Total  emissions excluding LULUCF,26413.0
+4028,Korea,2015,Methane,Total  emissions excluding LULUCF,26302.0
+4029,Korea,2016,Methane,Total  emissions excluding LULUCF,26313.0
+4030,Korea,2017,Methane,Total  emissions excluding LULUCF,26743.0
+4031,Korea,1990,Nitrous oxide,Total  emissions excluding LULUCF,8868.0
+4032,Korea,1991,Nitrous oxide,Total  emissions excluding LULUCF,9365.0
+4033,Korea,1992,Nitrous oxide,Total  emissions excluding LULUCF,11982.0
+4034,Korea,1993,Nitrous oxide,Total  emissions excluding LULUCF,12477.0
+4035,Korea,1994,Nitrous oxide,Total  emissions excluding LULUCF,13317.0
+4036,Korea,1995,Nitrous oxide,Total  emissions excluding LULUCF,14343.0
+4037,Korea,1996,Nitrous oxide,Total  emissions excluding LULUCF,15371.0
+4038,Korea,1997,Nitrous oxide,Total  emissions excluding LULUCF,16364.0
+4039,Korea,1998,Nitrous oxide,Total  emissions excluding LULUCF,16635.0
+4040,Korea,1999,Nitrous oxide,Total  emissions excluding LULUCF,17190.0
+4041,Korea,2000,Nitrous oxide,Total  emissions excluding LULUCF,18009.0
+4042,Korea,2001,Nitrous oxide,Total  emissions excluding LULUCF,18202.0
+4043,Korea,2002,Nitrous oxide,Total  emissions excluding LULUCF,18032.0
+4044,Korea,2003,Nitrous oxide,Total  emissions excluding LULUCF,21442.0
+4045,Korea,2004,Nitrous oxide,Total  emissions excluding LULUCF,23957.0
+4046,Korea,2005,Nitrous oxide,Total  emissions excluding LULUCF,22522.0
+4047,Korea,2006,Nitrous oxide,Total  emissions excluding LULUCF,21806.0
+4048,Korea,2007,Nitrous oxide,Total  emissions excluding LULUCF,12704.0
+4049,Korea,2008,Nitrous oxide,Total  emissions excluding LULUCF,12125.0
+4050,Korea,2009,Nitrous oxide,Total  emissions excluding LULUCF,12524.0
+4051,Korea,2010,Nitrous oxide,Total  emissions excluding LULUCF,13177.0
+4052,Korea,2011,Nitrous oxide,Total  emissions excluding LULUCF,12940.0
+4053,Korea,2012,Nitrous oxide,Total  emissions excluding LULUCF,13669.0
+4054,Korea,2013,Nitrous oxide,Total  emissions excluding LULUCF,13942.0
+4055,Korea,2014,Nitrous oxide,Total  emissions excluding LULUCF,14036.0
+4056,Korea,2015,Nitrous oxide,Total  emissions excluding LULUCF,13846.0
+4057,Korea,2016,Nitrous oxide,Total  emissions excluding LULUCF,13710.0
+4058,Korea,2017,Nitrous oxide,Total  emissions excluding LULUCF,13972.0
+4059,Korea,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,983.0
+4060,Korea,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,799.0
+4061,Korea,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,1877.0
+4062,Korea,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,2117.0
+4063,Korea,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,3838.0
+4064,Korea,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,5085.0
+4065,Korea,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,5779.0
+4066,Korea,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,7160.0
+4067,Korea,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,4911.0
+4068,Korea,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,8061.0
+4069,Korea,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,8443.0
+4070,Korea,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,5852.0
+4071,Korea,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,8653.0
+4072,Korea,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,6443.0
+4073,Korea,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,6591.0
+4074,Korea,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,6651.0
+4075,Korea,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,6098.0
+4076,Korea,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,7363.0
+4077,Korea,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,6881.0
+4078,Korea,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,5846.0
+4079,Korea,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,8088.0
+4080,Korea,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,7907.0
+4081,Korea,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,8694.0
+4082,Korea,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,8095.0
+4083,Korea,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,8538.0
+4084,Korea,2015,Hydrofluorocarbons,Total  emissions excluding LULUCF,7931.0
+4085,Korea,2016,Hydrofluorocarbons,Total  emissions excluding LULUCF,7366.0
+4086,Korea,2017,Hydrofluorocarbons,Total  emissions excluding LULUCF,9649.0
+4087,Korea,1990,Perfluorocarbons,Total  emissions excluding LULUCF,0.0
+4088,Korea,1991,Perfluorocarbons,Total  emissions excluding LULUCF,0.0
+4089,Korea,1992,Perfluorocarbons,Total  emissions excluding LULUCF,0.0
+4090,Korea,1993,Perfluorocarbons,Total  emissions excluding LULUCF,2.0
+4091,Korea,1994,Perfluorocarbons,Total  emissions excluding LULUCF,0.0
+4092,Korea,1995,Perfluorocarbons,Total  emissions excluding LULUCF,63.0
+4093,Korea,1996,Perfluorocarbons,Total  emissions excluding LULUCF,587.0
+4094,Korea,1997,Perfluorocarbons,Total  emissions excluding LULUCF,1683.0
+4095,Korea,1998,Perfluorocarbons,Total  emissions excluding LULUCF,1649.0
+4096,Korea,1999,Perfluorocarbons,Total  emissions excluding LULUCF,1890.0
+4097,Korea,2000,Perfluorocarbons,Total  emissions excluding LULUCF,2250.0
+4098,Korea,2001,Perfluorocarbons,Total  emissions excluding LULUCF,1989.0
+4099,Korea,2002,Perfluorocarbons,Total  emissions excluding LULUCF,1973.0
+4100,Korea,2003,Perfluorocarbons,Total  emissions excluding LULUCF,2267.0
+4101,Korea,2004,Perfluorocarbons,Total  emissions excluding LULUCF,2774.0
+4102,Korea,2005,Perfluorocarbons,Total  emissions excluding LULUCF,2797.0
+4103,Korea,2006,Perfluorocarbons,Total  emissions excluding LULUCF,2925.0
+4104,Korea,2007,Perfluorocarbons,Total  emissions excluding LULUCF,2978.0
+4105,Korea,2008,Perfluorocarbons,Total  emissions excluding LULUCF,2793.0
+4106,Korea,2009,Perfluorocarbons,Total  emissions excluding LULUCF,2047.0
+4107,Korea,2010,Perfluorocarbons,Total  emissions excluding LULUCF,2265.0
+4108,Korea,2011,Perfluorocarbons,Total  emissions excluding LULUCF,2072.0
+4109,Korea,2012,Perfluorocarbons,Total  emissions excluding LULUCF,2268.0
+4110,Korea,2013,Perfluorocarbons,Total  emissions excluding LULUCF,2321.0
+4111,Korea,2014,Perfluorocarbons,Total  emissions excluding LULUCF,2427.0
+4112,Korea,2015,Perfluorocarbons,Total  emissions excluding LULUCF,1521.0
+4113,Korea,2016,Perfluorocarbons,Total  emissions excluding LULUCF,1489.0
+4114,Korea,2017,Perfluorocarbons,Total  emissions excluding LULUCF,2123.0
+4115,Korea,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,174.0
+4116,Korea,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,333.0
+4117,Korea,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,373.0
+4118,Korea,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,386.0
+4119,Korea,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,924.0
+4120,Korea,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,3599.0
+4121,Korea,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,2264.0
+4122,Korea,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,2443.0
+4123,Korea,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,1376.0
+4124,Korea,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,3605.0
+4125,Korea,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,3220.0
+4126,Korea,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,3440.0
+4127,Korea,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,3255.0
+4128,Korea,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,3754.0
+4129,Korea,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,4311.0
+4130,Korea,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,5428.0
+4131,Korea,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,5281.0
+4132,Korea,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,6779.0
+4133,Korea,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,7613.0
+4134,Korea,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,8850.0
+4135,Korea,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,11857.0
+4136,Korea,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,8756.0
+4137,Korea,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,8455.0
+4138,Korea,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,9382.0
+4139,Korea,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,10179.0
+4140,Korea,2015,Sulphur hexafluoride,Total  emissions excluding LULUCF,8386.0
+4141,Korea,2016,Sulphur hexafluoride,Total  emissions excluding LULUCF,6433.0
+4142,Korea,2017,Sulphur hexafluoride,Total  emissions excluding LULUCF,6636.0
+7258,United Kingdom,1990,Carbon dioxide,Total  emissions excluding LULUCF,601187.187
+7259,United Kingdom,1991,Carbon dioxide,Total  emissions excluding LULUCF,609266.002
+7260,United Kingdom,1992,Carbon dioxide,Total  emissions excluding LULUCF,593745.9739999999
+7261,United Kingdom,1993,Carbon dioxide,Total  emissions excluding LULUCF,579506.686
+7262,United Kingdom,1994,Carbon dioxide,Total  emissions excluding LULUCF,575774.6
+7263,United Kingdom,1995,Carbon dioxide,Total  emissions excluding LULUCF,567507.6479999999
+7264,United Kingdom,1996,Carbon dioxide,Total  emissions excluding LULUCF,589137.825
+7265,United Kingdom,1997,Carbon dioxide,Total  emissions excluding LULUCF,563241.836
+7266,United Kingdom,1998,Carbon dioxide,Total  emissions excluding LULUCF,568512.202
+7267,United Kingdom,1999,Carbon dioxide,Total  emissions excluding LULUCF,561651.094
+7268,United Kingdom,2000,Carbon dioxide,Total  emissions excluding LULUCF,568220.055
+7269,United Kingdom,2001,Carbon dioxide,Total  emissions excluding LULUCF,576926.995
+7270,United Kingdom,2002,Carbon dioxide,Total  emissions excluding LULUCF,561047.845
+7271,United Kingdom,2003,Carbon dioxide,Total  emissions excluding LULUCF,572532.251
+7272,United Kingdom,2004,Carbon dioxide,Total  emissions excluding LULUCF,573994.491
+7273,United Kingdom,2005,Carbon dioxide,Total  emissions excluding LULUCF,570724.265
+7274,United Kingdom,2006,Carbon dioxide,Total  emissions excluding LULUCF,568390.055
+7275,United Kingdom,2007,Carbon dioxide,Total  emissions excluding LULUCF,560205.596
+7276,United Kingdom,2008,Carbon dioxide,Total  emissions excluding LULUCF,545682.468
+7277,United Kingdom,2009,Carbon dioxide,Total  emissions excluding LULUCF,495119.48600000003
+7278,United Kingdom,2010,Carbon dioxide,Total  emissions excluding LULUCF,512864.792
+7279,United Kingdom,2011,Carbon dioxide,Total  emissions excluding LULUCF,470608.131
+7280,United Kingdom,2012,Carbon dioxide,Total  emissions excluding LULUCF,488503.54799999995
+7281,United Kingdom,2013,Carbon dioxide,Total  emissions excluding LULUCF,478608.945
+7282,United Kingdom,2014,Carbon dioxide,Total  emissions excluding LULUCF,439763.277
+7283,United Kingdom,2015,Carbon dioxide,Total  emissions excluding LULUCF,423199.617
+7284,United Kingdom,2016,Carbon dioxide,Total  emissions excluding LULUCF,399824.299
+7285,United Kingdom,2017,Carbon dioxide,Total  emissions excluding LULUCF,388803.41
+7286,United Kingdom,2018,Carbon dioxide,Total  emissions excluding LULUCF,380849.883
+7287,United Kingdom,1990,Methane,Total  emissions excluding LULUCF,133060.432
+7288,United Kingdom,1991,Methane,Total  emissions excluding LULUCF,133811.581
+7289,United Kingdom,1992,Methane,Total  emissions excluding LULUCF,133490.723
+7290,United Kingdom,1993,Methane,Total  emissions excluding LULUCF,131903.73
+7291,United Kingdom,1994,Methane,Total  emissions excluding LULUCF,125007.189
+7292,United Kingdom,1995,Methane,Total  emissions excluding LULUCF,126522.06800000001
+7293,United Kingdom,1996,Methane,Total  emissions excluding LULUCF,125643.929
+7294,United Kingdom,1997,Methane,Total  emissions excluding LULUCF,123338.034
+7295,United Kingdom,1998,Methane,Total  emissions excluding LULUCF,119813.222
+7296,United Kingdom,1999,Methane,Total  emissions excluding LULUCF,114254.70300000001
+7297,United Kingdom,2000,Methane,Total  emissions excluding LULUCF,109036.79400000001
+7298,United Kingdom,2001,Methane,Total  emissions excluding LULUCF,104138.78
+7299,United Kingdom,2002,Methane,Total  emissions excluding LULUCF,101688.391
+7300,United Kingdom,2003,Methane,Total  emissions excluding LULUCF,96504.257
+7301,United Kingdom,2004,Methane,Total  emissions excluding LULUCF,92148.359
+7302,United Kingdom,2005,Methane,Total  emissions excluding LULUCF,87366.26400000001
+7303,United Kingdom,2006,Methane,Total  emissions excluding LULUCF,82927.13799999999
+7304,United Kingdom,2007,Methane,Total  emissions excluding LULUCF,79042.73599999999
+7305,United Kingdom,2008,Methane,Total  emissions excluding LULUCF,73452.395
+7306,United Kingdom,2009,Methane,Total  emissions excluding LULUCF,68914.823
+7307,United Kingdom,2010,Methane,Total  emissions excluding LULUCF,64242.422999999995
+7308,United Kingdom,2011,Methane,Total  emissions excluding LULUCF,61559.167
+7309,United Kingdom,2012,Methane,Total  emissions excluding LULUCF,60043.721
+7310,United Kingdom,2013,Methane,Total  emissions excluding LULUCF,56051.11
+7311,United Kingdom,2014,Methane,Total  emissions excluding LULUCF,53930.731
+7312,United Kingdom,2015,Methane,Total  emissions excluding LULUCF,53123.899000000005
+7313,United Kingdom,2016,Methane,Total  emissions excluding LULUCF,51541.238
+7314,United Kingdom,2017,Methane,Total  emissions excluding LULUCF,51965.791
+7315,United Kingdom,2018,Methane,Total  emissions excluding LULUCF,51936.279
+7316,United Kingdom,1990,Nitrous oxide,Total  emissions excluding LULUCF,46210.682
+7317,United Kingdom,1991,Nitrous oxide,Total  emissions excluding LULUCF,46429.758
+7318,United Kingdom,1992,Nitrous oxide,Total  emissions excluding LULUCF,41516.638
+7319,United Kingdom,1993,Nitrous oxide,Total  emissions excluding LULUCF,37282.099
+7320,United Kingdom,1994,Nitrous oxide,Total  emissions excluding LULUCF,37919.918
+7321,United Kingdom,1995,Nitrous oxide,Total  emissions excluding LULUCF,36660.327000000005
+7322,United Kingdom,1996,Nitrous oxide,Total  emissions excluding LULUCF,36650.564
+7323,United Kingdom,1997,Nitrous oxide,Total  emissions excluding LULUCF,36903.907999999996
+7324,United Kingdom,1998,Nitrous oxide,Total  emissions excluding LULUCF,36864.301
+7325,United Kingdom,1999,Nitrous oxide,Total  emissions excluding LULUCF,27341.832000000002
+7326,United Kingdom,2000,Nitrous oxide,Total  emissions excluding LULUCF,26685.863999999998
+7327,United Kingdom,2001,Nitrous oxide,Total  emissions excluding LULUCF,25163.449
+7328,United Kingdom,2002,Nitrous oxide,Total  emissions excluding LULUCF,23534.369
+7329,United Kingdom,2003,Nitrous oxide,Total  emissions excluding LULUCF,23110.382
+7330,United Kingdom,2004,Nitrous oxide,Total  emissions excluding LULUCF,23652.459
+7331,United Kingdom,2005,Nitrous oxide,Total  emissions excluding LULUCF,22746.432999999997
+7332,United Kingdom,2006,Nitrous oxide,Total  emissions excluding LULUCF,21607.747000000003
+7333,United Kingdom,2007,Nitrous oxide,Total  emissions excluding LULUCF,21659.082000000002
+7334,United Kingdom,2008,Nitrous oxide,Total  emissions excluding LULUCF,21018.245
+7335,United Kingdom,2009,Nitrous oxide,Total  emissions excluding LULUCF,19565.441000000003
+7336,United Kingdom,2010,Nitrous oxide,Total  emissions excluding LULUCF,19905.224
+7337,United Kingdom,2011,Nitrous oxide,Total  emissions excluding LULUCF,19118.334
+7338,United Kingdom,2012,Nitrous oxide,Total  emissions excluding LULUCF,18983.264
+7339,United Kingdom,2013,Nitrous oxide,Total  emissions excluding LULUCF,18914.22
+7340,United Kingdom,2014,Nitrous oxide,Total  emissions excluding LULUCF,19506.502
+7341,United Kingdom,2015,Nitrous oxide,Total  emissions excluding LULUCF,19012.318
+7342,United Kingdom,2016,Nitrous oxide,Total  emissions excluding LULUCF,18940.063000000002
+7343,United Kingdom,2017,Nitrous oxide,Total  emissions excluding LULUCF,19306.373
+7344,United Kingdom,2018,Nitrous oxide,Total  emissions excluding LULUCF,19209.707
+7345,United Kingdom,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,14391.427
+7346,United Kingdom,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,14991.052
+7347,United Kingdom,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,15597.641000000001
+7348,United Kingdom,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,16505.721
+7349,United Kingdom,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,17593.528000000002
+7350,United Kingdom,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,19096.275
+7351,United Kingdom,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,20249.66
+7352,United Kingdom,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,23105.123
+7353,United Kingdom,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,20075.213
+7354,United Kingdom,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,11466.66
+7355,United Kingdom,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,9885.025
+7356,United Kingdom,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,10894.56
+7357,United Kingdom,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,11392.608
+7358,United Kingdom,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,12830.479
+7359,United Kingdom,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,11910.088
+7360,United Kingdom,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,13132.23
+7361,United Kingdom,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,14046.39
+7362,United Kingdom,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,14495.858
+7363,United Kingdom,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,14994.684
+7364,United Kingdom,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,15626.321000000002
+7365,United Kingdom,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,16486.947
+7366,United Kingdom,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,14931.471000000001
+7367,United Kingdom,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,15474.162
+7368,United Kingdom,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,15803.273000000001
+7369,United Kingdom,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,16001.764
+7370,United Kingdom,2015,Hydrofluorocarbons,Total  emissions excluding LULUCF,15987.23
+7371,United Kingdom,2016,Hydrofluorocarbons,Total  emissions excluding LULUCF,15216.45
+7372,United Kingdom,2017,Hydrofluorocarbons,Total  emissions excluding LULUCF,14180.881000000001
+7373,United Kingdom,2018,Hydrofluorocarbons,Total  emissions excluding LULUCF,13132.698
+7374,United Kingdom,1990,Perfluorocarbons,Total  emissions excluding LULUCF,1651.3529999999998
+7375,United Kingdom,1991,Perfluorocarbons,Total  emissions excluding LULUCF,1384.971
+7376,United Kingdom,1992,Perfluorocarbons,Total  emissions excluding LULUCF,690.179
+7377,United Kingdom,1993,Perfluorocarbons,Total  emissions excluding LULUCF,602.557
+7378,United Kingdom,1994,Perfluorocarbons,Total  emissions excluding LULUCF,611.222
+7379,United Kingdom,1995,Perfluorocarbons,Total  emissions excluding LULUCF,596.762
+7380,United Kingdom,1996,Perfluorocarbons,Total  emissions excluding LULUCF,596.183
+7381,United Kingdom,1997,Perfluorocarbons,Total  emissions excluding LULUCF,502.93800000000005
+7382,United Kingdom,1998,Perfluorocarbons,Total  emissions excluding LULUCF,493.73199999999997
+7383,United Kingdom,1999,Perfluorocarbons,Total  emissions excluding LULUCF,473.959
+7384,United Kingdom,2000,Perfluorocarbons,Total  emissions excluding LULUCF,596.789
+7385,United Kingdom,2001,Perfluorocarbons,Total  emissions excluding LULUCF,485.586
+7386,United Kingdom,2002,Perfluorocarbons,Total  emissions excluding LULUCF,408.228
+7387,United Kingdom,2003,Perfluorocarbons,Total  emissions excluding LULUCF,356.61
+7388,United Kingdom,2004,Perfluorocarbons,Total  emissions excluding LULUCF,433.853
+7389,United Kingdom,2005,Perfluorocarbons,Total  emissions excluding LULUCF,385.149
+7390,United Kingdom,2006,Perfluorocarbons,Total  emissions excluding LULUCF,387.66900000000004
+7391,United Kingdom,2007,Perfluorocarbons,Total  emissions excluding LULUCF,287.83799999999997
+7392,United Kingdom,2008,Perfluorocarbons,Total  emissions excluding LULUCF,266.245
+7393,United Kingdom,2009,Perfluorocarbons,Total  emissions excluding LULUCF,197.333
+7394,United Kingdom,2010,Perfluorocarbons,Total  emissions excluding LULUCF,287.70799999999997
+7395,United Kingdom,2011,Perfluorocarbons,Total  emissions excluding LULUCF,416.89300000000003
+7396,United Kingdom,2012,Perfluorocarbons,Total  emissions excluding LULUCF,254.981
+7397,United Kingdom,2013,Perfluorocarbons,Total  emissions excluding LULUCF,318.714
+7398,United Kingdom,2014,Perfluorocarbons,Total  emissions excluding LULUCF,278.315
+7399,United Kingdom,2015,Perfluorocarbons,Total  emissions excluding LULUCF,327.22900000000004
+7400,United Kingdom,2016,Perfluorocarbons,Total  emissions excluding LULUCF,353.941
+7401,United Kingdom,2017,Perfluorocarbons,Total  emissions excluding LULUCF,493.19599999999997
+7402,United Kingdom,2018,Perfluorocarbons,Total  emissions excluding LULUCF,256.839
+7403,United Kingdom,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,1310.549
+7404,United Kingdom,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,1352.251
+7405,United Kingdom,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,1394.2020000000002
+7406,United Kingdom,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,1221.0739999999998
+7407,United Kingdom,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,1263.867
+7408,United Kingdom,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,1307.09
+7409,United Kingdom,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,1350.6589999999999
+7410,United Kingdom,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,1323.379
+7411,United Kingdom,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,1369.72
+7412,United Kingdom,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,1536.25
+7413,United Kingdom,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,1853.49
+7414,United Kingdom,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,1486.789
+7415,United Kingdom,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,1523.885
+7416,United Kingdom,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,1347.297
+7417,United Kingdom,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,1140.431
+7418,United Kingdom,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,1076.031
+7419,United Kingdom,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,899.8839999999999
+7420,United Kingdom,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,854.941
+7421,United Kingdom,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,698.166
+7422,United Kingdom,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,608.026
+7423,United Kingdom,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,705.8530000000001
+7424,United Kingdom,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,625.192
+7425,United Kingdom,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,605.697
+7426,United Kingdom,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,522.0509999999999
+7427,United Kingdom,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,500.292
+7428,United Kingdom,2015,Sulphur hexafluoride,Total  emissions excluding LULUCF,470.69
+7429,United Kingdom,2016,Sulphur hexafluoride,Total  emissions excluding LULUCF,495.22900000000004
+7430,United Kingdom,2017,Sulphur hexafluoride,Total  emissions excluding LULUCF,509.584
+7431,United Kingdom,2018,Sulphur hexafluoride,Total  emissions excluding LULUCF,545.887
+7519,United States,1990,Carbon dioxide,Total  emissions excluding LULUCF,5128300.617
+7520,United States,1991,Carbon dioxide,Total  emissions excluding LULUCF,5078889.576
+7521,United States,1992,Carbon dioxide,Total  emissions excluding LULUCF,5182706.72
+7522,United States,1993,Carbon dioxide,Total  emissions excluding LULUCF,5283437.595
+7523,United States,1994,Carbon dioxide,Total  emissions excluding LULUCF,5377032.708
+7524,United States,1995,Carbon dioxide,Total  emissions excluding LULUCF,5438905.704
+7525,United States,1996,Carbon dioxide,Total  emissions excluding LULUCF,5626911.901000001
+7526,United States,1997,Carbon dioxide,Total  emissions excluding LULUCF,5703706.967999999
+7527,United States,1998,Carbon dioxide,Total  emissions excluding LULUCF,5751051.98
+7528,United States,1999,Carbon dioxide,Total  emissions excluding LULUCF,5830297.636
+7529,United States,2000,Carbon dioxide,Total  emissions excluding LULUCF,5998070.433999999
+7530,United States,2001,Carbon dioxide,Total  emissions excluding LULUCF,5900436.596
+7531,United States,2002,Carbon dioxide,Total  emissions excluding LULUCF,5942652.335
+7532,United States,2003,Carbon dioxide,Total  emissions excluding LULUCF,5991959.632999999
+7533,United States,2004,Carbon dioxide,Total  emissions excluding LULUCF,6107618.246
+7534,United States,2005,Carbon dioxide,Total  emissions excluding LULUCF,6131892.976
+7535,United States,2006,Carbon dioxide,Total  emissions excluding LULUCF,6051051.022000001
+7536,United States,2007,Carbon dioxide,Total  emissions excluding LULUCF,6128429.64
+7537,United States,2008,Carbon dioxide,Total  emissions excluding LULUCF,5930539.642999999
+7538,United States,2009,Carbon dioxide,Total  emissions excluding LULUCF,5491035.727000001
+7539,United States,2010,Carbon dioxide,Total  emissions excluding LULUCF,5698055.779
+7540,United States,2011,Carbon dioxide,Total  emissions excluding LULUCF,5565294.401000001
+7541,United States,2012,Carbon dioxide,Total  emissions excluding LULUCF,5367568.555
+7542,United States,2013,Carbon dioxide,Total  emissions excluding LULUCF,5514029.294
+7543,United States,2014,Carbon dioxide,Total  emissions excluding LULUCF,5561719.216
+7544,United States,2015,Carbon dioxide,Total  emissions excluding LULUCF,5412432.194
+7545,United States,2016,Carbon dioxide,Total  emissions excluding LULUCF,5292267.561000001
+7546,United States,2017,Carbon dioxide,Total  emissions excluding LULUCF,5253606.13
+7547,United States,2018,Carbon dioxide,Total  emissions excluding LULUCF,5424881.502
+7548,United States,1990,Methane,Total  emissions excluding LULUCF,774409.5340000001
+7549,United States,1991,Methane,Total  emissions excluding LULUCF,778860.543
+7550,United States,1992,Methane,Total  emissions excluding LULUCF,777754.0090000001
+7551,United States,1993,Methane,Total  emissions excluding LULUCF,765962.683
+7552,United States,1994,Methane,Total  emissions excluding LULUCF,772160.762
+7553,United States,1995,Methane,Total  emissions excluding LULUCF,764998.071
+7554,United States,1996,Methane,Total  emissions excluding LULUCF,757630.5059999999
+7555,United States,1997,Methane,Total  emissions excluding LULUCF,741833.574
+7556,United States,1998,Methane,Total  emissions excluding LULUCF,726699.755
+7557,United States,1999,Methane,Total  emissions excluding LULUCF,708860.7259999999
+7558,United States,2000,Methane,Total  emissions excluding LULUCF,703010.923
+7559,United States,2001,Methane,Total  emissions excluding LULUCF,695650.436
+7560,United States,2002,Methane,Total  emissions excluding LULUCF,688418.255
+7561,United States,2003,Methane,Total  emissions excluding LULUCF,688031.34
+7562,United States,2004,Methane,Total  emissions excluding LULUCF,681718.703
+7563,United States,2005,Methane,Total  emissions excluding LULUCF,679562.09
+7564,United States,2006,Methane,Total  emissions excluding LULUCF,683953.8359999999
+7565,United States,2007,Methane,Total  emissions excluding LULUCF,685669.5340000001
+7566,United States,2008,Methane,Total  emissions excluding LULUCF,691692.053
+7567,United States,2009,Methane,Total  emissions excluding LULUCF,680197.813
+7568,United States,2010,Methane,Total  emissions excluding LULUCF,682336.329
+7569,United States,2011,Methane,Total  emissions excluding LULUCF,656270.447
+7570,United States,2012,Methane,Total  emissions excluding LULUCF,646830.144
+7571,United States,2013,Methane,Total  emissions excluding LULUCF,642457.536
+7572,United States,2014,Methane,Total  emissions excluding LULUCF,639011.11
+7573,United States,2015,Methane,Total  emissions excluding LULUCF,638482.827
+7574,United States,2016,Methane,Total  emissions excluding LULUCF,624244.787
+7575,United States,2017,Methane,Total  emissions excluding LULUCF,630304.468
+7576,United States,2018,Methane,Total  emissions excluding LULUCF,634457.127
+7577,United States,1990,Nitrous oxide,Total  emissions excluding LULUCF,434624.26700000005
+7578,United States,1991,Nitrous oxide,Total  emissions excluding LULUCF,424828.286
+7579,United States,1992,Nitrous oxide,Total  emissions excluding LULUCF,424348.13700000005
+7580,United States,1993,Nitrous oxide,Total  emissions excluding LULUCF,452370.54299999995
+7581,United States,1994,Nitrous oxide,Total  emissions excluding LULUCF,437560.064
+7582,United States,1995,Nitrous oxide,Total  emissions excluding LULUCF,449257.545
+7583,United States,1996,Nitrous oxide,Total  emissions excluding LULUCF,460856.922
+7584,United States,1997,Nitrous oxide,Total  emissions excluding LULUCF,446662.739
+7585,United States,1998,Nitrous oxide,Total  emissions excluding LULUCF,446989.49600000004
+7586,United States,1999,Nitrous oxide,Total  emissions excluding LULUCF,436401.29
+7587,United States,2000,Nitrous oxide,Total  emissions excluding LULUCF,423309.701
+7588,United States,2001,Nitrous oxide,Total  emissions excluding LULUCF,438522.33700000006
+7589,United States,2002,Nitrous oxide,Total  emissions excluding LULUCF,436646.472
+7590,United States,2003,Nitrous oxide,Total  emissions excluding LULUCF,437143.955
+7591,United States,2004,Nitrous oxide,Total  emissions excluding LULUCF,446697.20399999997
+7592,United States,2005,Nitrous oxide,Total  emissions excluding LULUCF,432632.745
+7593,United States,2006,Nitrous oxide,Total  emissions excluding LULUCF,428713.76700000005
+7594,United States,2007,Nitrous oxide,Total  emissions excluding LULUCF,439932.894
+7595,United States,2008,Nitrous oxide,Total  emissions excluding LULUCF,423646.18100000004
+7596,United States,2009,Nitrous oxide,Total  emissions excluding LULUCF,422461.46200000006
+7597,United States,2010,Nitrous oxide,Total  emissions excluding LULUCF,431423.771
+7598,United States,2011,Nitrous oxide,Total  emissions excluding LULUCF,421855.66799999995
+7599,United States,2012,Nitrous oxide,Total  emissions excluding LULUCF,392262.99299999996
+7600,United States,2013,Nitrous oxide,Total  emissions excluding LULUCF,439175.24100000004
+7601,United States,2014,Nitrous oxide,Total  emissions excluding LULUCF,449265.174
+7602,United States,2015,Nitrous oxide,Total  emissions excluding LULUCF,443821.302
+7603,United States,2016,Nitrous oxide,Total  emissions excluding LULUCF,426067.401
+7604,United States,2017,Nitrous oxide,Total  emissions excluding LULUCF,421258.935
+7605,United States,2018,Nitrous oxide,Total  emissions excluding LULUCF,434528.555
+7606,United States,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,46289.01
+7607,United States,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,41618.767
+7608,United States,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,47436.53400000001
+7609,United States,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,47588.822
+7610,United States,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,54342.235
+7611,United States,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,72513.848
+7612,United States,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,81465.131
+7613,United States,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,91578.04
+7614,United States,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,111313.26400000001
+7615,United States,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,108452.119
+7616,United States,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,113573.214
+7617,United States,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,109248.93800000001
+7618,United States,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,116272.99699999999
+7619,United States,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,109063.28300000001
+7620,United States,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,118922.229
+7621,United States,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,121402.035
+7622,United States,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,125330.414
+7623,United States,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,136553.59900000002
+7624,United States,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,140379.668
+7625,United States,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,139124.982
+7626,United States,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,147374.332
+7627,United States,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,150500.071
+7628,United States,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,148996.593
+7629,United States,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,149034.041
+7630,United States,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,153850.348
+7631,United States,2015,Hydrofluorocarbons,Total  emissions excluding LULUCF,156539.439
+7632,United States,2016,Hydrofluorocarbons,Total  emissions excluding LULUCF,155559.606
+7633,United States,2017,Hydrofluorocarbons,Total  emissions excluding LULUCF,156637.031
+7634,United States,2018,Hydrofluorocarbons,Total  emissions excluding LULUCF,155375.64
+7635,United States,1990,Perfluorocarbons,Total  emissions excluding LULUCF,24255.672000000002
+7636,United States,1991,Perfluorocarbons,Total  emissions excluding LULUCF,20912.458
+7637,United States,1992,Perfluorocarbons,Total  emissions excluding LULUCF,19481.087
+7638,United States,1993,Perfluorocarbons,Total  emissions excluding LULUCF,19484.618000000002
+7639,United States,1994,Perfluorocarbons,Total  emissions excluding LULUCF,17965.004
+7640,United States,1995,Perfluorocarbons,Total  emissions excluding LULUCF,18640.473
+7641,United States,1996,Perfluorocarbons,Total  emissions excluding LULUCF,19867.541
+7642,United States,1997,Perfluorocarbons,Total  emissions excluding LULUCF,18267.245
+7643,United States,1998,Perfluorocarbons,Total  emissions excluding LULUCF,16978.6
+7644,United States,1999,Perfluorocarbons,Total  emissions excluding LULUCF,16910.13
+7645,United States,2000,Perfluorocarbons,Total  emissions excluding LULUCF,15920.478000000001
+7646,United States,2001,Perfluorocarbons,Total  emissions excluding LULUCF,8248.696
+7647,United States,2002,Perfluorocarbons,Total  emissions excluding LULUCF,10247.607
+7648,United States,2003,Perfluorocarbons,Total  emissions excluding LULUCF,8176.28
+7649,United States,2004,Perfluorocarbons,Total  emissions excluding LULUCF,6826.93
+7650,United States,2005,Perfluorocarbons,Total  emissions excluding LULUCF,6688.62
+7651,United States,2006,Perfluorocarbons,Total  emissions excluding LULUCF,6356.840999999999
+7652,United States,2007,Perfluorocarbons,Total  emissions excluding LULUCF,7792.076999999999
+7653,United States,2008,Perfluorocarbons,Total  emissions excluding LULUCF,6146.397
+7654,United States,2009,Perfluorocarbons,Total  emissions excluding LULUCF,3944.719
+7655,United States,2010,Perfluorocarbons,Total  emissions excluding LULUCF,4560.873
+7656,United States,2011,Perfluorocarbons,Total  emissions excluding LULUCF,7171.615
+7657,United States,2012,Perfluorocarbons,Total  emissions excluding LULUCF,6250.026
+7658,United States,2013,Perfluorocarbons,Total  emissions excluding LULUCF,5976.095
+7659,United States,2014,Perfluorocarbons,Total  emissions excluding LULUCF,5637.039000000001
+7660,United States,2015,Perfluorocarbons,Total  emissions excluding LULUCF,5072.604
+7661,United States,2016,Perfluorocarbons,Total  emissions excluding LULUCF,4318.817
+7662,United States,2017,Perfluorocarbons,Total  emissions excluding LULUCF,4032.7259999999997
+7663,United States,2018,Perfluorocarbons,Total  emissions excluding LULUCF,4631.318
+7664,United States,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,28845.726000000002
+7665,United States,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,27623.545
+7666,United States,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,27828.74
+7667,United States,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,27376.915
+7668,United States,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,26070.978
+7669,United States,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,24865.944
+7670,United States,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,24294.702
+7671,United States,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,22670.98
+7672,United States,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,19932.913
+7673,United States,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,19669.474
+7674,United States,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,16574.304
+7675,United States,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,15403.472
+7676,United States,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,14188.117
+7677,United States,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,13859.775
+7678,United States,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,12492.631000000001
+7679,United States,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,11798.979
+7680,United States,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,10506.844
+7681,United States,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,9240.417
+7682,United States,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,8396.954
+7683,United States,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,7286.515
+7684,United States,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,7279.477
+7685,United States,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,8207.692
+7686,United States,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,6921.745
+7687,United States,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,6512.434
+7688,United States,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,6495.251
+7689,United States,2015,Sulphur hexafluoride,Total  emissions excluding LULUCF,5483.48
+7690,United States,2016,Sulphur hexafluoride,Total  emissions excluding LULUCF,6052.509
+7691,United States,2017,Sulphur hexafluoride,Total  emissions excluding LULUCF,5913.451999999999
+7692,United States,2018,Sulphur hexafluoride,Total  emissions excluding LULUCF,5936.185
+21885,Brazil,1990,Carbon dioxide,Total  emissions excluding LULUCF,221500.0
+21886,Brazil,1991,Carbon dioxide,Total  emissions excluding LULUCF,234031.0
+21887,Brazil,1992,Carbon dioxide,Total  emissions excluding LULUCF,236969.0
+21888,Brazil,1993,Carbon dioxide,Total  emissions excluding LULUCF,245582.0
+21889,Brazil,1994,Carbon dioxide,Total  emissions excluding LULUCF,255015.0
+21890,Brazil,1995,Carbon dioxide,Total  emissions excluding LULUCF,270200.0
+21891,Brazil,1996,Carbon dioxide,Total  emissions excluding LULUCF,295114.0
+21892,Brazil,1997,Carbon dioxide,Total  emissions excluding LULUCF,314969.0
+21893,Brazil,1998,Carbon dioxide,Total  emissions excluding LULUCF,323261.0
+21894,Brazil,1999,Carbon dioxide,Total  emissions excluding LULUCF,338205.0
+21895,Brazil,2000,Carbon dioxide,Total  emissions excluding LULUCF,350800.0
+21896,Brazil,2001,Carbon dioxide,Total  emissions excluding LULUCF,360080.0
+21897,Brazil,2002,Carbon dioxide,Total  emissions excluding LULUCF,360735.0
+21898,Brazil,2003,Carbon dioxide,Total  emissions excluding LULUCF,357640.0
+21899,Brazil,2004,Carbon dioxide,Total  emissions excluding LULUCF,375579.0
+21900,Brazil,2005,Carbon dioxide,Total  emissions excluding LULUCF,378700.0
+21901,Brazil,2010,Carbon dioxide,Total  emissions excluding LULUCF,450095.511
+21902,Brazil,2011,Carbon dioxide,Total  emissions excluding LULUCF,472000.0
+21903,Brazil,2012,Carbon dioxide,Total  emissions excluding LULUCF,508985.0
+21904,Brazil,1990,Methane,Total  emissions excluding LULUCF,235600.0
+21905,Brazil,1991,Methane,Total  emissions excluding LULUCF,241605.0
+21906,Brazil,1992,Methane,Total  emissions excluding LULUCF,245385.0
+21907,Brazil,1993,Methane,Total  emissions excluding LULUCF,247023.0
+21908,Brazil,1994,Methane,Total  emissions excluding LULUCF,251895.0
+21909,Brazil,1995,Methane,Total  emissions excluding LULUCF,257400.0
+21910,Brazil,1996,Methane,Total  emissions excluding LULUCF,251181.0
+21911,Brazil,1997,Methane,Total  emissions excluding LULUCF,254751.0
+21912,Brazil,1998,Methane,Total  emissions excluding LULUCF,257481.0
+21913,Brazil,1999,Methane,Total  emissions excluding LULUCF,261660.0
+21914,Brazil,2000,Methane,Total  emissions excluding LULUCF,269300.0
+21915,Brazil,2001,Methane,Total  emissions excluding LULUCF,278397.0
+21916,Brazil,2002,Methane,Total  emissions excluding LULUCF,286251.0
+21917,Brazil,2003,Methane,Total  emissions excluding LULUCF,298725.0
+21918,Brazil,2004,Methane,Total  emissions excluding LULUCF,311178.0
+21919,Brazil,2005,Methane,Total  emissions excluding LULUCF,317300.0
+21920,Brazil,2010,Methane,Total  emissions excluding LULUCF,327621.185
+21921,Brazil,2011,Methane,Total  emissions excluding LULUCF,334800.0
+21922,Brazil,2012,Methane,Total  emissions excluding LULUCF,333800.0
+21923,Brazil,1990,Nitrous oxide,Total  emissions excluding LULUCF,112100.0
+21924,Brazil,1991,Nitrous oxide,Total  emissions excluding LULUCF,116095.0
+21925,Brazil,1992,Nitrous oxide,Total  emissions excluding LULUCF,118761.0
+21926,Brazil,1993,Nitrous oxide,Total  emissions excluding LULUCF,121272.0
+21927,Brazil,1994,Nitrous oxide,Total  emissions excluding LULUCF,125612.0
+21928,Brazil,1995,Nitrous oxide,Total  emissions excluding LULUCF,127900.0
+21929,Brazil,1996,Nitrous oxide,Total  emissions excluding LULUCF,119846.0
+21930,Brazil,1997,Nitrous oxide,Total  emissions excluding LULUCF,122822.0
+21931,Brazil,1998,Nitrous oxide,Total  emissions excluding LULUCF,127782.0
+21932,Brazil,1999,Nitrous oxide,Total  emissions excluding LULUCF,128898.0
+21933,Brazil,2000,Nitrous oxide,Total  emissions excluding LULUCF,134600.0
+21934,Brazil,2001,Nitrous oxide,Total  emissions excluding LULUCF,137733.0
+21935,Brazil,2002,Nitrous oxide,Total  emissions excluding LULUCF,144925.0
+21936,Brazil,2003,Nitrous oxide,Total  emissions excluding LULUCF,154938.0
+21937,Brazil,2004,Nitrous oxide,Total  emissions excluding LULUCF,160456.0
+21938,Brazil,2005,Nitrous oxide,Total  emissions excluding LULUCF,162700.0
+21939,Brazil,2010,Nitrous oxide,Total  emissions excluding LULUCF,170934.0
+21940,Brazil,2011,Nitrous oxide,Total  emissions excluding LULUCF,177900.0
+21941,Brazil,2012,Nitrous oxide,Total  emissions excluding LULUCF,177300.0
+21942,Brazil,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,1404.5
+21943,Brazil,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,1615.9
+21944,Brazil,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,1924.0
+21945,Brazil,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,2022.8
+21946,Brazil,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,1925.3
+21947,Brazil,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,2145.0
+21948,Brazil,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,2120.3
+21949,Brazil,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,1437.8
+21950,Brazil,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,1189.5
+21951,Brazil,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,2683.2
+21952,Brazil,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,612.3
+21953,Brazil,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,1634.1
+21954,Brazil,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,1617.2
+21955,Brazil,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,2008.5
+21956,Brazil,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,1483.3
+21957,Brazil,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,2966.6
+21958,Brazil,1990,Perfluorocarbons,Total  emissions excluding LULUCF,2202.2
+21959,Brazil,1991,Perfluorocarbons,Total  emissions excluding LULUCF,2457.3
+21960,Brazil,1992,Perfluorocarbons,Total  emissions excluding LULUCF,2599.2
+21961,Brazil,1993,Perfluorocarbons,Total  emissions excluding LULUCF,2444.3
+21962,Brazil,1994,Perfluorocarbons,Total  emissions excluding LULUCF,2357.1
+21963,Brazil,1995,Perfluorocarbons,Total  emissions excluding LULUCF,2228.2
+21964,Brazil,1996,Perfluorocarbons,Total  emissions excluding LULUCF,2176.2
+21965,Brazil,1997,Perfluorocarbons,Total  emissions excluding LULUCF,1466.7
+21966,Brazil,1998,Perfluorocarbons,Total  emissions excluding LULUCF,1638.4
+21967,Brazil,1999,Perfluorocarbons,Total  emissions excluding LULUCF,1444.5
+21968,Brazil,2000,Perfluorocarbons,Total  emissions excluding LULUCF,1065.9
+21969,Brazil,2001,Perfluorocarbons,Total  emissions excluding LULUCF,830.3
+21970,Brazil,2002,Perfluorocarbons,Total  emissions excluding LULUCF,987.9
+21971,Brazil,2003,Perfluorocarbons,Total  emissions excluding LULUCF,985.2
+21972,Brazil,2004,Perfluorocarbons,Total  emissions excluding LULUCF,898.0
+21973,Brazil,2005,Perfluorocarbons,Total  emissions excluding LULUCF,898.0
+32965,Argentina,1990,Carbon dioxide,Total  emissions excluding LULUCF,100932.724
+32966,Argentina,1991,Carbon dioxide,Total  emissions excluding LULUCF,109765.39300000001
+32967,Argentina,1992,Carbon dioxide,Total  emissions excluding LULUCF,112308.399
+32968,Argentina,1993,Carbon dioxide,Total  emissions excluding LULUCF,114520.671
+32969,Argentina,1994,Carbon dioxide,Total  emissions excluding LULUCF,120321.61
+32970,Argentina,1995,Carbon dioxide,Total  emissions excluding LULUCF,122471.459
+32971,Argentina,1996,Carbon dioxide,Total  emissions excluding LULUCF,132871.604
+32972,Argentina,1997,Carbon dioxide,Total  emissions excluding LULUCF,137246.816
+32973,Argentina,1998,Carbon dioxide,Total  emissions excluding LULUCF,141872.342
+32974,Argentina,1999,Carbon dioxide,Total  emissions excluding LULUCF,143136.26
+32975,Argentina,2000,Carbon dioxide,Total  emissions excluding LULUCF,147559.00699999998
+32976,Argentina,2001,Carbon dioxide,Total  emissions excluding LULUCF,137059.771
+32977,Argentina,2002,Carbon dioxide,Total  emissions excluding LULUCF,130585.31599999999
+32978,Argentina,2003,Carbon dioxide,Total  emissions excluding LULUCF,138890.166
+32979,Argentina,2004,Carbon dioxide,Total  emissions excluding LULUCF,152128.31699999998
+32980,Argentina,2005,Carbon dioxide,Total  emissions excluding LULUCF,159546.615
+32981,Argentina,2006,Carbon dioxide,Total  emissions excluding LULUCF,169871.805
+32982,Argentina,2007,Carbon dioxide,Total  emissions excluding LULUCF,183197.355
+32983,Argentina,2008,Carbon dioxide,Total  emissions excluding LULUCF,186094.613
+32984,Argentina,2009,Carbon dioxide,Total  emissions excluding LULUCF,179865.907
+32985,Argentina,2010,Carbon dioxide,Total  emissions excluding LULUCF,188856.437
+32986,Argentina,2011,Carbon dioxide,Total  emissions excluding LULUCF,198455.95899999997
+32987,Argentina,2012,Carbon dioxide,Total  emissions excluding LULUCF,196684.47199999998
+32988,Argentina,2013,Carbon dioxide,Total  emissions excluding LULUCF,201531.775
+32989,Argentina,2014,Carbon dioxide,Total  emissions excluding LULUCF,200983.616
+33040,Argentina,1990,Methane,Total  emissions excluding LULUCF,79891.495
+33041,Argentina,1991,Methane,Total  emissions excluding LULUCF,81249.739
+33042,Argentina,1992,Methane,Total  emissions excluding LULUCF,82508.6
+33043,Argentina,1993,Methane,Total  emissions excluding LULUCF,84032.371
+33044,Argentina,1994,Methane,Total  emissions excluding LULUCF,82759.523
+33045,Argentina,1995,Methane,Total  emissions excluding LULUCF,82218.785
+33046,Argentina,1996,Methane,Total  emissions excluding LULUCF,81887.924
+33047,Argentina,1997,Methane,Total  emissions excluding LULUCF,80084.465
+33048,Argentina,1998,Methane,Total  emissions excluding LULUCF,80515.30099999999
+33049,Argentina,1999,Methane,Total  emissions excluding LULUCF,80182.229
+33050,Argentina,2000,Methane,Total  emissions excluding LULUCF,88052.629
+33051,Argentina,2001,Methane,Total  emissions excluding LULUCF,92037.19099999999
+33052,Argentina,2002,Methane,Total  emissions excluding LULUCF,92853.82400000001
+33053,Argentina,2003,Methane,Total  emissions excluding LULUCF,98807.439
+33054,Argentina,2004,Methane,Total  emissions excluding LULUCF,97668.72300000001
+33055,Argentina,2005,Methane,Total  emissions excluding LULUCF,99138.201
+33056,Argentina,2006,Methane,Total  emissions excluding LULUCF,100717.212
+33057,Argentina,2007,Methane,Total  emissions excluding LULUCF,100799.19300000001
+33058,Argentina,2008,Methane,Total  emissions excluding LULUCF,98482.339
+33059,Argentina,2009,Methane,Total  emissions excluding LULUCF,94864.364
+33060,Argentina,2010,Methane,Total  emissions excluding LULUCF,72585.76
+33061,Argentina,2011,Methane,Total  emissions excluding LULUCF,73697.072
+33062,Argentina,2012,Methane,Total  emissions excluding LULUCF,75639.646
+33063,Argentina,2013,Methane,Total  emissions excluding LULUCF,76829.625
+33064,Argentina,2014,Methane,Total  emissions excluding LULUCF,78036.572
+33115,Argentina,1990,Nitrous oxide,Total  emissions excluding LULUCF,37852.886
+33116,Argentina,1991,Nitrous oxide,Total  emissions excluding LULUCF,38360.335
+33117,Argentina,1992,Nitrous oxide,Total  emissions excluding LULUCF,38345.344
+33118,Argentina,1993,Nitrous oxide,Total  emissions excluding LULUCF,39939.083
+33119,Argentina,1994,Nitrous oxide,Total  emissions excluding LULUCF,40005.169
+33120,Argentina,1995,Nitrous oxide,Total  emissions excluding LULUCF,39308.09
+33121,Argentina,1996,Nitrous oxide,Total  emissions excluding LULUCF,41202.88
+33122,Argentina,1997,Nitrous oxide,Total  emissions excluding LULUCF,40505.106
+33123,Argentina,1998,Nitrous oxide,Total  emissions excluding LULUCF,39987.878
+33124,Argentina,1999,Nitrous oxide,Total  emissions excluding LULUCF,40931.019
+33125,Argentina,2000,Nitrous oxide,Total  emissions excluding LULUCF,44370.456
+33126,Argentina,2001,Nitrous oxide,Total  emissions excluding LULUCF,47598.742
+33127,Argentina,2002,Nitrous oxide,Total  emissions excluding LULUCF,45644.977
+33128,Argentina,2003,Nitrous oxide,Total  emissions excluding LULUCF,48562.325999999994
+33129,Argentina,2004,Nitrous oxide,Total  emissions excluding LULUCF,48255.28599999999
+33130,Argentina,2005,Nitrous oxide,Total  emissions excluding LULUCF,48528.349
+33131,Argentina,2006,Nitrous oxide,Total  emissions excluding LULUCF,50662.483
+33132,Argentina,2007,Nitrous oxide,Total  emissions excluding LULUCF,51353.292
+33133,Argentina,2008,Nitrous oxide,Total  emissions excluding LULUCF,46971.84
+33134,Argentina,2009,Nitrous oxide,Total  emissions excluding LULUCF,47630.819
+33135,Argentina,2010,Nitrous oxide,Total  emissions excluding LULUCF,38948.189
+33136,Argentina,2011,Nitrous oxide,Total  emissions excluding LULUCF,37845.763
+33137,Argentina,2012,Nitrous oxide,Total  emissions excluding LULUCF,38006.939
+33138,Argentina,2013,Nitrous oxide,Total  emissions excluding LULUCF,41963.805
+33139,Argentina,2014,Nitrous oxide,Total  emissions excluding LULUCF,42759.706
+33190,Argentina,1990,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33191,Argentina,1991,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33192,Argentina,1992,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33193,Argentina,1993,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33194,Argentina,1994,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33195,Argentina,1995,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33196,Argentina,1996,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33197,Argentina,1997,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33198,Argentina,1998,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33199,Argentina,1999,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33200,Argentina,2000,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33201,Argentina,2001,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33202,Argentina,2002,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33203,Argentina,2003,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33204,Argentina,2004,Hydrofluorocarbons,Total  emissions excluding LULUCF,0.0
+33205,Argentina,2005,Hydrofluorocarbons,Total  emissions excluding LULUCF,165.204
+33206,Argentina,2006,Hydrofluorocarbons,Total  emissions excluding LULUCF,95.47200000000001
+33207,Argentina,2007,Hydrofluorocarbons,Total  emissions excluding LULUCF,382.824
+33208,Argentina,2008,Hydrofluorocarbons,Total  emissions excluding LULUCF,85.97
+33209,Argentina,2009,Hydrofluorocarbons,Total  emissions excluding LULUCF,18.608
+33210,Argentina,2010,Hydrofluorocarbons,Total  emissions excluding LULUCF,128.218
+33211,Argentina,2011,Hydrofluorocarbons,Total  emissions excluding LULUCF,139.866
+33212,Argentina,2012,Hydrofluorocarbons,Total  emissions excluding LULUCF,177.643
+33213,Argentina,2013,Hydrofluorocarbons,Total  emissions excluding LULUCF,523.247
+33214,Argentina,2014,Hydrofluorocarbons,Total  emissions excluding LULUCF,613.1759999999999
+33215,Argentina,1990,Perfluorocarbons,Total  emissions excluding LULUCF,1562.9489999999998
+33216,Argentina,1991,Perfluorocarbons,Total  emissions excluding LULUCF,1037.573
+33217,Argentina,1992,Perfluorocarbons,Total  emissions excluding LULUCF,959.4069999999999
+33218,Argentina,1993,Perfluorocarbons,Total  emissions excluding LULUCF,1067.318
+33219,Argentina,1994,Perfluorocarbons,Total  emissions excluding LULUCF,511.722
+33220,Argentina,1995,Perfluorocarbons,Total  emissions excluding LULUCF,500.30800000000005
+33221,Argentina,1996,Perfluorocarbons,Total  emissions excluding LULUCF,500.793
+33222,Argentina,1997,Perfluorocarbons,Total  emissions excluding LULUCF,466.468
+33223,Argentina,1998,Perfluorocarbons,Total  emissions excluding LULUCF,348.777
+33224,Argentina,1999,Perfluorocarbons,Total  emissions excluding LULUCF,387.483
+33225,Argentina,2000,Perfluorocarbons,Total  emissions excluding LULUCF,325.819
+33226,Argentina,2001,Perfluorocarbons,Total  emissions excluding LULUCF,205.895
+33227,Argentina,2002,Perfluorocarbons,Total  emissions excluding LULUCF,230.438
+33228,Argentina,2003,Perfluorocarbons,Total  emissions excluding LULUCF,120.595
+33229,Argentina,2004,Perfluorocarbons,Total  emissions excluding LULUCF,113.929
+33230,Argentina,2005,Perfluorocarbons,Total  emissions excluding LULUCF,113.20200000000001
+33231,Argentina,2006,Perfluorocarbons,Total  emissions excluding LULUCF,113.95700000000001
+33232,Argentina,2007,Perfluorocarbons,Total  emissions excluding LULUCF,120.29700000000001
+33233,Argentina,2008,Perfluorocarbons,Total  emissions excluding LULUCF,165.798
+33234,Argentina,2009,Perfluorocarbons,Total  emissions excluding LULUCF,172.857
+33235,Argentina,2010,Perfluorocarbons,Total  emissions excluding LULUCF,174.892
+33236,Argentina,2011,Perfluorocarbons,Total  emissions excluding LULUCF,174.178
+33237,Argentina,2012,Perfluorocarbons,Total  emissions excluding LULUCF,159.765
+33238,Argentina,2013,Perfluorocarbons,Total  emissions excluding LULUCF,161.641
+33239,Argentina,2014,Perfluorocarbons,Total  emissions excluding LULUCF,159.765
+33290,Argentina,1990,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.7170000000000001
+33291,Argentina,1991,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.7170000000000001
+33292,Argentina,1992,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.628
+33293,Argentina,1993,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.6990000000000001
+33294,Argentina,1994,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.669
+33295,Argentina,1995,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.73
+33296,Argentina,1996,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.731
+33297,Argentina,1997,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.765
+33298,Argentina,1998,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.765
+33299,Argentina,1999,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.85
+33300,Argentina,2000,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.0759999999999998
+33301,Argentina,2001,Sulphur hexafluoride,Total  emissions excluding LULUCF,0.996
+33302,Argentina,2002,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.09
+33303,Argentina,2003,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.105
+33304,Argentina,2004,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.104
+33305,Argentina,2005,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.097
+33306,Argentina,2006,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.104
+33307,Argentina,2007,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.165
+33308,Argentina,2008,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.6059999999999999
+33309,Argentina,2009,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.675
+33310,Argentina,2010,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.694
+33311,Argentina,2011,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.6869999999999998
+33312,Argentina,2012,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.777
+33313,Argentina,2013,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.798
+33314,Argentina,2014,Sulphur hexafluoride,Total  emissions excluding LULUCF,1.777
