@@ -74,7 +74,11 @@
           <param name='filter' value='publish=yes' />
         </object>
       </div>
-      <script type='text/javascript'>                    var divElement = document.getElementById('viz1614380753661');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      <script type='text/javascript'>
+      var divElement = document.getElementById('viz1614380753661');
+      var vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+      var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
       </script>
       </section>
 
@@ -90,15 +94,25 @@
               is at the second. So for the rest of analysis, we have filtered the pollutant type into these
               two kinds of gases.
         </p>
-        <h3>Embed a Vega-Lite Visualization:</h3>
+        <h3>Emission Of Greenhouse Gases</h3>
+        <p>Carbon Dioxide, methane, and Nitrous oxide, are three major components for greenhouse gases. And
+          they are the one of the significant causes of the global warming. Following graphs display the flunctuation
+          of three gases during 1990 to 2018. We can observe that these three gases all have an incresing trend around
+          year 2017.
+        </p>
+        <div id="ghg"></div>
+        <h3>Carbon Dioxide Emission And Temperature Changes of Each Country:</h3>
         <p>The following interactive graph shows the average emission of carbon dioxide
           from year 1990 to 2018, and the changes of temperature for each year. By using the
-          selection bar, one could simply see the average emission of carbon dioxide and temperature
+          selection bar, one could simply see the average emission of carbon dioxide through out the years and temperature
           changes of a particular country. It is notable that most of countries experienced a growth
           in temperature during these year.
         </p >
+        <p id="note">Note: Lost some countries when joining two datasets.</p>
         <div id="view">
         </div>
+        <h3>New</h3>
+        <div id="view2"></div>
       </section>
 
       <section id = "d3">
@@ -124,7 +138,8 @@
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
       <script src="d3.js"></script>
-      <script src="vega-overall-bar.js"></script>
+      <!--<script src="vega-overall-bar.js"></script>-->
+      <script src="vegaDemo.js"></script>
     </body>
 
 </html>
