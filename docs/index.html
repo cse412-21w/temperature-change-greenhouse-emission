@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>CSE 412 Project Prototype</title>
+        <title>temperature-change-greenhouse-emission</title>
         <link rel="stylesheet" href="https://cse412-21w.github.io/temperature-change-greenhouse-emission/style.aa351f8a.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- For using d3 -->
@@ -18,27 +18,34 @@
 
     <body>
       <section class="title">
-        <a href="/">CSE 412 Demo</a>
+        <a href="/">Temperature Change and Greenhouse Emission Over Years</a>
       </section>
       <section>
-        <h2>Final Project</h2>
-        <p>The final project will provide hands-on experience designing, implementing,
-          and deploying interactive visualizations. Your project should address a concrete
-          visualization challenge and should propose a novel, creative solution. The final
-          deliverable will take the form of a visual analysis tool or an explanatory narrative,
-          deployed as an interactive web page. More info on the
-          <a href="https://courses.cs.washington.edu/courses/cse412/21wi/fp.html">course website</a>.
+        <h2>Motivation</h2>
+        <p>One of the most important issues the world and all world citizens face is the climate
+          change in this technological era. The record of historical temperature change provides
+          us the chance to show how it progresses over times at various time periods in different
+          countries and also overall world temperature change. Carbon emission is one of the main
+          causes of climate change that is worth more attention, so we want to show people the
+          current situation to raise awareness and call for actions for possible reduction in
+          carbon footage so that we can contribute as much as we can to save the world.
+          We plan to use global maps to present an overall distribution of both greenhouse
+          gas emissions and temperatures. By choosing two years with a long-time span,
+          we can see which countries have the most greenhouse gas emissions.
+          We intend to use an interactive line to present the greenhouse emission
+          and temperatures of countries around the world. From this, we may be able to display
+          the relationship between greenhouse emission and temperature changes. We will present
+          the meterological year temeprature change over years by a bar chart. Also, we would
+          like to do deep research on the reasons behind some noticeable changes and present
+          the reasons to the audience.
+          <a href="https://github.com/cse412-21w/temperature-change-greenhouse-emission">More</a>.
         </p>
-      </section>
-      <section>
-        <p><strong>This page is used mainly to demo how to embed visualizations. All visualizations below are
-          not perfect and need more iteration critiques before really publishing on a webpage.
-        </strong></p>
       </section>
 
 
       <section id="tableauDemo">
         <h3>Embed a Tableau Visualization:</h3>
+         <p>I was trying to made a graph about monthly temperature change for each country. However, I wasn't able to complete the bar chart with the interactive and legend I want with VegaLite yet, so here is the desire outcome produced by Tableau</p>
       <div class="tableauPlaceholder" id="viz1614380753661" style="position: relative">
         <noscript>
           <a href="#">
@@ -83,50 +90,39 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
               is at the second. So for the rest of analysis, we have filtered the pollutant type into these
               two kinds of gases.
         </p>
+        <h3>Emission Of Greenhouse Gases</h3>
+        <p>Carbon Dioxide, methane, and Nitrous oxide, are three major components for greenhouse gases. And
+          they are the one of the significant causes of the global warming. Following graphs display the flunctuation
+          of three gases during 1990 to 2018. We can observe that these three gases all have an incresing trend around
+          year 2017.
+        </p>
+        <div id="ghg"></div>
+        <h3>Carbon Dioxide Emission And Temperature Changes of Each Country:</h3>
+        <p>The following interactive graph shows the average emission of carbon dioxide
+          from year 1990 to 2018, and the changes of temperature for each year. By using the
+          selection bar, one could simply see the average emission of carbon dioxide through out the years and temperature
+          changes of a particular country. It is notable that most of countries experienced a growth
+          in temperature during these year.
+        </p>
+        <p id="note">Note: Lost some countries when joining two datasets.</p>
+        <div id="view">
+        </div>
+        <h3>New</h3>
+        <div id="view2"></div>
       </section>
 
       <section id="d3">
-        <h3>How much does the world temperature change from year to year</h3>
+        <h3>How much does the world temperature change from year to year?</h3>
         <div id="d3"></div>
         <p>
-          The overall Trend is that the temperature steadily increases from year to year.
+          It is getting hotter!
+          The bar chart shows how much is the meterological temperature change from baseline
+          between 1962 and 2018. Negative number means that this year's temperature is lower
+          than the baseline temperature, and positive number means higher temperature
+          The overall trend is that the temperature steadily increases from year to year.
           Starting from 1997, there is no longer a flunctuation on temperature changes,
           and temperature is higher by about 2 degree celcius compared to the baseline temperature.
         </p>
-      </section>
-
-      <section>
-        <p>I wasn't able to complete the bar chart with the interactive and legend I want with d3 yet, so here is the desire outcome produced by Tableau</p>
-        <div class="tableauPlaceholder" id="viz1614382626900" style="position: relative">
-          <noscript>
-            <a href="#">
-              <img alt=" " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears&#47;1_rss.png" style="border: none">
-            </a>
-          </noscript>
-          <object class="tableauViz" style="display:none;">
-            <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
-            <param name="embed_code_version" value="3">
-            <param name="site_root" value="">
-            <param name="name" value="Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears">
-            <param name="tabs" value="no">
-            <param name="toolbar" value="yes">
-            <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears&#47;1.png">
-            <param name="animate_transition" value="yes">
-            <param name="display_static_image" value="yes">
-            <param name="display_spinner" value="yes">
-            <param name="display_overlay" value="yes">
-            <param name="display_count" value="yes">
-            <param name="language" value="en">
-            <param name="filter" value="publish=yes">
-          </object>
-        </div>
-        <script>var divElement = document.getElementById('viz1614382626900');
-var vizElement = divElement.getElementsByTagName('object')[0];
-vizElement.style.width = '100%';
-vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
-var scriptElement = document.createElement('script');
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
       </section>
 
       <div class="footer">
@@ -137,8 +133,9 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
-      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.5d1e9791.js"></script>
-      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/vega-overall-bar.c61d2486.js"></script>
+      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.8cb65cf1.js"></script>
+      <!--<script src="vega-overall-bar.js"></script>-->
+      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/vegaDemo.7b05f105.js"></script>
     </body>
 
 </html>

@@ -117,22 +117,34 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../static/fpData.csv":[function(require,module,exports) {
-module.exports = "/fpData.896996af.csv";
+})({"../static/temp-ghg-dataset.csv":[function(require,module,exports) {
+module.exports = "/temp-ghg-dataset.79c9ff5e.csv";
+},{}],"../static/ghg_cleanup.csv":[function(require,module,exports) {
+module.exports = "/ghg_cleanup.a75ee86c.csv";
+},{}],"../static/tempData.csv":[function(require,module,exports) {
+module.exports = "/tempData.26194e6a.csv";
 },{}],"vegaDemo.js":[function(require,module,exports) {
 "use strict";
 
-var _fpData = _interopRequireDefault(require("../static/fpData.csv"));
+var _tempGhgDataset = _interopRequireDefault(require("../static/temp-ghg-dataset.csv"));
+
+var _ghg_cleanup = _interopRequireDefault(require("../static/ghg_cleanup.csv"));
+
+var _tempData = _interopRequireDefault(require("../static/tempData.csv"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import dataset
-"use strict"; // the code should be executed in "strict mode".
-// With strict mode, you can not, for example, use undeclared variables
+"use strict";
 
-
-var ds = []; // used to store data later
-
+var ds = [];
+var da = [];
+var test = [];
+var countries = [];
+var year = [];
+var year_ghg = [];
+var ghg = [];
+var countries1 = [];
+var pollutant = [];
 var options = {
   config: {// Vega-Lite default configuration
   },
@@ -149,36 +161,101 @@ var options = {
     renderer: "canvas"
   }
 };
-vl.register(vega, vegaLite, options); // Again, We use d3.csv() to process data
+vl.register(vega, vegaLite, options);
+d3.csv(_ghg_cleanup.default).then(function (data) {
+  data.forEach(function (d) {
+    ghg.push(d);
+  });
+  d3.csv(_ghg_cleanup.default).then(function (data) {
+    data.forEach(function (d) {
+      if (!year_ghg.includes(d.Year)) {
+        year_ghg.push(d.Year);
+      }
+    });
+  });
+  drawBarVegaLite2();
+});
+d3.csv(_ghg_cleanup.default).then(function (data) {
+  data.forEach(function (d) {
+    test.push(d);
 
-d3.csv(ds).then(function (data) {
+    if (!pollutant.includes(d.Pollutant)) {
+      pollutant.push(d.Pollutant);
+    }
+  });
+  drawLineVegalite();
+});
+d3.csv(_tempGhgDataset.default).then(function (data) {
   data.forEach(function (d) {
     ds.push(d);
+
+    if (!countries.includes(d.Country)) {
+      countries.push(d.Country);
+    }
   });
   drawBarVegaLite();
 });
+d3.csv(_tempData.default).then(function (data) {
+  data.forEach(function (d) {
+    da.push(d);
+
+    if (!countries1.includes(d.Country)) {
+      countries1.push(d.Country);
+    }
+
+    if (!year.includes(d.Year)) {
+      year.push(d.Year);
+    }
+  });
+  drawBarVegaLite1();
+});
+
+function drawLineVegalite() {
+  var base = vl.markLine().data(test).encode(vl.x().fieldT('Year').title('Years'), vl.color().fieldN('Pollutant')).width(240).height(180);
+  var cb = base.transform(vl.filter("datum.Pollutant == 'Carbon dioxide'")).encode(vl.y().average("Value"));
+  var methane = base.transform(vl.filter("datum.Pollutant == 'Methane'")).encode(vl.y().average("Value"));
+  var no = base.transform(vl.filter("datum.Pollutant == 'Nitrous oxide'")).encode(vl.y().average("Value"));
+  vl.hconcat(cb, methane, no).render().then(function (viewElement) {
+    document.getElementById('ghg').appendChild(viewElement);
+  });
+}
 
 function drawBarVegaLite() {
   // var sunshine = add_data(vl, sunshine.csv, format_type = NULL);
   // your visualization goes here
-  var countries = uniqueValid(ds, function (d) {
-    return d.Country;
-  });
-  var selectGenre = vl.selectSingle('Select') // name the selection 'Select'
-  .fields('Country') // limit selection to the Major_Genre field
-  .init({
+  var selectGenre = vl.selectSingle('Select').fields('Country').init({
     Country: countries[0]
-  }) // use first genre entry as initial value
-  .bind(vl.menu(countries));
-  var temp = vl.markLine().data(ds).select(selectGenre).transform(vl.groupby(['Country', 'Year']).aggregate(vl.average('temperature').as('avg_temp'))).encode(vl.y().fieldQ('avg_temp').title('avg_temp'), vl.x().fieldQ('Year'), vl.opacity().if(selectGenre, vl.value(0.75)).value(0.05));
-  var ghg = vl.markBar().data(ds).transform(vl.groupby(['Country', 'Year']).aggregate(vl.average('GHG').as('avg_ghg'))).encode(vl.x().fieldQ('Year'), vl.y().fieldQ('avg_ghg').title('avg_ghg'), vl.opacity().if(selectGenre, vl.value(0.75)).value(0.05));
+  }).bind(vl.menu(countries));
+  var temp = vl.markBar().data(ds).select(selectGenre).transform(vl.groupby(['Country', 'Year']).aggregate(vl.average('Temperature').as('avg_temp'))).encode(vl.y().fieldQ('avg_temp').title('Temperature Change'), vl.x().fieldQ('Year'), vl.opacity().if(selectGenre, vl.value(1)).value(0), vl.color().fieldN("Country").scale('tableau20')).width(500).height(300);
+  var ghg = vl.markBar().data(ds).transform(vl.filter('datum.Pollutant == "Carbon dioxide"'), vl.groupby(['Country', 'Year']).aggregate(vl.average('GHG').as('avg_ghg'))).encode(vl.x().fieldQ('Year'), vl.y().fieldQ('avg_ghg').title('avg_carbon_dioxide'), vl.opacity().if(selectGenre, vl.value(1)).value(0), vl.color().fieldN("Country").scale('tableau20')).width(500).height(300);
   vl.vconcat(ghg, temp).render().then(function (viewElement) {
-    // render returns a promise to a DOM element containing the chart
-    // viewElement.value contains the Vega View object instance
     document.getElementById('view').appendChild(viewElement);
   });
 }
-},{"../static/fpData.csv":"../static/fpData.csv"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+function drawBarVegaLite1() {
+  var selection = vl.selectSingle('select').fields('Country', 'Year').init({
+    Country: countries1[0],
+    Year: year[0]
+  }).bind({
+    Country: vl.menu(countries1),
+    Year: vl.menu(year)
+  });
+  vl.markBar().data(da).select(selection).transform(vl.groupby(['Country', 'Year', 'Month']).aggregate(vl.average('Temperature').as('temp'))).encode(vl.x().fieldO('Month'), vl.y().fieldQ('temp').title('temperature change'), vl.opacity().if(selection).value(0) // New
+  ).render().then(function (viewElement) {
+    document.getElementById('view2').appendChild(viewElement);
+  });
+}
+
+function drawBarVegaLite2() {
+  var selection = vl.selectSingle('Select').fields('Year').init({
+    Year: year_ghg[5]
+  }).bind(vl.slider(1990, 2018, 1));
+  vl.markBar().data(ghg).select(selection).transform(vl.groupby(['Country', 'Year', 'Pollutant'])).encode(vl.x().average('Value').title('Amount of Gas Emission'), vl.y().fieldN('Country'), vl.color().fieldN('Pollutant').scale('tableau20'), vl.tooltip(['Country', 'Pollutant', 'Value'])).render().then(function (viewElement) {
+    document.getElementById('overall-bar').appendChild(viewElement);
+  });
+}
+},{"../static/temp-ghg-dataset.csv":"../static/temp-ghg-dataset.csv","../static/ghg_cleanup.csv":"../static/ghg_cleanup.csv","../static/tempData.csv":"../static/tempData.csv"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -206,7 +283,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63626" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50891" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
