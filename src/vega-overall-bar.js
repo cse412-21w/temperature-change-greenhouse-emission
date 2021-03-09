@@ -1,11 +1,12 @@
 import ghgData from '../static/ghg_cleanup.csv'
 import fpData from '../static/temp-ghg-dataset.csv'
 "use strict";
+
 var ds = [];
 var countries = [];
 var year = [];
 var ghg = [];
-var year = [];
+var year_ghg = [];
 
 const options = {
   config: {},
@@ -29,8 +30,22 @@ d3.csv(fpData).then(function(data) {
       year.push(d.Year);
     }
   })
-
   drawBarVegaLite();
+});
+
+d3.csv(ghgData).then(function(data) {
+  data.forEach(function(d){
+    ghg.push(d);
+  })
+  d3.csv(ghgData).then(function(data) {
+    data.forEach(function(d){
+      if (!year.includes(d.Year)) {
+        year.push(d.Year)
+      }
+    })
+  })
+
+  drawBarVegaLite3();
 });
 
 function drawBarVegaLite3() {
