@@ -10,6 +10,8 @@ var countries = [];
 var year = [];
 var year_ghg = [];
 var ghg = [];
+var ghg_pollutant = [];
+var country = [];
 var countries1 = [];
 var pollutant = [];
 
@@ -35,17 +37,24 @@ const options = {
 vl.register(vega, vegaLite, options);
 
 d3.csv(ghgData).then(function(data) {
-  data.forEach(function(d){
+  data.forEach(function(d) {
     ghg.push(d);
-  })
-  d3.csv(ghgData).then(function(data) {
-    data.forEach(function(d){
-      if (!year_ghg.includes(d.Year)) {
-        year_ghg.push(d.Year)
-      }
-    })
-  })
-
+  });
+  for (let i in ghg) {
+    ghg[i].Year = parseInt(ghg[i].Year);
+    let num = ghg[i].Year;
+    if (!year_ghg.includes(num)) {
+      year_ghg.push(num);
+    }
+    let cty = ghg[i].Country;
+    if (!country.includes(cty)) {
+      country.push(cty);
+    }
+    let pol = ghg[i].Pollutant;
+    if (!ghg_pollutant.includes(pol)) {
+      ghg_pollutant.push(pol);
+    }
+  }
   drawBarVegaLite2();
 });
 
@@ -169,23 +178,60 @@ function drawBarVegaLite1() {
 }
 
 function drawBarVegaLite2() {
-  const selection = vl.selectSingle('Select')
+  var selection = vl.selectSingle('Select')
     .fields('Year')
     .init({Year: year_ghg[5]})
     .bind(vl.slider(1990,2018,1));
 
-  vl.markBar()
+  var barChart = vl.markBar()
     .data(ghg)
     .select(selection)
     .transform(
-      vl.groupby(['Country','Year','Pollutant'])
+      vl.filter(selection),
+      vl.groupby(['Country','Pollutant'])
     )
+    .title('How Greenhouse Gases Change in Each Country Every Year?')
     .encode(
-      vl.x().average('Value').title('Amount of Gas Emission'),
+      vl.x().sum('Value').title('Quantity of Emission (Tonnes of CO2 equivalent, Thousands)'),
       vl.y().fieldN('Country'),
-      vl.color().fieldN('Pollutant').scale('tableau20'),
+      vl.color().fieldN('Pollutant').scale('tableau20').legend({values: ghg_pollutant}),
       vl.tooltip(['Country','Pollutant','Value'])
     )
+    .height(200)
+    .width(350);
+
+  var pieChart1 = vl.markArc({outerRadius: 120})
+    .data(ghg)
+    .select(selection)
+    .transform(
+      vl.filter(selection),
+      vl.groupby(['Country'])
+    )
+    .title('Which Country Has the Most GHG Every Year?')
+    .encode(
+      vl.theta().sum('Value').stack(true).scale({range: [0.75 * Math.PI, 2.75 * Math.PI]}),
+      vl.color().fieldN('Country').scale('tableau20').legend({values: country})
+    )
+    .height(240)
+    .width(240);
+
+    var pieChart2 = vl.markArc({outerRadius: 120})
+      .data(ghg)
+      .select(selection)
+      .transform(
+        vl.filter(selection),
+        vl.groupby(['Pollutant'])
+      )
+      .title('How Each GHG Changes?')
+      .encode(
+        vl.theta().sum('Value').stack(true).scale({range: [0.75 * Math.PI, 2.75 * Math.PI]}),
+        vl.color().fieldN('Pollutant').scale('tableau20').legend({values: ghg_pollutant})
+      )
+      .height(240)
+      .width(240);
+
+  vl.hconcat(barChart, pieChart1, pieChart2)
+    .resolve({legend: {color: 'independent'}})
     .render()
     .then(viewElement => {
       document.getElementById('overall-bar').appendChild(viewElement);

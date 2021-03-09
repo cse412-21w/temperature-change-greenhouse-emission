@@ -14,81 +14,67 @@
         <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="hero-slider.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
     </head>
 
     <body>
-      <section class="title">
-        <a href="/">Temperature Change and Greenhouse Emission Over Years</a>
-      </section>
-      <section>
-        <h2>Motivation</h2>
-        <p>One of the most important issues the world and all world citizens face is the climate
+      <div class="navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span>HOME</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#intro"><span>Intro</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#Overall-Trends"><span>Overall Trends</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#Emission-Of-Greenhouse-Gases"><span>Emission Of Greenhouse Gases</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#Carbon-Dioxide-Emission-And -Temperature-Changes"><span>Carbon Dioxide Emission And Temperature Changes</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#Monthly-Changes"><span>Monthyly Changes</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#Temperature-Change"><span>Temperature Change</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#insight"><span>Insight</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about-us"><span>About us</span></a></li>
+        </ul>
+    </div>
+
+      <div class="parallax-content baner-content" id="title" style="background-position: center calc(50%+0px);">
+        <h1>Temperature Change and Greenhouse Emission Over Years</h1>
+        <div class="primary-button">
+          <a href="https://github.com/cse412-21w/temperature-change-greenhouse-emission.git">GitHub Page</a>
+      </div>
+    </div>
+
+      <div class="intro">
+        <div class="container">
+          <p>One of the most important issues the world and all world citizens face is the climate
           change in this technological era. The record of historical temperature change provides
           us the chance to show how it progresses over times at various time periods in different
           countries and also overall world temperature change. Carbon emission is one of the main
           causes of climate change that is worth more attention, so we want to show people the
           current situation to raise awareness and call for actions for possible reduction in
           carbon footage so that we can contribute as much as we can to save the world.
-          We plan to use global maps to present an overall distribution of both greenhouse
-          gas emissions and temperatures. By choosing two years with a long-time span,
-          we can see which countries have the most greenhouse gas emissions.
-          We intend to use an interactive line to present the greenhouse emission
-          and temperatures of countries around the world. From this, we may be able to display
-          the relationship between greenhouse emission and temperature changes. We will present
-          the meterological year temeprature change over years by a bar chart. Also, we would
-          like to do deep research on the reasons behind some noticeable changes and present
-          the reasons to the audience.
           <a href='https://github.com/cse412-21w/temperature-change-greenhouse-emission'>More</a>.
         </p>
-      </section>
-
-
-      <section id = "tableauDemo">
-        <h3>Embed a Tableau Visualization:</h3>
-         <p>I was trying to made a graph about monthly temperature change for each country. However, I wasn't able to complete the bar chart with the interactive and legend I want with VegaLite yet, so here is the desire outcome produced by Tableau</p>
-      <div class='tableauPlaceholder' id='viz1614380753661' style='position: relative'>
-        <noscript>
-          <a href='#'>
-            <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16143154437850&#47;Sheet1&#47;1_rss.png' style='border: none' />
-          </a>
-        </noscript>
-        <object class='tableauViz'  style='display:none;'>
-          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-          <param name='embed_code_version' value='3' />
-          <param name='site_root' value='' />
-          <param name='name' value='Book1_16143154437850&#47;Sheet1' />
-          <param name='tabs' value='no' />
-          <param name='toolbar' value='yes' />
-          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16143154437850&#47;Sheet1&#47;1.png' />
-          <param name='animate_transition' value='yes' />
-          <param name='display_static_image' value='yes' />
-          <param name='display_spinner' value='yes' />
-          <param name='display_overlay' value='yes' />
-          <param name='display_count' value='yes' />
-          <param name='language' value='en' />
-          <param name='filter' value='publish=yes' />
-        </object>
-      </div>
-      <script type='text/javascript'>
-      var divElement = document.getElementById('viz1614380753661');
-      var vizElement = divElement.getElementsByTagName('object')[0];
-      vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-      var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-      </script>
-      </section>
-
-      <section id = "vegaDemo">
-        <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
-        <div id="overall-bar"></div>
-        <p>
-          <b>Idea</b>: When changing the year as dragging the slider, we would see the bar chart corresponding to that year.
-              For each country, the bar is shown with pollutant proportion with different colors. (The slider is not
-              working now, and I will revise it later...) <br>
-          <b>Interpretation</b>: United States has the highest total greenhouse gas emission. An generic observation for each
-              country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
-              is at the second. So for the rest of analysis, we have filtered the pollutant type into these
-              two kinds of gases.
+        <p>Data sourses: <a href='https://www.kaggle.com/sevgisarac/temperature-change?select=Environment_Temperature_change_E_All_Data_NOFLAG.csv'>Environmental Temperature Change</a>
+        <a href='https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG'>, Greenhouse Emission</a>
         </p>
+    </div>
+    </div>
+
+      <div class ="service-content" id = "overall-trends">
+        <div class = "container">
+          <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
+          <div id="overall-bar"></div>
+          <p>
+            <b>Idea</b>: When changing the year as dragging the slider, we would see the bar chart corresponding to that year.
+                For each country, the bar is shown with pollutant proportion with different colors. (The slider is not
+                working now, and I will revise it later...) <br>
+            <b>Interpretation</b>: United States has the highest total greenhouse gas emission. An generic observation for each
+                country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
+                is at the second. So for the rest of analysis, we have filtered the pollutant type into these
+                two kinds of gases.
+          </p>
+      </div>
+      </div>
+
+      <div class ="service-content" id = "greenhouse-emission">
+        <div class = "container">
         <h3>Emission Of Greenhouse Gases</h3>
         <p>Carbon Dioxide, methane, and Nitrous oxide, are three major components for greenhouse gases. And
           they are the one of the significant causes of the global warming. Following graphs display the flunctuation
@@ -96,6 +82,11 @@
           year 2017.
         </p>
         <div id="ghg"></div>
+      </div>
+      </div>
+
+      <div class ="service-content" id = "temperature-countries">
+        <div class = "container">
         <h3>Carbon Dioxide Emission And Temperature Changes of Each Country:</h3>
         <p>The following interactive graph shows the average emission of carbon dioxide
           from year 1990 to 2018, and the changes of temperature for each year. By using the
@@ -104,25 +95,28 @@
           in temperature during these year.
         </p >
         <p id="note">Note: Lost some countries when joining two datasets.</p>
-        <div id="view">
-        </div>
+        <div id="view"></div>
+      </div>
+      </div>
+
+      <div class ="service-content" id = "monthly-changes">
+        <div class="container">
         <h3>New</h3>
         <div id="view2"></div>
-      </section>
+      </div>
+      </div>
 
-      <section id = "d3">
-        <h3>How much does the world temperature change from year to year?</h3>
-        <div id="d3"></div>
-        <p>
-          It is getting hotter!
-          The bar chart shows how much is the meterological temperature change from baseline
-          between 1962 and 2018. Negative number means that this year's temperature is lower
-          than the baseline temperature, and positive number means higher temperature
-          The overall trend is that the temperature steadily increases from year to year.
-          Starting from 1997, there is no longer a flunctuation on temperature changes,
-          and temperature is higher by about 2 degree celcius compared to the baseline temperature.
-        </p>
-      </section>
+      <div class ="service-content" id = "world-temperature">
+        <div class="container">
+          <h3>How much does the world temperature change from year to year</h3>
+          <div id="d3"></div>
+          <p>
+            The overall Trend is that the temperature steadily increases from year to year.
+            Starting from 1997, there is no longer a flunctuation on temperature changes,
+            and temperature is higher by about 2 degree celcius compared to the baseline temperature.
+          </p>
+      </div>
+      </div>
 
       <div class="footer">
         <a href="https://courses.cs.washington.edu/courses/cse412/21wi/">CSE 412 Data Visualization</a>
