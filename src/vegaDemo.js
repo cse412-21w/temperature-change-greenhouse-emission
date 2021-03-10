@@ -154,27 +154,27 @@ function drawBarVegaLite() {
   }
 
 function drawBarVegaLite1() {
-    const selection = vl.selectSingle('select')
-        .fields('Country', 'Year')
-        .init({Country: countries1[0], Year: year[0]})
-        .bind({Country: vl.menu(countries1), Year: vl.menu(year)});
+  const selection = vl.selectSingle('select')
+  .fields('Country', 'Year')
+  .init({Country: countries1[0], Year: year[0]})
+  .bind({Country: vl.menu(countries1), Year: vl.menu(year)});
 
-    vl.markBar()
-    .data(da)
-    .select(selection)
-    .transform(
-          vl.groupby(['Country','Year','Month'])
-            .aggregate(vl.average('Temperature').as('temp'))
-       )
-     .encode(
-      vl.x().fieldO('Month'),
-      vl.y().fieldQ('temp').title('temperature change'),
-      vl.opacity().if(selection).value(0)    // New
-    )
-    .render()
-    .then(viewElement => {
-      document.getElementById('view2').appendChild(viewElement);
-    });
+  vl.markBar()
+  .data(da)
+  .select(selection)
+  .transform(
+      vl.groupby(['Country','Year','Month'])
+        .aggregate(vl.average('Temperature').as('temp'))
+  )
+  .encode(
+  vl.x().fieldO('Month').sort('none'),
+  vl.y().fieldQ('temp').title('temperature change'),
+  vl.opacity().if(selection).value(0)    // New
+  )
+  .render()
+  .then(viewElement => {
+  document.getElementById('view2').appendChild(viewElement);
+  });
 }
 
 function drawBarVegaLite2() {

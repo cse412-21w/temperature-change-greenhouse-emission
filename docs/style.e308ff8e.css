@@ -1,14 +1,7 @@
 body {
   position: relative;
+  background: #FAF0E6;
 }
-
-.service-content{
-  background: rgb(190, 231, 190);
-}
-
-/*----------
-  NAV
-----------*/
 
 .fixed-side-navbar {
   position: fixed;
@@ -21,9 +14,11 @@ body {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
+
 .fixed-side-navbar:hover {
   background: transparent;
 }
+
 .fixed-side-navbar:hover .nav > li > a > span {
   color: rgba(0, 0, 0, 0.5);
   display: block;
@@ -34,14 +29,17 @@ body {
   padding: 2px 12px;
   border-radius: 15px;
 }
+
 .fixed-side-navbar .nav > li a.active {
   background-color: transparent;
   color: black;
 }
+
 .fixed-side-navbar .nav > li a.active:after {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
+
 .fixed-side-navbar .nav > li a.active:before {
   content: '';
   position: absolute;
@@ -54,10 +52,12 @@ body {
   border: 2px solid #fff;
   border-radius: 10px;
 }
-.nav>li {
+
+.nav > li {
   position: relative;
   display: block;
 }
+
 .fixed-side-navbar .nav > li a {
   color: #fff;
   min-height: 32px;
@@ -65,11 +65,13 @@ body {
   padding: 5px 45px 5px 25px;
   border-right: none;
 }
+
 .fixed-side-navbar .nav > li a span {
   display: none;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
+
 .fixed-side-navbar .nav > li a:after {
   content: '';
   position: absolute;
@@ -85,6 +87,7 @@ body {
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
 }
+
 .fixed-side-navbar .nav > li a:hover {
   background-color: transparent;
   border-top-left-radius: 5px;
@@ -92,6 +95,7 @@ body {
   border-color: black;
   border-right: 0;
 }
+
 .fixed-side-navbar .nav > li a:hover > span {
   color: black;
   display: block;
@@ -101,18 +105,20 @@ body {
   -webkit-animation-name: fadeInRight;
           animation-name: fadeInRight;
 }
+
 .primary-button a {
   display: inline-block;
   background-color: green;
+  color:#fff;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
   font-size: 11px;
-  color: #fff;
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
+
 .parallax-content {
   width: 100%;
   min-height: 100vh;
@@ -122,14 +128,14 @@ body {
 .baner-content {
   padding-top: 30vh;
   text-align: center;
-  background-image: url(https://cse412.github.io/temperature-change-greenhouse-emission/environment.232e89ee.jpeg);
+  background-image: url(/environment.4907f674.jpeg);
 }
 
 .baner-content h1 {
   margin-top: 0px;
   font-size: 70px;
-  text-shadow: 2px 2px black;
-  color: rgb(114, 212, 33);
+  text-shadow: 2px 2px #228B22;
+  color: #00C957;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 0px;
@@ -149,9 +155,28 @@ body {
   background-position: center center;
 }
 
-p {
+h1 {
   font-family: 'Balsamiq Sans', cursive;
-  font-size: 25px;
+  font-size: 50pt;
+}
+
+#text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-content p {
+  font-family: 'Balsamiq Sans', cursive;
+  padding: 80px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.words {
+  font-size: 40pt;
 }
 
 #intro p {
@@ -171,20 +196,19 @@ p {
   margin-bottom: 20px;
 }
 
-.service-content h3 {
+.service-content h3, #team h3 {
+  font-family: 'Balsamiq Sans', cursive;
   font-weight: 3000;
-  font-size: 30px;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  line-height: 10pt;
   margin-left: 0%;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .container > p {
   font-size: 20px;
-}
-
-.container h3, #team h3 {
-  font-size: 30px;
-  text-align: center;
 }
 
 #team-container {
@@ -192,6 +216,7 @@ p {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 50px;
 }
 
 #team-container p {
@@ -200,14 +225,19 @@ p {
 }
 
 .info {
+  background: #F5DEB3;
   margin: 20px 20px 20px 20px;
-  height: 320px;
-  width: 250px;
-  background-color: #F5DEB3;
+  height: 360px;
+  width: 270px;
   opacity: 95%;
   border-radius: 15%;
   align-items: center;
   flex-direction: column;
+}
+
+#team-container .email, #team-container .git {
+  font-size: 10pt;
+  color: black;
 }
 
 img {
@@ -225,18 +255,38 @@ img {
   font-weight: 500;
 }
 
- .footer {
+.footer {
   border-top: 1px solid #ccc;
   margin-top: 30px;
   padding-top: 4px;
   text-align: right;
   font-size: 12px;
 }
+
+.footer p {
+  font-size: 10pt
+}
 .footer a {
   color: #21346B;
 }
+
 .footer a:hover {
   color: #ce3333;
 }
 
-/*# sourceMappingURL=https://cse412.github.io/temperature-change-greenhouse-emission/style.474946a4.css.map */
+#bar-pie, #ghg, #view, #view2, #new, #d3{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#page-name {
+  background-color: #F5DEB3;
+}
+
+.container {
+  border: 2px solid #C0C0C0;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
