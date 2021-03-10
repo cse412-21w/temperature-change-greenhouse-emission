@@ -118,11 +118,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"lpg4":[function(require,module,exports) {
-module.exports = "https://cse412.github.io/project-demo/temp-ghg-dataset.6bc052ae.csv";
+module.exports = "https://cse412.github.io/temperature-change-greenhouse-emission/temp-ghg-dataset.6bc052ae.csv";
 },{}],"NbsI":[function(require,module,exports) {
-module.exports = "https://cse412.github.io/project-demo/ghg_cleanup.790a3c89.csv";
+module.exports = "https://cse412.github.io/temperature-change-greenhouse-emission/ghg_cleanup.790a3c89.csv";
 },{}],"fp3K":[function(require,module,exports) {
-module.exports = "https://cse412.github.io/project-demo/tempData.5084db74.csv";
+module.exports = "https://cse412.github.io/temperature-change-greenhouse-emission/tempData.5084db74.csv";
 },{}],"CsaW":[function(require,module,exports) {
 "use strict";
 
@@ -294,4 +294,4 @@ function drawBarVegaLite2() {
   });
 }
 },{"../static/temp-ghg-dataset.csv":"lpg4","../static/ghg_cleanup.csv":"NbsI","../static/tempData.csv":"fp3K"}]},{},["CsaW"], null)
-//# sourceMappingURL=https://cse412.github.io/project-demo/vegaDemo.abac9484.js.map
+//# sourceMappingURL=https://cse412.github.io/temperature-change-greenhouse-emission/vegaDemo.abac9484.js.map
