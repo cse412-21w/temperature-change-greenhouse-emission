@@ -148,18 +148,11 @@ var country = [];
 var countries1 = [];
 var pollutant = [];
 var options = {
-  config: {// Vega-Lite default configuration
-  },
+  config: {},
   init: function init(view) {
-    // initialize tooltip handler
     view.tooltip(new vegaTooltip.Handler().call);
   },
   view: {
-    // view constructor options
-    // remove the loader if you don't want to default to vega-datasets!
-    //   loader: vega.loader({
-    //     baseURL: "",
-    //   }),
     renderer: "canvas"
   }
 };
@@ -190,7 +183,7 @@ d3.csv(_ghg_cleanup.default).then(function (data) {
     }
   }
 
-  drawBarVegaLite2();
+  drawBarAndPie();
 });
 d3.csv(_ghg_cleanup.default).then(function (data) {
   data.forEach(function (d) {
@@ -264,34 +257,27 @@ function drawBarVegaLite1() {
   });
 }
 
-function drawBarVegaLite2() {
+function drawBarAndPie() {
   var selection = vl.selectSingle('Select').fields('Year').init({
     Year: year_ghg[5]
   }).bind(vl.slider(1990, 2018, 1));
   var barChart = vl.markBar().data(ghg).select(selection).transform(vl.filter(selection), vl.groupby(['Country', 'Pollutant'])).title('How Greenhouse Gases Change in Each Country Every Year?').encode(vl.x().sum('Value').title('Quantity of Emission (Tonnes of CO2 equivalent, Thousands)'), vl.y().fieldN('Country'), vl.color().fieldN('Pollutant').scale('tableau20').legend({
     values: ghg_pollutant
-  }), vl.tooltip(['Country', 'Pollutant', 'Value'])).height(200).width(300);
-  var pieChart1 = vl.markArc({
+  }), vl.tooltip(['Country', 'Pollutant', 'Value'])).height(250).width(600);
+  var pieChart = vl.markArc({
     outerRadius: 120
-  }).data(ghg).select(selection).transform(vl.filter(selection), vl.groupby(['Country'])).title('Which Country Has the Most GHG Every Year?').encode(vl.theta().sum('Value').stack(true).scale({
-    range: [0.75 * Math.PI, 2.75 * Math.PI]
-  }), vl.color().fieldN('Country').scale('tableau20').legend({
-    values: country
-  })).height(240).width(250);
-  var pieChart2 = vl.markArc({
-    outerRadius: 120
-  }).data(ghg).select(selection).transform(vl.filter(selection), vl.groupby(['Pollutant'])).title('How Each GHG Changes?').encode(vl.theta().sum('Value').stack(true).scale({
+  }).data(ghg).select(selection).transform(vl.filter(selection), vl.groupby(['Pollutant']).aggregate(vl.sum('Value').as('Total_Quantity'))).title('How Does Each Greenhouse Gas Changes?').encode(vl.theta().fieldQ('Total_Quantity').stack(true).scale({
     range: [0.75 * Math.PI, 2.75 * Math.PI]
   }), vl.color().fieldN('Pollutant').scale('tableau20').legend({
     values: ghg_pollutant
-  })).height(240).width(250);
-  vl.hconcat(barChart, pieChart1, pieChart2).resolve({
+  }), vl.tooltip(['Pollutant', 'Total_Quantity'])).height(250).width(240);
+  vl.hconcat(barChart, pieChart).resolve({
     legend: {
       color: 'independent'
     }
   }).render().then(function (viewElement) {
-    document.getElementById('overall-bar').appendChild(viewElement);
+    document.getElementById('bar-pie').appendChild(viewElement);
   });
 }
 },{"../static/temp-ghg-dataset.csv":"lpg4","../static/ghg_cleanup.csv":"NbsI","../static/tempData.csv":"fp3K"}]},{},["CsaW"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/vegaDemo.8ed80dca.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/vegaDemo.00e011c2.js.map
