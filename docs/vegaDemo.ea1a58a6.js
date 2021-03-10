@@ -143,21 +143,19 @@ var countries = [];
 var year = [];
 var year_ghg = [];
 var ghg = [];
+<<<<<<< HEAD
+=======
+var ghg_pollutant = [];
+var country = [];
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
 var countries1 = [];
 var pollutant = [];
 var options = {
-  config: {// Vega-Lite default configuration
-  },
+  config: {},
   init: function init(view) {
-    // initialize tooltip handler
     view.tooltip(new vegaTooltip.Handler().call);
   },
   view: {
-    // view constructor options
-    // remove the loader if you don't want to default to vega-datasets!
-    //   loader: vega.loader({
-    //     baseURL: "",
-    //   }),
     renderer: "canvas"
   }
 };
@@ -166,6 +164,7 @@ d3.csv(_ghg_cleanup.default).then(function (data) {
   data.forEach(function (d) {
     ghg.push(d);
   });
+<<<<<<< HEAD
   d3.csv(_ghg_cleanup.default).then(function (data) {
     data.forEach(function (d) {
       if (!year_ghg.includes(d.Year)) {
@@ -179,6 +178,36 @@ d3.csv(_ghg_cleanup.default).then(function (data) {
   data.forEach(function (d) {
     test.push(d);
 
+=======
+
+  for (var i in ghg) {
+    ghg[i].Year = parseInt(ghg[i].Year);
+    var num = ghg[i].Year;
+
+    if (!year_ghg.includes(num)) {
+      year_ghg.push(num);
+    }
+
+    var cty = ghg[i].Country;
+
+    if (!country.includes(cty)) {
+      country.push(cty);
+    }
+
+    var pol = ghg[i].Pollutant;
+
+    if (!ghg_pollutant.includes(pol)) {
+      ghg_pollutant.push(pol);
+    }
+  }
+
+  drawBarAndPie();
+});
+d3.csv(_ghg_cleanup.default).then(function (data) {
+  data.forEach(function (d) {
+    test.push(d);
+
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
     if (!pollutant.includes(d.Pollutant)) {
       pollutant.push(d.Pollutant);
     }
@@ -241,18 +270,45 @@ function drawBarVegaLite1() {
     Country: vl.menu(countries1),
     Year: vl.menu(year)
   });
+<<<<<<< HEAD
   vl.markBar().data(da).select(selection).transform(vl.groupby(['Country', 'Year', 'Month']).aggregate(vl.average('Temperature').as('temp'))).encode(vl.x().fieldO('Month'), vl.y().fieldQ('temp').title('temperature change'), vl.opacity().if(selection).value(0) // New
+=======
+  vl.markBar().data(da).select(selection).transform(vl.groupby(['Country', 'Year', 'Month']).aggregate(vl.average('Temperature').as('temp'))).encode(vl.x().fieldO('Month').sort('none'), vl.y().fieldQ('temp').title('temperature change'), vl.opacity().if(selection).value(0) // New
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
   ).render().then(function (viewElement) {
     document.getElementById('view2').appendChild(viewElement);
   });
 }
 
+<<<<<<< HEAD
 function drawBarVegaLite2() {
   var selection = vl.selectSingle('Select').fields('Year').init({
     Year: year_ghg[5]
   }).bind(vl.slider(1990, 2018, 1));
   vl.markBar().data(ghg).select(selection).transform(vl.groupby(['Country', 'Year', 'Pollutant'])).encode(vl.x().average('Value').title('Amount of Gas Emission'), vl.y().fieldN('Country'), vl.color().fieldN('Pollutant').scale('tableau20'), vl.tooltip(['Country', 'Pollutant', 'Value'])).render().then(function (viewElement) {
     document.getElementById('overall-bar').appendChild(viewElement);
+=======
+function drawBarAndPie() {
+  var selection = vl.selectSingle('Select').fields('Year').init({
+    Year: year_ghg[5]
+  }).bind(vl.slider(1990, 2018, 1));
+  var barChart = vl.markBar().data(ghg).select(selection).transform(vl.filter(selection), vl.groupby(['Country', 'Pollutant'])).title('How Greenhouse Gases Change in Each Country Every Year?').encode(vl.x().sum('Value').title('Quantity of Emission (Tonnes of CO2 equivalent, Thousands)'), vl.y().fieldN('Country'), vl.color().fieldN('Pollutant').scale('tableau20').legend({
+    values: ghg_pollutant
+  }), vl.tooltip(['Country', 'Pollutant', 'Value'])).height(250).width(600);
+  var pieChart = vl.markArc({
+    outerRadius: 120
+  }).data(ghg).select(selection).transform(vl.filter(selection), vl.groupby(['Pollutant']).aggregate(vl.sum('Value').as('Total_Quantity'))).title('How Does Each Greenhouse Gas Changes?').encode(vl.theta().fieldQ('Total_Quantity').stack(true).scale({
+    range: [0.75 * Math.PI, 2.75 * Math.PI]
+  }), vl.color().fieldN('Pollutant').scale('tableau20').legend({
+    values: ghg_pollutant
+  }), vl.tooltip(['Pollutant', 'Total_Quantity'])).height(250).width(240);
+  vl.hconcat(barChart, pieChart).resolve({
+    legend: {
+      color: 'independent'
+    }
+  }).render().then(function (viewElement) {
+    document.getElementById('bar-pie').appendChild(viewElement);
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
   });
 }
 },{"../static/temp-ghg-dataset.csv":"../static/temp-ghg-dataset.csv","../static/ghg_cleanup.csv":"../static/ghg_cleanup.csv","../static/tempData.csv":"../static/tempData.csv"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -283,7 +339,11 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+<<<<<<< HEAD
   var ws = new WebSocket(protocol + '://' + hostname + ':' + "50891" + '/');
+=======
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50837" + '/');
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
 
   ws.onmessage = function (event) {
     checkedAssets = {};

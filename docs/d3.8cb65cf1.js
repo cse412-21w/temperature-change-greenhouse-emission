@@ -118,7 +118,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"aBSJ":[function(require,module,exports) {
-module.exports = "https://cse412-21w.github.io/temperature-change-greenhouse-emission/data_world.db4ceede.csv";
+module.exports = "https://cse412-21w.github.io/temperature-change-greenhouse-emission/data_world.02bb0c7e.csv";
 },{}],"jsJr":[function(require,module,exports) {
 "use strict";
 
@@ -239,4 +239,8 @@ function drawBarD3() {
   }).style("font-size", "15px").attr("alignment-baseline", "middle");
 }
 },{"../static/data_world.csv":"aBSJ"}]},{},["jsJr"], null)
+<<<<<<< HEAD:docs/d3.8cb65cf1.js
 //# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.8cb65cf1.js.map
+=======
+//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.a06af2f9.js.map
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48:docs/d3.a06af2f9.js

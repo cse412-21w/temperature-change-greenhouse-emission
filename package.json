@@ -6,18 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-minify --public-url https://cse412-21w.github.io/temperature-change-greenhouse-emission & RD /S /Q .\\docs & ren .\\dist docs;"
+    "build": "parcel build src/index.html --no-minify --public-url https://cse412-21w.github.io/temperature-change-greenhouse-emission/; rm -rf docs; mv dist docs;"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cse412/project-demo.git"
+    "url": "git+https://github.com/cse412-21w/temperature-change-greenhouse-emission.git"
   },
   "author": "cse412-staff",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cse412/project-demo/issues"
+    "url": "https://github.com/cse412-21w/temperature-change-greenhouse-emission/issues"
   },
-  "homepage": "https://github.com/cse412/project-demo#readme",
+  "homepage": "https://github.com/cse412-21w/temperature-change-greenhouse-emission#readme",
   "devDependencies": {
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",

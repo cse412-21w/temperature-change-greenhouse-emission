@@ -1,6 +1,7 @@
 import fpData from '../static/temp-ghg-dataset.csv'
 import ghgData from '../static/ghg_cleanup.csv'
 import tempData from '../static/tempData.csv'
+
 "use strict";
 
 var ds = [];
@@ -17,19 +18,11 @@ var pollutant = [];
 
 
 const options = {
-  config: {
-    // Vega-Lite default configuration
-  },
+  config: {},
   init: (view) => {
-    // initialize tooltip handler
     view.tooltip(new vegaTooltip.Handler().call);
   },
   view: {
-    // view constructor options
-    // remove the loader if you don't want to default to vega-datasets!
-    //   loader: vega.loader({
-    //     baseURL: "",
-    //   }),
     renderer: "canvas",
   },
 };
@@ -55,7 +48,11 @@ d3.csv(ghgData).then(function(data) {
       ghg_pollutant.push(pol);
     }
   }
+<<<<<<< HEAD
   drawBarVegaLite2();
+=======
+  drawBarAndPie();
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
 });
 
 d3.csv(ghgData).then(function(data) {
@@ -154,20 +151,20 @@ function drawBarVegaLite() {
   }
 
 function drawBarVegaLite1() {
-    const selection = vl.selectSingle('select')
-        .fields('Country', 'Year')
-        .init({Country: countries1[0], Year: year[0]})
-        .bind({Country: vl.menu(countries1), Year: vl.menu(year)});
+  const selection = vl.selectSingle('select')
+      .fields('Country', 'Year')
+      .init({Country: countries1[0], Year: year[0]})
+      .bind({Country: vl.menu(countries1), Year: vl.menu(year)});
 
-    vl.markBar()
+  vl.markBar()
     .data(da)
     .select(selection)
     .transform(
           vl.groupby(['Country','Year','Month'])
             .aggregate(vl.average('Temperature').as('temp'))
-       )
-     .encode(
-      vl.x().fieldO('Month'),
+      )
+    .encode(
+      vl.x().fieldO('Month').sort('none'),
       vl.y().fieldQ('temp').title('temperature change'),
       vl.opacity().if(selection).value(0)    // New
     )
@@ -177,7 +174,11 @@ function drawBarVegaLite1() {
     });
 }
 
+<<<<<<< HEAD
 function drawBarVegaLite2() {
+=======
+function drawBarAndPie() {
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
   var selection = vl.selectSingle('Select')
     .fields('Year')
     .init({Year: year_ghg[5]})
@@ -197,14 +198,22 @@ function drawBarVegaLite2() {
       vl.color().fieldN('Pollutant').scale('tableau20').legend({values: ghg_pollutant}),
       vl.tooltip(['Country','Pollutant','Value'])
     )
+<<<<<<< HEAD
     .height(200)
     .width(350);
 
   var pieChart1 = vl.markArc({outerRadius: 120})
+=======
+    .height(250)
+    .width(600);
+
+    var pieChart = vl.markArc({outerRadius: 120})
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
     .data(ghg)
     .select(selection)
     .transform(
       vl.filter(selection),
+<<<<<<< HEAD
       vl.groupby(['Country'])
     )
     .title('Which Country Has the Most GHG Every Year?')
@@ -231,9 +240,24 @@ function drawBarVegaLite2() {
       .width(240);
 
   vl.hconcat(barChart, pieChart1, pieChart2)
+=======
+      vl.groupby(['Pollutant'])
+        .aggregate(vl.sum('Value').as('Total_Quantity'))
+    )
+    .title('How Does Each Greenhouse Gas Changes?')
+    .encode(
+      vl.theta().fieldQ('Total_Quantity').stack(true).scale({range: [0.75 * Math.PI, 2.75 * Math.PI]}),
+      vl.color().fieldN('Pollutant').scale('tableau20').legend({values: ghg_pollutant}),
+      vl.tooltip(['Pollutant','Total_Quantity'])
+    )
+    .height(250)
+    .width(240);
+
+    vl.hconcat(barChart, pieChart)
+>>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
     .resolve({legend: {color: 'independent'}})
     .render()
     .then(viewElement => {
-      document.getElementById('overall-bar').appendChild(viewElement);
+      document.getElementById('bar-pie').appendChild(viewElement);
   });
 }
