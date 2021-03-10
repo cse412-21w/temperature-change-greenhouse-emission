@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cse412/temperature-change-greenhouse-emission.git"
+    "url": "git+https://github.com/cse412-21w/temperature-change-greenhouse-emission.git"
   },
   "author": "cse412-staff",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cse412/temperature-change-greenhouse-emission/issues"
+    "url": "https://github.com/cse412-21w/temperature-change-greenhouse-emission/issues"
   },
-  "homepage": "https://github.com/cse412/temperature-change-greenhouse-emission#readme",
+  "homepage": "https://github.com/cse412-21w/temperature-change-greenhouse-emission#readme",
   "devDependencies": {
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
