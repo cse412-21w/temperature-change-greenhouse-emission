@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>CSE 412 Project Prototype</title>
-        <link rel="stylesheet" href="https://cse412-21w.github.io/temperature-change-greenhouse-emission/style.aa351f8a.css">
+        <title>temperature-change-greenhouse-emission</title>
+        <link rel="stylesheet" href="https://cse412.github.io/project-demo/style.b44ee69b.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- For using d3 -->
         <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -13,121 +13,140 @@
         <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cse412.github.io/project-demo/hero-slider.192ba782.css">
+        <link rel="stylesheet" href="https://cse412.github.io/project-demo/owl-carousel.44314c89.css">
     </head>
 
     <body>
-      <section class="title">
-        <a href="/">CSE 412 Demo</a>
-      </section>
-      <section>
-        <h2>Final Project</h2>
-        <p>The final project will provide hands-on experience designing, implementing,
-          and deploying interactive visualizations. Your project should address a concrete
-          visualization challenge and should propose a novel, creative solution. The final
-          deliverable will take the form of a visual analysis tool or an explanatory narrative,
-          deployed as an interactive web page. More info on the
-          <a href="https://courses.cs.washington.edu/courses/cse412/21wi/fp.html">course website</a>.
-        </p>
-      </section>
-      <section>
-        <p><strong>This page is used mainly to demo how to embed visualizations. All visualizations below are
-          not perfect and need more iteration critiques before really publishing on a webpage.
-        </strong></p>
-      </section>
+      <div class="fixed-side-navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#title"><span>HOME</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#intro"><span>Intro</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#overall-trends"><span>Overall Trends</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#greenhouse-emission"><span>Emission Of Greenhouse Gases</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#temperature-countries"><span>Carbon Dioxide Emission And Temperature Changes</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#monthly-changes"><span>Monthyly Changes</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#world-temperature"><span>Temperature Change</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#insight"><span>Insight</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about-us"><span>About us</span></a></li>
+        </ul>
+    </div>
 
-
-      <section id="tableauDemo">
-        <h3>Embed a Tableau Visualization:</h3>
-      <div class="tableauPlaceholder" id="viz1614380753661" style="position: relative">
-        <noscript>
-          <a href="#">
-            <img alt=" " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16143154437850&#47;Sheet1&#47;1_rss.png" style="border: none">
-          </a>
-        </noscript>
-        <object class="tableauViz" style="display:none;">
-          <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
-          <param name="embed_code_version" value="3">
-          <param name="site_root" value="">
-          <param name="name" value="Book1_16143154437850&#47;Sheet1">
-          <param name="tabs" value="no">
-          <param name="toolbar" value="yes">
-          <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_16143154437850&#47;Sheet1&#47;1.png">
-          <param name="animate_transition" value="yes">
-          <param name="display_static_image" value="yes">
-          <param name="display_spinner" value="yes">
-          <param name="display_overlay" value="yes">
-          <param name="display_count" value="yes">
-          <param name="language" value="en">
-          <param name="filter" value="publish=yes">
-        </object>
+      <div class="parallax-content baner-content" id="title" style="background-position: center calc(50%+0px);">
+        <h1>Temperature Change and Greenhouse Emission Over Years</h1>
+        <div class="primary-button">
+          <a href="https://github.com/cse412-21w/temperature-change-greenhouse-emission.git">GitHub Page</a>
       </div>
-      <script>var divElement = document.getElementById('viz1614380753661');
-var vizElement = divElement.getElementsByTagName('object')[0];
-vizElement.style.width = '100%';
-vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
-var scriptElement = document.createElement('script');
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
-      </section>
+    </div>
 
-      <section id="vegaDemo">
-        <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
-        <div id="overall-bar"></div>
-        <p>
-          <b>Idea</b>: When changing the year as dragging the slider, we would see the bar chart corresponding to that year.
-              For each country, the bar is shown with pollutant proportion with different colors. (The slider is not
-              working now, and I will revise it later...) <br>
-          <b>Interpretation</b>: United States has the highest total greenhouse gas emission. An generic observation for each
-              country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
-              is at the second. So for the rest of analysis, we have filtered the pollutant type into these
-              two kinds of gases.
+      <div class="service-content" id="intro">
+        <div class="container">
+          <h3>Introduction</h3>
+          <p>One of the most important issues the world and all world citizens face is the climate
+          change in this technological era. The record of historical temperature change provides
+          us the chance to show how it progresses over times at various time periods in different
+          countries and also overall world temperature change. Carbon emission is one of the main
+          causes of climate change that is worth more attention, so we want to show people the
+          current situation to raise awareness and call for actions for possible reduction in
+          carbon footage so that we can contribute as much as we can to save the world.
+          <a href="https://github.com/cse412-21w/temperature-change-greenhouse-emission">More</a>.
         </p>
-      </section>
-
-      <section id="d3">
-        <h3>How much does the world temperature change from year to year</h3>
-        <div id="d3"></div>
-        <p>
-          The overall Trend is that the temperature steadily increases from year to year.
-          Starting from 1997, there is no longer a flunctuation on temperature changes,
-          and temperature is higher by about 2 degree celcius compared to the baseline temperature.
+        <p>Data sourses: <a href="https://www.kaggle.com/sevgisarac/temperature-change?select=Environment_Temperature_change_E_All_Data_NOFLAG.csv">Environmental Temperature Change</a>
+        <a href="https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG">, Greenhouse Emission</a>
         </p>
-      </section>
+    </div>
+    </div>
 
-      <section>
-        <p>I wasn't able to complete the bar chart with the interactive and legend I want with d3 yet, so here is the desire outcome produced by Tableau</p>
-        <div class="tableauPlaceholder" id="viz1614382626900" style="position: relative">
-          <noscript>
-            <a href="#">
-              <img alt=" " src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears&#47;1_rss.png" style="border: none">
-            </a>
-          </noscript>
-          <object class="tableauViz" style="display:none;">
-            <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
-            <param name="embed_code_version" value="3">
-            <param name="site_root" value="">
-            <param name="name" value="Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears">
-            <param name="tabs" value="no">
-            <param name="toolbar" value="yes">
-            <param name="static_image" value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;Temperature_Change_Bar_Chart&#47;HowDoestheWorldTemperatureChangeOverYears&#47;1.png">
-            <param name="animate_transition" value="yes">
-            <param name="display_static_image" value="yes">
-            <param name="display_spinner" value="yes">
-            <param name="display_overlay" value="yes">
-            <param name="display_count" value="yes">
-            <param name="language" value="en">
-            <param name="filter" value="publish=yes">
-          </object>
+      <div class="service-content" id="overall-trends">
+        <div class="container">
+          <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
+          <p>
+            United States has the highest total greenhouse gas emission. An generic observation for each
+            country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
+            is at the second. So for the rest of analysis, we have filtered the pollutant type into these
+            two kinds of gases.
+          </p>
+          <div id="overall-bar"></div>
+          <div id="pie-chart"></div>
+      </div>
+      </div>
+
+      <div class="service-content" id="greenhouse-emission">
+        <div class="container">
+        <h3>Emission Of Greenhouse Gases</h3>
+        <p>Carbon Dioxide, methane, and Nitrous oxide, are three major components for greenhouse gases. And
+          they are the one of the significant causes of the global warming. Following graphs display the flunctuation
+          of three gases during 1990 to 2018. We can observe that these three gases all have an incresing trend around
+          year 2017.
+        </p>
+        <div id="ghg"></div>
+      </div>
+      </div>
+
+      <div class="service-content" id="temperature-countries">
+        <div class="container">
+        <h3>Carbon Dioxide Emission And Temperature Changes of Each Country:</h3>
+        <p>The following interactive graph shows the average emission of carbon dioxide
+          from year 1990 to 2018, and the changes of temperature for each year. By using the
+          selection bar, one could simply see the average emission of carbon dioxide through out the years and temperature
+          changes of a particular country. It is notable that most of countries experienced a growth
+          in temperature during these year.
+        </p>
+        <p id="note">Note: Lost some countries when joining two datasets.</p>
+        <div id="view"></div>
+      </div>
+      </div>
+
+      <div class="service-content" id="monthly-changes">
+        <div class="container">
+        <h3>New</h3>
+        <div id="view2"></div>
+      </div>
+      </div>
+
+      <div class="service-content" id="world-temperature">
+        <div class="container">
+          <h3>How much does the world temperature change from year to year</h3>
+          <p>
+            The overall Trend is that the temperature steadily increases from year to year.
+            Starting from 1997, there is no longer a flunctuation on temperature changes,
+            and temperature is higher by about 2 degree celcius compared to the baseline temperature.
+          </p>
+          <div id="d3"></div>
+      </div>
+      </div>
+
+      <div class="service-content" id="team">
+        <h3>Project Team</h3>
+        <div id="team-container">
+          <div class="info">
+            <img src="https://cse412.github.io/project-demo/environment.232e89ee.jpeg"><br>
+            <p class="name">Angela Zhao</p>
+            <p>zhaoaq59@uw.edu</p>
+            <p>https://github.com/angelazhao2552</p>
+          </div>
+          <div class="info">
+            <img src="https://cse412.github.io/project-demo/environment.232e89ee.jpeg"><br>
+            <p class="name">Kathy Wang</p>
+            <p>@uw.edu</p>
+            <p>https://github.com/Kathy-PJ</p>
+          </div>
+          <div class="info">
+            <img src="https://cse412.github.io/project-demo/environment.232e89ee.jpeg"><br>
+            <p class="name">Lauren Liao</p>
+            <p>@uw.edu</p>
+            <p>https://github.com/lr5029</p>
+          </div>
+          <div class="info">
+            <img src="https://cse412.github.io/project-demo/environment.232e89ee.jpeg"><br>
+            <p class="name">Sunny Li</p>
+            <p>@uw.edu</p>
+            <p>https://github.com/</p>
+          </div>
         </div>
-        <script>var divElement = document.getElementById('viz1614382626900');
-var vizElement = divElement.getElementsByTagName('object')[0];
-vizElement.style.width = '100%';
-vizElement.style.height = divElement.offsetWidth * 0.75 + 'px';
-var scriptElement = document.createElement('script');
-scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
-      </section>
+      </div>
 
       <div class="footer">
         <a href="https://courses.cs.washington.edu/courses/cse412/21wi/">CSE 412 Data Visualization</a>
@@ -137,8 +156,9 @@ vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
       <!-- it is recommended to put js files before </body> -->
       <!-- or check load event fot addEventListener() if you want to put js in the <head> -->
-      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.5d1e9791.js"></script>
-      <script src="https://cse412-21w.github.io/temperature-change-greenhouse-emission/vega-overall-bar.c61d2486.js"></script>
+      <script src="https://cse412.github.io/project-demo/d3.a06af2f9.js"></script>
+      <!--<script src="vega-overall-bar.js"></script>-->
+      <script src="https://cse412.github.io/project-demo/vegaDemo.abac9484.js"></script>
     </body>
 
 </html>

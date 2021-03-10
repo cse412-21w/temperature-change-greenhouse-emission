@@ -198,7 +198,7 @@ function drawBarVegaLite2() {
       vl.tooltip(['Country','Pollutant','Value'])
     )
     .height(200)
-    .width(350);
+    .width(300);
 
   var pieChart1 = vl.markArc({outerRadius: 120})
     .data(ghg)
@@ -213,7 +213,7 @@ function drawBarVegaLite2() {
       vl.color().fieldN('Country').scale('tableau20').legend({values: country})
     )
     .height(240)
-    .width(240);
+    .width(250);
 
     var pieChart2 = vl.markArc({outerRadius: 120})
       .data(ghg)
@@ -228,7 +228,7 @@ function drawBarVegaLite2() {
         vl.color().fieldN('Pollutant').scale('tableau20').legend({values: ghg_pollutant})
       )
       .height(240)
-      .width(240);
+      .width(250);
 
   vl.hconcat(barChart, pieChart1, pieChart2)
     .resolve({legend: {color: 'independent'}})

@@ -1,13 +1,16 @@
 body {
-  position: relative; /* we need this for the scrollspy */
-  font-size: 14px;
+  position: relative;
+}
+
+.service-content{
+  background: rgb(190, 231, 190);
 }
 
 /*----------
   NAV
 ----------*/
 
-.navbar {
+.fixed-side-navbar {
   position: fixed;
   top: 50%;
   right: 0;
@@ -18,10 +21,10 @@ body {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-.navbar:hover {
+.fixed-side-navbar:hover {
   background: transparent;
 }
-.navbar:hover .nav > li > a > span {
+.fixed-side-navbar:hover .nav > li > a > span {
   color: rgba(0, 0, 0, 0.5);
   display: block;
   background-color: #fff;
@@ -31,15 +34,15 @@ body {
   padding: 2px 12px;
   border-radius: 15px;
 }
-navbar .nav > li a.active {
+.fixed-side-navbar .nav > li a.active {
   background-color: transparent;
   color: black;
 }
-.navbar .nav > li a.active:after {
+.fixed-side-navbar .nav > li a.active:after {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
-.navbar .nav > li a.active:before {
+.fixed-side-navbar .nav > li a.active:before {
   content: '';
   position: absolute;
   top: 50%;
@@ -55,19 +58,19 @@ navbar .nav > li a.active {
   position: relative;
   display: block;
 }
-.navbar .nav > li a {
+.fixed-side-navbar .nav > li a {
   color: #fff;
   min-height: 32px;
   background: transparent;
   padding: 5px 45px 5px 25px;
   border-right: none;
 }
-.navbar .nav > li a span {
+.fixed-side-navbar .nav > li a span {
   display: none;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
-.navbar .nav > li a:after {
+.fixed-side-navbar .nav > li a:after {
   content: '';
   position: absolute;
   top: 50%;
@@ -82,17 +85,18 @@ navbar .nav > li a.active {
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
 }
-.navbar .nav > li a:hover {
+.fixed-side-navbar .nav > li a:hover {
   background-color: transparent;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: black;
-  boder-right: 0;
+  border-right: 0;
 }
-.navbar .nav > li a:hover > span {
+.fixed-side-navbar .nav > li a:hover > span {
   color: black;
   display: block;
 }
+
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
           animation-name: fadeInRight;
@@ -145,30 +149,82 @@ navbar .nav > li a.active {
   background-position: center center;
 }
 
-.service-content .left-text p {
-  font-size: 24px;
-  font-weight: 500;
-  color: #fff;
+p {
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 25px;
 }
-.service-content .service-item {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 25px 30px;
-  text-align: center;
-  color: #fff;
+
+#intro p {
+  font-family: 'Balsamiq Sans', cursive;
+  padding: 80px;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 0%;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  width: 100%;
+}
+
+#view, #overall-bar, #ghg, #view2, #d3 {
+  margin: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.service-content h3 {
+  font-weight: 3000;
+  font-size: 30px;
+  margin-left: 0%;
   margin-bottom: 30px;
 }
-.service-content .service-item .line-dec {
-  width: 45px;
-  height: 3px;
-  background-color: #ff7d27;
-  margin: 20px auto 15px auto;
+
+.container > p {
+  font-size: 20px;
 }
- .title, .title h1, .title a {
-  color: #492a7c;
-  font-size: 24pt;
-  margin-bottom: 20px;
-  margin-top: 5px;
+
+.container h3, #team h3 {
+  font-size: 30px;
+  text-align: center;
 }
+
+#team-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#team-container p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.info {
+  margin: 20px 20px 20px 20px;
+  height: 320px;
+  width: 250px;
+  background-color: #F5DEB3;
+  opacity: 95%;
+  border-radius: 15%;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 10%;
+}
+
+.name {
+  font-size: 12pt;
+  font-weight: 500;
+}
+
  .footer {
   border-top: 1px solid #ccc;
   margin-top: 30px;

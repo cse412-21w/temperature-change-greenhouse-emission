@@ -117,79 +117,66 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-var bundleURL = null;
+})({"../static/ghg_cleanup.csv":[function(require,module,exports) {
+module.exports = "/ghg_cleanup.a75ee86c.csv";
+},{}],"../static/temp-ghg-dataset.csv":[function(require,module,exports) {
+module.exports = "/temp-ghg-dataset.79c9ff5e.csv";
+},{}],"vega-overall-bar.js":[function(require,module,exports) {
+"use strict";
 
-function getBundleURLCached() {
-  if (!bundleURL) {
-    bundleURL = getBundleURL();
+var _ghg_cleanup = _interopRequireDefault(require("../static/ghg_cleanup.csv"));
+
+var _tempGhgDataset = _interopRequireDefault(require("../static/temp-ghg-dataset.csv"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+"use strict";
+
+var ds = [];
+var countries = [];
+var year = [];
+var ghg = [];
+var year = [];
+var options = {
+  config: {},
+  init: function init(view) {
+    view.tooltip(new vegaTooltip.Handler().call);
+  },
+  view: {
+    renderer: "canvas"
   }
+};
+vl.register(vega, vegaLite, options);
+d3.csv(_tempGhgDataset.default).then(function (data) {
+  data.forEach(function (d) {
+    ds.push(d);
 
-  return bundleURL;
-}
-
-function getBundleURL() {
-  // Attempt to find the URL of the current script and use that as the base URL
-  try {
-    throw new Error();
-  } catch (err) {
-    var matches = ('' + err.stack).match(/(https?|file|ftp|chrome-extension|moz-extension):\/\/[^)\n]+/g);
-
-    if (matches) {
-      return getBaseURL(matches[0]);
-    }
-  }
-
-  return '/';
-}
-
-function getBaseURL(url) {
-  return ('' + url).replace(/^((?:https?|file|ftp|chrome-extension|moz-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
-}
-
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-},{}],"../node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-var bundle = require('./bundle-url');
-
-function updateLink(link) {
-  var newLink = link.cloneNode();
-
-  newLink.onload = function () {
-    link.remove();
-  };
-
-  newLink.href = link.href.split('?')[0] + '?' + Date.now();
-  link.parentNode.insertBefore(newLink, link.nextSibling);
-}
-
-var cssTimeout = null;
-
-function reloadCSS() {
-  if (cssTimeout) {
-    return;
-  }
-
-  cssTimeout = setTimeout(function () {
-    var links = document.querySelectorAll('link[rel="stylesheet"]');
-
-    for (var i = 0; i < links.length; i++) {
-      if (bundle.getBaseURL(links[i].href) === bundle.getBundleURL()) {
-        updateLink(links[i]);
-      }
+    if (!countries.includes(d.Country)) {
+      countries.push(d.Country);
     }
 
-    cssTimeout = null;
-  }, 50);
+    if (!year.includes(d.Year)) {
+      year.push(d.Year);
+    }
+  });
+  drawBarVegaLite();
+});
+
+function drawBarVegaLite3() {
+  var selectGenre = vl.selectSingle('Select') // name the selection 'Select'
+  .fields('Country') // limit selection to the Major_Genre field
+  .init({
+    Country: countries[0]
+  }) // use first genre entry as initial value
+  .bind(vl.menu(countries));
+  var temp = vl.markBar().data(ds).select(selectGenre).transform( //vl.if(selectGenre, vl.filter('datum.Country == ' + selectGenre)),
+  vl.groupby(['Country', 'Year']).aggregate(vl.average('Temperature').as('avg_temp'))).encode(vl.y().fieldQ('avg_temp').title('Temperature Change'), vl.x().fieldQ('Year'), vl.opacity().if(selectGenre, vl.value(1)).value(0)).width(500).height(300);
+  var ghg = vl.markBar().data(ds).transform(vl.filter('datum.Pollutant == "Carbon dioxide"'), vl.groupby(['Country', 'Year']).aggregate(vl.average('GHG').as('avg_ghg'))).encode(vl.x().fieldQ('Year'), vl.y().fieldQ('avg_ghg').title('avg_carbon_dioxide'), vl.opacity().if(selectGenre, vl.value(1)).value(0)).width(500).height(300);
+  vl.vconcat(ghg, temp).render().then(function (viewElement) {
+    document.getElementById('view').appendChild(viewElement);
+  });
 }
-
-module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./environment.jpeg":[["environment.4907f674.jpeg","environment.jpeg"],"environment.jpeg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../static/ghg_cleanup.csv":"../static/ghg_cleanup.csv","../static/temp-ghg-dataset.csv":"../static/temp-ghg-dataset.csv"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +204,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64274" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56074" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +380,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/style.e308ff8e.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","vega-overall-bar.js"], null)
+//# sourceMappingURL=/vega-overall-bar.17d599d4.js.map

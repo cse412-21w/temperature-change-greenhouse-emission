@@ -13,21 +13,22 @@
         <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script>
         <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="hero-slider.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="owl-carousel.css">
     </head>
 
     <body>
-      <div class="navbar">
+      <div class="fixed-side-navbar">
         <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="#home"><span>HOME</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#title"><span>HOME</span></a></li>
             <li class="nav-item"><a class="nav-link" href="#intro"><span>Intro</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Overall-Trends"><span>Overall Trends</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Emission-Of-Greenhouse-Gases"><span>Emission Of Greenhouse Gases</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Carbon-Dioxide-Emission-And -Temperature-Changes"><span>Carbon Dioxide Emission And Temperature Changes</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Monthly-Changes"><span>Monthyly Changes</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Temperature-Change"><span>Temperature Change</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#overall-trends"><span>Overall Trends</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#greenhouse-emission"><span>Emission Of Greenhouse Gases</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#temperature-countries"><span>Carbon Dioxide Emission And Temperature Changes</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#monthly-changes"><span>Monthyly Changes</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#world-temperature"><span>Temperature Change</span></a></li>
             <li class="nav-item"><a class="nav-link" href="#insight"><span>Insight</span></a></li>
             <li class="nav-item"><a class="nav-link" href="#about-us"><span>About us</span></a></li>
         </ul>
@@ -40,8 +41,9 @@
       </div>
     </div>
 
-      <div class="intro">
+      <div class="service-content" id="intro">
         <div class="container">
+          <h3>Introduction</h3>
           <p>One of the most important issues the world and all world citizens face is the climate
           change in this technological era. The record of historical temperature change provides
           us the chance to show how it progresses over times at various time periods in different
@@ -60,16 +62,14 @@
       <div class ="service-content" id = "overall-trends">
         <div class = "container">
           <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
-          <div id="overall-bar"></div>
           <p>
-            <b>Idea</b>: When changing the year as dragging the slider, we would see the bar chart corresponding to that year.
-                For each country, the bar is shown with pollutant proportion with different colors. (The slider is not
-                working now, and I will revise it later...) <br>
-            <b>Interpretation</b>: United States has the highest total greenhouse gas emission. An generic observation for each
-                country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
-                is at the second. So for the rest of analysis, we have filtered the pollutant type into these
-                two kinds of gases.
+            United States has the highest total greenhouse gas emission. An generic observation for each
+            country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
+            is at the second. So for the rest of analysis, we have filtered the pollutant type into these
+            two kinds of gases.
           </p>
+          <div id="overall-bar"></div>
+          <div id="pie-chart"></div>
       </div>
       </div>
 
@@ -109,13 +109,43 @@
       <div class ="service-content" id = "world-temperature">
         <div class="container">
           <h3>How much does the world temperature change from year to year</h3>
-          <div id="d3"></div>
           <p>
             The overall Trend is that the temperature steadily increases from year to year.
             Starting from 1997, there is no longer a flunctuation on temperature changes,
             and temperature is higher by about 2 degree celcius compared to the baseline temperature.
           </p>
+          <div id="d3"></div>
       </div>
+      </div>
+
+      <div class="service-content" id='team'>
+        <h3>Project Team</h3>
+        <div id='team-container'>
+          <div class='info'>
+            <img src="environment.jpeg"><br>
+            <p class='name'>Angela Zhao</p>
+            <p>zhaoaq59@uw.edu</p>
+            <p>https://github.com/angelazhao2552</p>
+          </div>
+          <div class='info'>
+            <img src="environment.jpeg"><br>
+            <p class='name'>Kathy Wang</p>
+            <p>@uw.edu</p>
+            <p>https://github.com/Kathy-PJ</p>
+          </div>
+          <div class='info'>
+            <img src="environment.jpeg"><br>
+            <p class='name'>Lauren Liao</p>
+            <p>@uw.edu</p>
+            <p>https://github.com/lr5029</p>
+          </div>
+          <div class='info'>
+            <img src="environment.jpeg"><br>
+            <p class='name'>Sunny Li</p>
+            <p>@uw.edu</p>
+            <p>https://github.com/</p>
+          </div>
+        </div>
       </div>
 
       <div class="footer">
