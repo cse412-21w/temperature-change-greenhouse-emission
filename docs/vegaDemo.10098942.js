@@ -280,4 +280,4 @@ function drawBarAndPie() {
   });
 }
 },{"../static/temp-ghg-dataset.csv":"lpg4","../static/ghg_cleanup.csv":"NbsI","../static/tempData.csv":"fp3K"}]},{},["CsaW"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/vegaDemo.00e011c2.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/vegaDemo.10098942.js.map
