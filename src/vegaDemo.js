@@ -48,11 +48,7 @@ d3.csv(ghgData).then(function(data) {
       ghg_pollutant.push(pol);
     }
   }
-<<<<<<< HEAD
-  drawBarVegaLite2();
-=======
   drawBarAndPie();
->>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
 });
 
 d3.csv(ghgData).then(function(data) {
@@ -174,11 +170,7 @@ function drawBarVegaLite1() {
     });
 }
 
-<<<<<<< HEAD
-function drawBarVegaLite2() {
-=======
 function drawBarAndPie() {
->>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
   var selection = vl.selectSingle('Select')
     .fields('Year')
     .init({Year: year_ghg[5]})
@@ -198,49 +190,14 @@ function drawBarAndPie() {
       vl.color().fieldN('Pollutant').scale('tableau20').legend({values: ghg_pollutant}),
       vl.tooltip(['Country','Pollutant','Value'])
     )
-<<<<<<< HEAD
-    .height(200)
-    .width(350);
-
-  var pieChart1 = vl.markArc({outerRadius: 120})
-=======
     .height(250)
     .width(600);
 
     var pieChart = vl.markArc({outerRadius: 120})
->>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
     .data(ghg)
     .select(selection)
     .transform(
       vl.filter(selection),
-<<<<<<< HEAD
-      vl.groupby(['Country'])
-    )
-    .title('Which Country Has the Most GHG Every Year?')
-    .encode(
-      vl.theta().sum('Value').stack(true).scale({range: [0.75 * Math.PI, 2.75 * Math.PI]}),
-      vl.color().fieldN('Country').scale('tableau20').legend({values: country})
-    )
-    .height(240)
-    .width(240);
-
-    var pieChart2 = vl.markArc({outerRadius: 120})
-      .data(ghg)
-      .select(selection)
-      .transform(
-        vl.filter(selection),
-        vl.groupby(['Pollutant'])
-      )
-      .title('How Each GHG Changes?')
-      .encode(
-        vl.theta().sum('Value').stack(true).scale({range: [0.75 * Math.PI, 2.75 * Math.PI]}),
-        vl.color().fieldN('Pollutant').scale('tableau20').legend({values: ghg_pollutant})
-      )
-      .height(240)
-      .width(240);
-
-  vl.hconcat(barChart, pieChart1, pieChart2)
-=======
       vl.groupby(['Pollutant'])
         .aggregate(vl.sum('Value').as('Total_Quantity'))
     )
@@ -254,7 +211,6 @@ function drawBarAndPie() {
     .width(240);
 
     vl.hconcat(barChart, pieChart)
->>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
     .resolve({legend: {color: 'independent'}})
     .render()
     .then(viewElement => {
