@@ -1,50 +1,5 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<<<<<<< HEAD
-    <head>
-        <meta charset="utf-8">
-        <title>temperature-change-greenhouse-emission</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <!-- For using d3 -->
-        <script src="https://d3js.org/d3.v6.min.js"></script>
-        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-        <!-- For using vega-lite -->
-        <script src="https://cdn.jsdelivr.net/npm/vega"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="hero-slider.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
-    </head>
-
-    <body>
-      <div class="navbar">
-        <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="#home"><span>HOME</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#intro"><span>Intro</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Overall-Trends"><span>Overall Trends</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Emission-Of-Greenhouse-Gases"><span>Emission Of Greenhouse Gases</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Carbon-Dioxide-Emission-And -Temperature-Changes"><span>Carbon Dioxide Emission And Temperature Changes</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Monthly-Changes"><span>Monthyly Changes</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#Temperature-Change"><span>Temperature Change</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#insight"><span>Insight</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#about-us"><span>About us</span></a></li>
-        </ul>
-    </div>
-
-      <div class="parallax-content baner-content" id="title" style="background-position: center calc(50%+0px);">
-        <h1>Temperature Change and Greenhouse Emission Over Years</h1>
-        <div class="primary-button">
-          <a href="https://github.com/cse412-21w/temperature-change-greenhouse-emission.git">GitHub Page</a>
-      </div>
-    </div>
-
-      <div class="intro">
-        <div class="container">
-          <p>One of the most important issues the world and all world citizens face is the climate
-=======
   <head>
     <meta charset="utf-8">
     <title>temperature-change-greenhouse-emission</title>
@@ -92,7 +47,6 @@
         <h3>Introduction</h3>
         <p>
           One of the most important issues the world and all world citizens face is the climate
->>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
           change in this technological era. The record of historical temperature change provides
           us the chance to show how it progresses over times at various time periods in different
           countries and also overall world temperature change. Carbon emission is one of the main
@@ -104,29 +58,6 @@
         <p>Data sourses: <a href='https://www.kaggle.com/sevgisarac/temperature-change?select=Environment_Temperature_change_E_All_Data_NOFLAG.csv'>Environmental Temperature Change</a>
         <a href='https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG'>, Greenhouse Emission</a>
         </p>
-<<<<<<< HEAD
-    </div>
-    </div>
-
-      <div class ="service-content" id = "overall-trends">
-        <div class = "container">
-          <h3>Total Greenhouse Gas Emission in Top Countries with Pollutant Proportion (incomplete):</h3>
-          <div id="overall-bar"></div>
-          <p>
-            <b>Idea</b>: When changing the year as dragging the slider, we would see the bar chart corresponding to that year.
-                For each country, the bar is shown with pollutant proportion with different colors. (The slider is not
-                working now, and I will revise it later...) <br>
-            <b>Interpretation</b>: United States has the highest total greenhouse gas emission. An generic observation for each
-                country is that carbon dioxide is in the greatest proportion among total gas emission, and methane
-                is at the second. So for the rest of analysis, we have filtered the pollutant type into these
-                two kinds of gases.
-          </p>
-      </div>
-      </div>
-
-      <div class ="service-content" id = "greenhouse-emission">
-        <div class = "container">
-=======
       </div>
     </div>
 
@@ -154,7 +85,6 @@
 
     <div class="service-content" id="greenhouse-emission">
       <div class="container">
->>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
         <h3>Emission Of Greenhouse Gases</h3>
         <p>
           Carbon Dioxide, methane, and Nitrous oxide, are three major components for greenhouse gases. And
@@ -164,47 +94,6 @@
         </p>
         <div id="ghg"></div>
       </div>
-<<<<<<< HEAD
-      </div>
-
-      <div class ="service-content" id = "temperature-countries">
-        <div class = "container">
-        <h3>Carbon Dioxide Emission And Temperature Changes of Each Country:</h3>
-        <p>The following interactive graph shows the average emission of carbon dioxide
-          from year 1990 to 2018, and the changes of temperature for each year. By using the
-          selection bar, one could simply see the average emission of carbon dioxide through out the years and temperature
-          changes of a particular country. It is notable that most of countries experienced a growth
-          in temperature during these year.
-        </p >
-        <p id="note">Note: Lost some countries when joining two datasets.</p>
-        <div id="view"></div>
-      </div>
-      </div>
-
-      <div class ="service-content" id = "monthly-changes">
-        <div class="container">
-        <h3>New</h3>
-        <div id="view2"></div>
-      </div>
-      </div>
-
-      <div class ="service-content" id = "world-temperature">
-        <div class="container">
-          <h3>How much does the world temperature change from year to year</h3>
-          <div id="d3"></div>
-          <p>
-            The overall Trend is that the temperature steadily increases from year to year.
-            Starting from 1997, there is no longer a flunctuation on temperature changes,
-            and temperature is higher by about 2 degree celcius compared to the baseline temperature.
-          </p>
-      </div>
-      </div>
-
-      <div class="footer">
-        <a href="https://courses.cs.washington.edu/courses/cse412/21wi/">CSE 412 Data Visualization</a>
-        <a href="http://www.washington.edu">University of Washington</a>
-        <p>Ran Liao, Angela Zhao, Sunny Li, Kathy Wang</p>
-=======
     </div>
 
     <div class="service-content" id="temperature-countries">
@@ -291,7 +180,6 @@
           <p class='email'>cl237@uw.edu</p>
           <p class='git'><a href='https://github.com/SunnyLi321'>https://github.com/SunnyLi321</a></p>
         </div>
->>>>>>> 261dbd7884dc6e06be3af2a94886eadd1b1b7b48
       </div>
     </div>
 
