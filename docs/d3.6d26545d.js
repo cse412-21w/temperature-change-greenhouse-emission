@@ -142,9 +142,9 @@ var margin = {
   top: 20,
   right: 20,
   bottom: 50,
-  left: 35
+  left: 25
 },
-    w = 1600 - (margin.left + margin.right),
+    w = 1400 - (margin.left + margin.right),
     h = 520 - (margin.top + margin.bottom);
 console.log(margin); // preparation for our x/y axis
 
@@ -204,23 +204,39 @@ function drawBarD3() {
   g.append('title').text(function (d) {
     return d.Temperature_Change;
   });
-  g.on('mouseover', function () {
+  g.selectAll("rect").join("rect").on('mouseover', function () {
     d3.select(this).attr('stroke', '#333').attr('stroke-width', 2);
   }).on('mouseout', function () {
-    d3.select(this).attr('stroke', null);
+    d3.select(this).attr('stroke-width', null);
   }); // add legend
 
   var legend = bar_svg.append('g').attr("id", "legend-group");
-  legend.selectAll("rect").data(citySet).join("rect").attr("class", "legends").attr("x", 600).attr("y", function (d) {
-    return 25 + 30 * citySet.indexOf(d);
+  legend.selectAll("rect").data(worldArray).join("rect").attr("class", "legends").attr("x", 40).attr("y", function (d) {
+    if (d.Temperature_Change >= 0) {
+      return 25;
+    } else {
+      return 25 + 30;
+    }
   }).attr("width", 10).attr("height", 10).style("fill", function (d) {
-    return colorSet(d);
+    if (d.Temperature_Change >= 0) {
+      return 'pink';
+    } else {
+      return 'skyblue';
+    }
   });
-  legend.selectAll("text").data(citySet).join("text").attr("class", "legends").attr("x", 620).attr("y", function (d) {
-    return 30 + 30 * citySet.indexOf(d);
+  legend.selectAll("text").data(worldArray).join("text").attr("class", "legends").attr("x", 60).attr("y", function (d) {
+    if (d.Temperature_Change >= 0) {
+      return 30;
+    } else {
+      return 30 + 30;
+    }
   }).text(function (d) {
-    return d;
+    if (d.Temperature_Change >= 0) {
+      return "Temperature Change >= 0";
+    } else {
+      return "Temperature Change < 0";
+    }
   }).style("font-size", "15px").attr("alignment-baseline", "middle");
 }
 },{"../static/data_world.csv":"aBSJ"}]},{},["jsJr"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.a06af2f9.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/temperature-change-greenhouse-emission/d3.6d26545d.js.map
